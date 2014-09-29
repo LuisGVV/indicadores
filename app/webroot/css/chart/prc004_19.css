@@ -1,0 +1,16 @@
+/* 
+    Document   : ins011_15
+    Created on : Oct 28, 2012, 10:00:43 AM
+    Author     : Lhoz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.chart-container-vertical{
+    font-size: 16px;
+    margin: 30px 0;
+}

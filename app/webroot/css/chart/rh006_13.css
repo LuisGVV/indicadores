@@ -1,0 +1,36 @@
+/* 
+    Document   : ins011_15
+    Created on : Oct 28, 2012, 10:00:43 AM
+    Author     : Lhoz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.chart-list>ul{
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.chart-list>ul>li>div{
+    height: 80px;
+    margin: 10px 0;
+}
+
+.chart-list>ul>li label{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 20px;
+    width: 6%;
+}
+
+.chart-list>ul>li span{
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    width: 90%;
+}

@@ -1,0 +1,1747 @@
+2012-10-22 00:25:03 Error: [MissingViewException] View file "C:\Development\xampp\htdocs\conare_refactor\app\View\Pages\index.ctp" is missing.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(473): View->_getViewFileName('index')
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render('index', 'conare')
+#2 C:\Development\xampp\htdocs\conare_refactor\app\Controller\HomeController.php(25): Controller->render('index', 'conare')
+#3 [internal function]: HomeController->index()
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-22 00:25:13 Error: [MissingViewException] View file "C:\Development\xampp\htdocs\conare_refactor\app\View\Pages\index.ctp" is missing.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(473): View->_getViewFileName('index')
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render('index', 'conare')
+#2 C:\Development\xampp\htdocs\conare_refactor\app\Controller\HomeController.php(25): Controller->render('index', 'conare')
+#3 [internal function]: HomeController->index()
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-22 00:25:16 Error: [MissingViewException] View file "C:\Development\xampp\htdocs\conare_refactor\app\View\Pages\index.ctp" is missing.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(473): View->_getViewFileName('index')
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render('index', 'conare')
+#2 C:\Development\xampp\htdocs\conare_refactor\app\Controller\HomeController.php(25): Controller->render('index', 'conare')
+#3 [internal function]: HomeController->index()
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-22 00:25:19 Error: [MissingViewException] View file "C:\Development\xampp\htdocs\conare_refactor\app\View\Pages\index.ctp" is missing.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(473): View->_getViewFileName('index')
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render('index', 'conare')
+#2 C:\Development\xampp\htdocs\conare_refactor\app\Controller\HomeController.php(25): Controller->render('index', 'conare')
+#3 [internal function]: HomeController->index()
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-22 00:27:41 Error: [MissingViewException] View file "C:\Development\xampp\htdocs\conare_refactor\app\View\Pages\index.ctp" is missing.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(473): View->_getViewFileName('index')
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render('index', 'conare')
+#2 C:\Development\xampp\htdocs\conare_refactor\app\Controller\HomeController.php(25): Controller->render('index', 'conare')
+#3 [internal function]: HomeController->index()
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-22 00:27:43 Error: [MissingViewException] View file "C:\Development\xampp\htdocs\conare_refactor\app\View\Pages\index.ctp" is missing.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(473): View->_getViewFileName('index')
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render('index', 'conare')
+#2 C:\Development\xampp\htdocs\conare_refactor\app\Controller\HomeController.php(25): Controller->render('index', 'conare')
+#3 [internal function]: HomeController->index()
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-22 00:27:52 Error: [MissingViewException] View file "C:\Development\xampp\htdocs\conare_refactor\app\View\Pages\index.ctp" is missing.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(473): View->_getViewFileName('index')
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render('index', 'conare')
+#2 C:\Development\xampp\htdocs\conare_refactor\app\Controller\HomeController.php(25): Controller->render('index', 'conare')
+#3 [internal function]: HomeController->index()
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-22 00:32:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-22 00:32:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-22 00:32:12 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-22 03:47:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-22 03:53:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-22 03:55:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-22 04:11:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-22 04:22:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-22 05:45:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-22 05:46:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-22 05:46:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-22 05:57:29 Error: [MissingViewException] View file "C:\Development\xampp\htdocs\conare_refactor\app\View\Authentication\index.ctp" is missing.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(473): View->_getViewFileName('index')
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render('index', 'ajax')
+#2 C:\Development\xampp\htdocs\conare_refactor\app\Controller\AuthenticationController.php(25): Controller->render('index', 'ajax')
+#3 [internal function]: AuthenticationController->login()
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-22 06:33:04 Error: [MissingActionException] Action AuthenticationController::login.json() could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-22 06:37:15 Error: Fatal Error (1): Call to a member function respondAs() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\AuthenticationController.php, line 56]
+2012-10-22 06:37:15 Error: [FatalErrorException] Call to a member function respondAs() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 56, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 56, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-22 06:40:14 Error: Fatal Error (1): Call to a member function respondAs() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\AuthenticationController.php, line 55]
+2012-10-22 06:40:14 Error: [FatalErrorException] Call to a member function respondAs() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 55, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 55, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-22 06:41:38 Error: Fatal Error (1): Call to a member function setContent() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\AuthenticationController.php, line 56]
+2012-10-22 06:41:38 Error: [FatalErrorException] Call to a member function setContent() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 56, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 56, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-22 06:58:56 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\AppController.php, line 46]
+2012-10-22 06:58:56 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 46, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 46, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-22 06:59:09 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\AppController.php, line 46]
+2012-10-22 06:59:09 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 46, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 46, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-22 06:59:12 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\AppController.php, line 46]
+2012-10-22 06:59:12 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 46, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 46, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-22 06:59:17 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\AppController.php, line 46]
+2012-10-22 06:59:17 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 46, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 46, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-22 08:17:44 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-22 08:17:44 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-22 08:17:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-22 08:17:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-23 04:27:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Access`...', Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Access`...', Array, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Access`...', false)
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Access), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(598): Model->find('first', Array)
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Model.php(784): DboSource->query('findByUrlAndTip...', Array, Object(Access))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\Controller\Component\AccessComponent.php(33): Model->__call('findByUrlAndTip...', Array)
+#8 C:\Development\xampp\htdocs\conare_refactor\app\Controller\Component\AccessComponent.php(33): Access->findByUrlAndTipo_usuario_idtipo_usuario(Array, '/')
+#9 C:\Development\xampp\htdocs\conare_refactor\app\View\Layouts\conare\menu\internal.ctp(13): AccessComponent->analizeAccess('/conare_refacto...', Array)
+#10 C:\Development\xampp\htdocs\conare_refactor\app\View\Layouts\conare\header.ctp(11): include_once('C:\Development\...')
+#11 C:\Development\xampp\htdocs\conare_refactor\app\View\Layouts\conare.ctp(9): include_once('C:\Development\...')
+#12 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(921): include('C:\Development\...')
+#13 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(884): View->_evaluate('C:\Development\...', Array)
+#14 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(540): View->_render('C:\Development\...')
+#15 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(484): View->renderLayout('', 'conare')
+#16 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render('index', 'conare')
+#17 C:\Development\xampp\htdocs\conare_refactor\app\Controller\SystemController.php(34): Controller->render('index', 'conare')
+#18 [internal function]: SystemController->index()
+#19 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#20 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#21 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#22 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#23 {main}
+2012-10-23 04:27:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Access`...', Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Access`...', Array, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Access`...', false)
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Access), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(598): Model->find('first', Array)
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Model.php(784): DboSource->query('findByUrlAndTip...', Array, Object(Access))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\Controller\Component\AccessComponent.php(33): Model->__call('findByUrlAndTip...', Array)
+#8 C:\Development\xampp\htdocs\conare_refactor\app\Controller\Component\AccessComponent.php(33): Access->findByUrlAndTipo_usuario_idtipo_usuario(Array, '/')
+#9 C:\Development\xampp\htdocs\conare_refactor\app\View\Layouts\conare\menu\internal.ctp(13): AccessComponent->analizeAccess('/conare_refacto...', Array)
+#10 C:\Development\xampp\htdocs\conare_refactor\app\View\Layouts\conare\header.ctp(11): include_once('C:\Development\...')
+#11 C:\Development\xampp\htdocs\conare_refactor\app\View\Layouts\conare.ctp(9): include_once('C:\Development\...')
+#12 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(921): include('C:\Development\...')
+#13 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(884): View->_evaluate('C:\Development\...', Array)
+#14 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(540): View->_render('C:\Development\...')
+#15 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(484): View->renderLayout('', 'conare')
+#16 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render('index', 'conare')
+#17 C:\Development\xampp\htdocs\conare_refactor\app\Controller\SystemController.php(34): Controller->render('index', 'conare')
+#18 [internal function]: SystemController->index()
+#19 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#20 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#21 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#22 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#23 {main}
+2012-10-23 04:29:41 Error: [MissingHelperException] Helper class AccessHelper could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('Access')
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(813): HelperCollection->__isset('Access')
+#2 C:\Development\xampp\htdocs\conare_refactor\app\View\Layouts\conare\menu\internal.ctp(11): View->__get('Access')
+#3 C:\Development\xampp\htdocs\conare_refactor\app\View\Layouts\conare\header.ctp(11): include_once('C:\Development\...')
+#4 C:\Development\xampp\htdocs\conare_refactor\app\View\Layouts\conare.ctp(9): include_once('C:\Development\...')
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(921): include('C:\Development\...')
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(884): View->_evaluate('C:\Development\...', Array)
+#7 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(540): View->_render('C:\Development\...')
+#8 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(484): View->renderLayout('', 'conare')
+#9 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render('index', 'conare')
+#10 C:\Development\xampp\htdocs\conare_refactor\app\Controller\SystemController.php(34): Controller->render('index', 'conare')
+#11 [internal function]: SystemController->index()
+#12 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#13 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#14 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-10-23 04:30:29 Error: [MissingHelperException] Helper class AccessComponentHelper could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('AccessComponent')
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(813): HelperCollection->__isset('AccessComponent')
+#2 C:\Development\xampp\htdocs\conare_refactor\app\View\Layouts\conare\menu\internal.ctp(11): View->__get('AccessComponent')
+#3 C:\Development\xampp\htdocs\conare_refactor\app\View\Layouts\conare\header.ctp(11): include_once('C:\Development\...')
+#4 C:\Development\xampp\htdocs\conare_refactor\app\View\Layouts\conare.ctp(9): include_once('C:\Development\...')
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(921): include('C:\Development\...')
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(884): View->_evaluate('C:\Development\...', Array)
+#7 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(540): View->_render('C:\Development\...')
+#8 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(484): View->renderLayout('', 'conare')
+#9 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render('index', 'conare')
+#10 C:\Development\xampp\htdocs\conare_refactor\app\Controller\SystemController.php(34): Controller->render('index', 'conare')
+#11 [internal function]: SystemController->index()
+#12 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#13 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#14 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-10-23 04:31:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Access`...', Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Access`...', Array, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Access`...', false)
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Access), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(598): Model->find('first', Array)
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Model.php(784): DboSource->query('findByUrlAndTip...', Array, Object(Access))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\Controller\Component\AccessComponent.php(33): Model->__call('findByUrlAndTip...', Array)
+#8 C:\Development\xampp\htdocs\conare_refactor\app\Controller\Component\AccessComponent.php(33): Access->findByUrlAndTipo_usuario_idtipo_usuario(Array, '/')
+#9 C:\Development\xampp\htdocs\conare_refactor\app\View\Layouts\conare\menu\internal.ctp(11): AccessComponent->analizeAccess('/conare_refacto...', Array)
+#10 C:\Development\xampp\htdocs\conare_refactor\app\View\Layouts\conare\header.ctp(11): include_once('C:\Development\...')
+#11 C:\Development\xampp\htdocs\conare_refactor\app\View\Layouts\conare.ctp(9): include_once('C:\Development\...')
+#12 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(921): include('C:\Development\...')
+#13 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(884): View->_evaluate('C:\Development\...', Array)
+#14 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(540): View->_render('C:\Development\...')
+#15 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(484): View->renderLayout('', 'conare')
+#16 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render('index', 'conare')
+#17 C:\Development\xampp\htdocs\conare_refactor\app\Controller\SystemController.php(34): Controller->render('index', 'conare')
+#18 [internal function]: SystemController->index()
+#19 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#20 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#21 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#22 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#23 {main}
+2012-10-23 05:12:52 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-23 05:12:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-23 05:13:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-23 05:15:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-28 06:23:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Access.idtipo_usuario' in 'where clause'
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Access`...', Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Access`...', Array, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Access`...', false)
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Access), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(598): Model->find('first', Array)
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Model.php(784): DboSource->query('findByIdtipo_us...', Array, Object(Access))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\Controller\AppController.php(66): Model->__call('findByIdtipo_us...', Array)
+#8 C:\Development\xampp\htdocs\conare_refactor\app\Controller\AppController.php(66): Access->findByIdtipo_usuario(1)
+#9 C:\Development\xampp\htdocs\conare_refactor\app\Controller\AppController.php(53): AppController->verifyAccess()
+#10 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#11 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#12 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#13 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#14 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-10-28 06:23:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Access.idtipo_usuario' in 'where clause'
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Access`...', Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Access`...', Array, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Access`...', false)
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Access), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(598): Model->find('first', Array)
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Model.php(784): DboSource->query('findByIdtipo_us...', Array, Object(Access))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\Controller\AppController.php(66): Model->__call('findByIdtipo_us...', Array)
+#8 C:\Development\xampp\htdocs\conare_refactor\app\Controller\AppController.php(66): Access->findByIdtipo_usuario('1')
+#9 C:\Development\xampp\htdocs\conare_refactor\app\Controller\AppController.php(53): AppController->verifyAccess()
+#10 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#11 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#12 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#13 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#14 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-10-28 06:50:45 Error: [MissingComponentException] Component class AccessComponent could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\ComponentCollection.php(52): ComponentCollection->load('Access', Array)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(634): ComponentCollection->init(Object(IndicatorsController))
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(182): Controller->constructClasses()
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 06:55:34 Error: [MissingComponentException] Component class AccessComponent could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\ComponentCollection.php(52): ComponentCollection->load('Access', Array)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(634): ComponentCollection->init(Object(IndicatorsController))
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(182): Controller->constructClasses()
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 06:59:31 Error: [MissingComponentException] Component class AccessComponent could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\ComponentCollection.php(52): ComponentCollection->load('Access', Array)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(634): ComponentCollection->init(Object(IndicatorsController))
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(182): Controller->constructClasses()
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 06:59:36 Error: [MissingComponentException] Component class AccessComponent could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\ComponentCollection.php(52): ComponentCollection->load('Access', Array)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(634): ComponentCollection->init(Object(IndicatorsController))
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(182): Controller->constructClasses()
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 07:00:36 Error: [MissingComponentException] Component class AccessComponent could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\ComponentCollection.php(52): ComponentCollection->load('Access', Array)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(634): ComponentCollection->init(Object(IndicatorsController))
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(182): Controller->constructClasses()
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 07:00:39 Error: [MissingComponentException] Component class AccessComponent could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\ComponentCollection.php(52): ComponentCollection->load('Access', Array)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(634): ComponentCollection->init(Object(IndicatorsController))
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(182): Controller->constructClasses()
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 07:01:59 Error: [MissingComponentException] Component class AccessComponent could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\ComponentCollection.php(52): ComponentCollection->load('Access', Array)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(634): ComponentCollection->init(Object(IndicatorsController))
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(182): Controller->constructClasses()
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 07:02:04 Error: [MissingComponentException] Component class AccessComponent could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\ComponentCollection.php(52): ComponentCollection->load('Access', Array)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(634): ComponentCollection->init(Object(IndicatorsController))
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(182): Controller->constructClasses()
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 09:45:08 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'anho' cannot be null
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('INSERT INTO `co...', Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `co...')
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Model.php(1730): DboSource->create(Object(UniversityYearData), Array, Array)
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Model.php(2089): Model->save(Array, Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\app\Controller\DataController.php(147): Model->saveMany(Array)
+#6 [internal function]: DataController->save_data()
+#7 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#8 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-10-28 16:25:29 Error: [MissingViewException] View file "C:\Development\xampp\htdocs\conare_refactor\app\View\Chart\create_chart.ctp" is missing.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ChartController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-28 17:23:38 Error: Fatal Error (1): Call to a member function chart() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\ChartController.php, line 48]
+2012-10-28 17:23:38 Error: [FatalErrorException] Call to a member function chart() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 48, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 48, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-28 17:24:59 Error: [MissingViewException] View file "C:\Development\xampp\htdocs\conare_refactor\app\View\Chart\inv011_1.ctp" is missing.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(473): View->_getViewFileName('inv011_1')
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render('inv011_1', 'conare')
+#2 C:\Development\xampp\htdocs\conare_refactor\app\Controller\ChartController.php(53): Controller->render('inv011_1', 'conare')
+#3 [internal function]: ChartController->create_chart('inv001', '1')
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ChartController), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ChartController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-28 17:25:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-28 17:25:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-28 17:25:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-28 17:25:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-28 17:26:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-28 17:26:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-28 17:26:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-28 17:26:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-28 21:45:30 Error: Fatal Error (1): Call to a member function chart() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\ChartController.php, line 48]
+2012-10-28 21:45:30 Error: [FatalErrorException] Call to a member function chart() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 48, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 48, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-28 21:46:02 Error: Fatal Error (64): Cannot redeclare class INV001_1Component in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\Component\INV002_2Component.php, line 98]
+2012-10-28 21:46:02 Error: [FatalErrorException] Cannot redeclare class INV001_1Component
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Development\...', 98)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Development\...', 98, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Development\...', 98, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-28 21:46:09 Error: Fatal Error (64): Cannot redeclare class INV001_1Component in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\Component\INV002_2Component.php, line 98]
+2012-10-28 21:46:09 Error: [FatalErrorException] Cannot redeclare class INV001_1Component
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Development\...', 98)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Development\...', 98, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Development\...', 98, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-28 21:46:44 Error: Fatal Error (64): Cannot redeclare class INV001_1Component in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\Component\INV002_2Component.php, line 98]
+2012-10-28 21:46:44 Error: [FatalErrorException] Cannot redeclare class INV001_1Component
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\Development\...', 98)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\Development\...', 98, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\Development\...', 98, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-28 22:13:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-28 22:22:46 Error: Fatal Error (1): Call to a member function chart() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\ChartController.php, line 48]
+2012-10-28 22:22:46 Error: [FatalErrorException] Call to a member function chart() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 48, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 48, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-28 22:24:52 Error: [MissingViewException] View file "C:\Development\xampp\htdocs\conare_refactor\app\View\Chart\create_chart.ctp" is missing.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render(NULL, 'conare')
+#2 C:\Development\xampp\htdocs\conare_refactor\app\Controller\ChartController.php(53): Controller->render(NULL, 'conare')
+#3 [internal function]: ChartController->create_chart('inv004', '4')
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ChartController), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ChartController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-28 22:26:12 Error: [MissingViewException] View file "C:\Development\xampp\htdocs\conare_refactor\app\View\Chart\create_chart.ctp" is missing.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render(NULL, 'conare')
+#2 C:\Development\xampp\htdocs\conare_refactor\app\Controller\ChartController.php(53): Controller->render(NULL, 'conare')
+#3 [internal function]: ChartController->create_chart('inv004', '4')
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ChartController), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ChartController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-28 22:26:41 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-28 23:05:36 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\Component\INV006_6Component.php, line 30]
+2012-10-28 23:05:36 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 30, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 30, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-28 23:06:03 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\Component\INV006_6Component.php, line 30]
+2012-10-28 23:06:03 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 30, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 30, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-28 23:24:56 Error: Fatal Error (1): Call to a member function chart() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\ChartController.php, line 48]
+2012-10-28 23:24:56 Error: [FatalErrorException] Call to a member function chart() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 48, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 48, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-28 23:55:30 Error: Fatal Error (1): Call to a member function chart() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\ChartController.php, line 48]
+2012-10-28 23:55:30 Error: [FatalErrorException] Call to a member function chart() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 48, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 48, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-29 00:40:02 Error: Fatal Error (1): Call to a member function chart() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\ChartController.php, line 48]
+2012-10-29 00:40:02 Error: [FatalErrorException] Call to a member function chart() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 48, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 48, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-29 00:49:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-29 01:17:46 Error: Fatal Error (1): Call to a member function chart() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\ChartController.php, line 48]
+2012-10-29 01:17:46 Error: [FatalErrorException] Call to a member function chart() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 48, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 48, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-29 01:38:54 Error: Fatal Error (1): Call to a member function chart() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\ChartController.php, line 48]
+2012-10-29 01:38:54 Error: [FatalErrorException] Call to a member function chart() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 48, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 48, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-29 01:54:25 Error: [MissingViewException] View file "C:\Development\xampp\htdocs\conare_refactor\app\View\Chart\pc003_18.ctp" is missing.
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\View\View.php(473): View->_getViewFileName('pc003_18')
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(956): View->render('pc003_18', 'conare')
+#2 C:\Development\xampp\htdocs\conare_refactor\app\Controller\ChartController.php(53): Controller->render('pc003_18', 'conare')
+#3 [internal function]: ChartController->create_chart('prc003', '18')
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ChartController), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ChartController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-29 02:04:30 Error: Fatal Error (1): Call to a member function findByNombre() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\Component\PRC004_19Component.php, line 35]
+2012-10-29 02:04:30 Error: [FatalErrorException] Call to a member function findByNombre() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 35, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 35, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-29 02:12:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-29 02:12:50 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-30 06:09:55 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php, line 459]
+2012-10-30 06:09:55 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\Development\...', 459)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\Development\...', 459, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\Development\...', 459, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-30 06:12:19 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php, line 459]
+2012-10-30 06:12:19 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\Development\...', 459)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\Development\...', 459, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\Development\...', 459, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-01 01:13:51 Error: [Exception] Headers already sent in C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\Development\xampp\htdocs\conare_refactor\app\Vendor\Firephp.php(584): FirePHP->fb(Array, NULL, 'LOG', Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\app\Controller\DataController.php(149): FirePHP->log(Array)
+#3 [internal function]: DataController->load_data()
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-11-01 03:26:00 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'findAll' at line 1
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('findAll', Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('findAll', Array, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Datasource\DboSource.php(611): DboSource->fetchAll('findAll', Array, Array)
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Model\Model.php(784): DboSource->query('findAll', Array, Object(User))
+#5 C:\Development\xampp\htdocs\conare_refactor\app\Controller\SystemController.php(26): Model->__call('findAll', Array)
+#6 C:\Development\xampp\htdocs\conare_refactor\app\Controller\SystemController.php(26): User->findAll()
+#7 [internal function]: SystemController->index()
+#8 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#9 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-20 03:42:38 Error: [Exception] Headers already sent in C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\Development\xampp\htdocs\conare_refactor\app\Vendor\Firephp.php(584): FirePHP->fb(NULL, NULL, 'LOG', Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\app\Controller\SystemController.php(89): FirePHP->log(NULL)
+#3 [internal function]: SystemController->create_user()
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-11-20 03:45:07 Error: [Exception] Headers already sent in C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\Development\xampp\htdocs\conare_refactor\app\Vendor\Firephp.php(584): FirePHP->fb(Array, NULL, 'LOG', Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\app\Controller\SystemController.php(97): FirePHP->log(Array)
+#3 [internal function]: SystemController->create_user()
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-11-20 03:45:13 Error: [Exception] Headers already sent in C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\Development\xampp\htdocs\conare_refactor\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\Development\xampp\htdocs\conare_refactor\app\Vendor\Firephp.php(584): FirePHP->fb(Array, NULL, 'LOG', Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\app\Controller\SystemController.php(97): FirePHP->log(Array)
+#3 [internal function]: SystemController->create_user()
+#4 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#5 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Development\xampp\htdocs\conare_refactor\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-11-21 18:39:23 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\SystemController.php, line 108]
+2012-11-21 18:39:23 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 108)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 108, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 108, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-21 18:39:27 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\SystemController.php, line 108]
+2012-11-21 18:39:27 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 108)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 108, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 108, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-21 18:39:53 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\SystemController.php, line 108]
+2012-11-21 18:39:53 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 108)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 108, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 108, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-21 18:44:16 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\SystemController.php, line 111]
+2012-11-21 18:44:16 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 111)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 111, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 111, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-21 18:44:38 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\Development\xampp\htdocs\conare_refactor\app\Controller\SystemController.php, line 111]
+2012-11-21 18:44:38 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Development\...', 111)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Development\...', 111, Array)
+#2 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Development\...', 111, Array)
+#3 C:\Development\xampp\htdocs\conare_refactor\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 06:31:52 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\Development\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\Development\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\Development\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\Development\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\Development\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('acceso')
+#5 C:\Development\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\Development\xampp\htdocs\indicadores\app\Controller\AppController.php(67): Model->__call('findAllByTipo_u...', Array)
+#7 C:\Development\xampp\htdocs\indicadores\app\Controller\AppController.php(67): Access->findAllByTipo_usuario_idtipo_usuario(1)
+#8 C:\Development\xampp\htdocs\indicadores\app\Controller\AppController.php(54): AppController->verifyAccess()
+#9 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#10 C:\Development\xampp\htdocs\indicadores\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#11 C:\Development\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#12 C:\Development\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#13 C:\Development\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\Development\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-11-23 14:58:52 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/extension/indicadores/app/Config/database.php, line 74]
+2012-11-23 14:58:52 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/extens...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 14:59:47 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/extension/indicadores/app/Config/database.php, line 74]
+2012-11-23 14:59:47 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/extens...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 14:59:53 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/extension/indicadores/app/Config/database.php, line 74]
+2012-11-23 14:59:53 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/extens...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 14:59:56 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/extension/indicadores/app/Config/database.php, line 74]
+2012-11-23 14:59:56 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/extens...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 15:01:53 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/extension/indicadores/app/Config/database.php, line 74]
+2012-11-23 15:01:53 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/extens...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 15:02:10 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/extension/indicadores/app/Config/database.php, line 74]
+2012-11-23 15:02:10 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/extens...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 15:02:11 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/extension/indicadores/app/Config/database.php, line 74]
+2012-11-23 15:02:11 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/extens...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 15:02:13 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/extension/indicadores/app/Config/database.php, line 74]
+2012-11-23 15:02:13 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/extens...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 15:02:14 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/extension/indicadores/app/Config/database.php, line 74]
+2012-11-23 15:02:14 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/extens...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 15:02:14 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/extension/indicadores/app/Config/database.php, line 74]
+2012-11-23 15:02:14 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/extens...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 15:02:14 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/extension/indicadores/app/Config/database.php, line 74]
+2012-11-23 15:02:14 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/extens...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 15:02:15 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/extension/indicadores/app/Config/database.php, line 74]
+2012-11-23 15:02:15 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/extens...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 15:02:15 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/extension/indicadores/app/Config/database.php, line 74]
+2012-11-23 15:02:15 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/extens...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 15:02:15 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/extension/indicadores/app/Config/database.php, line 74]
+2012-11-23 15:02:15 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/extens...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 15:02:15 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/extension/indicadores/app/Config/database.php, line 74]
+2012-11-23 15:02:15 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/extens...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 15:02:16 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/extension/indicadores/app/Config/database.php, line 74]
+2012-11-23 15:02:16 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/extens...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/extens...', 74, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-23 15:02:42 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /var/www/extension/indicadores/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /var/www/extension/indicadores/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /var/www/extension/indicadores/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /var/www/extension/indicadores/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /var/www/extension/indicadores/lib/Cake/Model/Model.php(3179): Model->setSource('indicador')
+#5 /var/www/extension/indicadores/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /var/www/extension/indicadores/app/Controller/IndicatorsController.php(34): Model->find('all')
+#7 [internal function]: IndicatorsController->indicators_list()
+#8 /var/www/extension/indicadores/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(IndicatorsController), Array)
+#9 /var/www/extension/indicadores/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/extension/indicadores/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-23 15:02:51 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /var/www/extension/indicadores/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /var/www/extension/indicadores/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /var/www/extension/indicadores/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /var/www/extension/indicadores/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /var/www/extension/indicadores/lib/Cake/Model/Model.php(3179): Model->setSource('acceso')
+#5 /var/www/extension/indicadores/lib/Cake/Model/Model.php(784): Model->getDataSource()
+#6 /var/www/extension/indicadores/app/Controller/AppController.php(67): Model->__call('findAllByTipo_u...', Array)
+#7 /var/www/extension/indicadores/app/Controller/AppController.php(67): Access->findAllByTipo_usuario_idtipo_usuario(1)
+#8 /var/www/extension/indicadores/app/Controller/AppController.php(54): AppController->verifyAccess()
+#9 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#10 /var/www/extension/indicadores/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#11 /var/www/extension/indicadores/lib/Cake/Controller/Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#12 /var/www/extension/indicadores/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#13 /var/www/extension/indicadores/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#14 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-11-23 15:02:56 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /var/www/extension/indicadores/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /var/www/extension/indicadores/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /var/www/extension/indicadores/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /var/www/extension/indicadores/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /var/www/extension/indicadores/lib/Cake/Model/Model.php(3179): Model->setSource('acceso')
+#5 /var/www/extension/indicadores/lib/Cake/Model/Model.php(784): Model->getDataSource()
+#6 /var/www/extension/indicadores/app/Controller/AppController.php(67): Model->__call('findAllByTipo_u...', Array)
+#7 /var/www/extension/indicadores/app/Controller/AppController.php(67): Access->findAllByTipo_usuario_idtipo_usuario(1)
+#8 /var/www/extension/indicadores/app/Controller/AppController.php(54): AppController->verifyAccess()
+#9 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#10 /var/www/extension/indicadores/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#11 /var/www/extension/indicadores/lib/Cake/Controller/Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#12 /var/www/extension/indicadores/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#13 /var/www/extension/indicadores/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#14 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-11-23 15:02:59 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /var/www/extension/indicadores/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /var/www/extension/indicadores/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /var/www/extension/indicadores/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /var/www/extension/indicadores/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /var/www/extension/indicadores/lib/Cake/Model/Model.php(3179): Model->setSource('indicador')
+#5 /var/www/extension/indicadores/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /var/www/extension/indicadores/app/Controller/IndicatorsController.php(34): Model->find('all')
+#7 [internal function]: IndicatorsController->indicators_list()
+#8 /var/www/extension/indicadores/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(IndicatorsController), Array)
+#9 /var/www/extension/indicadores/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/extension/indicadores/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-23 15:03:04 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /var/www/extension/indicadores/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /var/www/extension/indicadores/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /var/www/extension/indicadores/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /var/www/extension/indicadores/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /var/www/extension/indicadores/lib/Cake/Model/Model.php(3179): Model->setSource('indicador')
+#5 /var/www/extension/indicadores/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /var/www/extension/indicadores/app/Controller/IndicatorsController.php(34): Model->find('all')
+#7 [internal function]: IndicatorsController->indicators_list()
+#8 /var/www/extension/indicadores/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(IndicatorsController), Array)
+#9 /var/www/extension/indicadores/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/extension/indicadores/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-23 15:03:07 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /var/www/extension/indicadores/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /var/www/extension/indicadores/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /var/www/extension/indicadores/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /var/www/extension/indicadores/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /var/www/extension/indicadores/lib/Cake/Model/Model.php(3179): Model->setSource('indicador')
+#5 /var/www/extension/indicadores/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /var/www/extension/indicadores/app/Controller/IndicatorsController.php(34): Model->find('all')
+#7 [internal function]: IndicatorsController->indicators_list()
+#8 /var/www/extension/indicadores/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(IndicatorsController), Array)
+#9 /var/www/extension/indicadores/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/extension/indicadores/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-23 15:03:16 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /var/www/extension/indicadores/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /var/www/extension/indicadores/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /var/www/extension/indicadores/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /var/www/extension/indicadores/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /var/www/extension/indicadores/lib/Cake/Model/Model.php(3179): Model->setSource('acceso')
+#5 /var/www/extension/indicadores/lib/Cake/Model/Model.php(784): Model->getDataSource()
+#6 /var/www/extension/indicadores/app/Controller/AppController.php(67): Model->__call('findAllByTipo_u...', Array)
+#7 /var/www/extension/indicadores/app/Controller/AppController.php(67): Access->findAllByTipo_usuario_idtipo_usuario(1)
+#8 /var/www/extension/indicadores/app/Controller/AppController.php(54): AppController->verifyAccess()
+#9 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#10 /var/www/extension/indicadores/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#11 /var/www/extension/indicadores/lib/Cake/Controller/Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#12 /var/www/extension/indicadores/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#13 /var/www/extension/indicadores/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#14 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-11-27 10:57:25 Error: Fatal Error (1): Class 'FirePHP' not found in [/var/www/extension/indicadores/app/Controller/Component/RH006_13Component.php, line 64]
+2012-11-27 10:57:25 Error: [FatalErrorException] Class 'FirePHP' not found
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-29 16:51:56 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Applications/XAMPP/xamppfiles/htdocs/indicadores/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/indicadores/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Applications/XAMPP/xamppfiles/htdocs/indicadores/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Applications/XAMPP/xamppfiles/htdocs/indicadores/lib/Cake/Model/Model.php(3179): Model->setSource('acceso')
+#5 /Applications/XAMPP/xamppfiles/htdocs/indicadores/lib/Cake/Model/Model.php(784): Model->getDataSource()
+#6 [internal function]: Model->__call('findAllByTipo_u...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/Controller/AppController.php(67): Access->findAllByTipo_usuario_idtipo_usuario(1)
+#8 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/Controller/AppController.php(54): AppController->verifyAccess()
+#9 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#10 /Applications/XAMPP/xamppfiles/htdocs/indicadores/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#11 /Applications/XAMPP/xamppfiles/htdocs/indicadores/lib/Cake/Controller/Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#12 /Applications/XAMPP/xamppfiles/htdocs/indicadores/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#13 /Applications/XAMPP/xamppfiles/htdocs/indicadores/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/XAMPP/xamppfiles/htdocs/indicadores/index.php(42): require('/Applications/X...')
+#16 {main}
+2013-04-29 16:55:23 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /Applications/XAMPP/xamppfiles/htdocs/indicadores/index.php(42): require('/Applications/X...')
+#2 {main}
+2013-04-29 17:05:54 Error: [MissingControllerException] Controller class IndicadoresController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /Applications/XAMPP/xamppfiles/htdocs/indicadores/index.php(42): require('/Applications/X...')
+#2 {main}
+2013-04-29 17:06:04 Error: [MissingControllerException] Controller class IndicadoresController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /Applications/XAMPP/xamppfiles/htdocs/indicadores/index.php(42): require('/Applications/X...')
+#2 {main}
+2013-04-29 21:42:24 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:42:24 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:42:24 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:42:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:42:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:42:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:47:55 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:47:55 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:47:55 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:48:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:48:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:48:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:49:18 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:49:18 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:49:18 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:54:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:54:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:54:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:54:50 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:54:50 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 21:54:50 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 22:02:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 22:02:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 22:02:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-13 21:30:19 Error: Fatal Error (1): Call to a member function log() on a non-object in [D:\Development\xampp\htdocs\conare\app\Controller\DataController.php, line 34]
+2013-05-13 21:30:19 Error: [FatalErrorException] Call to a member function log() on a non-object
+#0 D:\Development\xampp\htdocs\conare\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Development\...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Development\...', 34, Array)
+#2 D:\Development\xampp\htdocs\conare\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Development\...', 34, Array)
+#3 D:\Development\xampp\htdocs\conare\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-25 09:54:51 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-25 09:54:52 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-25 19:51:49 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-25 19:51:49 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-26 13:09:34 Error: Fatal Error (1): Class 'FirePHP' not found in [/var/www/extension/indicadores/app/Controller/Component/RH006_13Component.php, line 64]
+2013-06-26 13:09:34 Error: [FatalErrorException] Class 'FirePHP' not found
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-26 18:33:21 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 14:39:34 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 14:39:35 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 21:10:01 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 21:10:01 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 21:10:09 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 21:10:09 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 21:10:13 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 21:10:14 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 10:42:34 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 10:42:39 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 10:45:22 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 10:45:22 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 10:47:02 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 10:47:03 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 10:56:29 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 10:56:33 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 10:59:28 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 10:59:28 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 11:00:18 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 11:00:18 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 11:01:23 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 11:10:52 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 11:10:52 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-14 10:19:50 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-14 22:05:42 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-14 22:05:43 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-08 18:43:44 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-08 18:43:44 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /var/www/extension/indicadores/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-19 11:07:52 Error: Fatal Error (1): Class 'FirePHP' not found in [/var/www/extension/indicadores/app/Controller/Component/RH006_13Component.php, line 64]
+2014-03-19 11:07:52 Error: [FatalErrorException] Class 'FirePHP' not found
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-19 11:08:08 Error: Fatal Error (1): Class 'FirePHP' not found in [/var/www/extension/indicadores/app/Controller/Component/RH006_13Component.php, line 64]
+2014-03-19 11:08:08 Error: [FatalErrorException] Class 'FirePHP' not found
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-19 11:09:32 Error: Fatal Error (1): Class 'FirePHP' not found in [/var/www/extension/indicadores/app/Controller/Component/RH006_13Component.php, line 64]
+2014-03-19 11:09:32 Error: [FatalErrorException] Class 'FirePHP' not found
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-25 11:25:56 Error: Fatal Error (1): Class 'FirePHP' not found in [/var/www/extension/indicadores/app/Controller/Component/RH006_13Component.php, line 64]
+2014-03-25 11:25:56 Error: [FatalErrorException] Class 'FirePHP' not found
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-25 11:27:53 Error: Fatal Error (1): Class 'FirePHP' not found in [/var/www/extension/indicadores/app/Controller/Component/RH006_13Component.php, line 64]
+2014-03-25 11:27:53 Error: [FatalErrorException] Class 'FirePHP' not found
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-25 11:30:58 Error: Fatal Error (1): Class 'FirePHP' not found in [/var/www/extension/indicadores/app/Controller/Component/RH006_13Component.php, line 64]
+2014-03-25 11:30:58 Error: [FatalErrorException] Class 'FirePHP' not found
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-08 09:40:29 Error: Fatal Error (1): Class 'FirePHP' not found in [/var/www/extension/indicadores/app/Controller/Component/RH006_13Component.php, line 64]
+2014-04-08 09:40:29 Error: [FatalErrorException] Class 'FirePHP' not found
+#0 /var/www/extension/indicadores/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#2 /var/www/extension/indicadores/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'FirePHP'...', '/var/www/extens...', 64, Array)
+#3 /var/www/extension/indicadores/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-23 22:59:58 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:00:01 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:00:03 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:00:06 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:00:06 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:00:07 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:00:07 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:00:07 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:00:07 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:00:37 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:00:37 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:00:37 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:00 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:02 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:04 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:07 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:09 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:15 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:16 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:16 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:21 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('indicador')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(34): Model->find('all')
+#7 [internal function]: IndicatorsController->indicators_list()
+#8 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(IndicatorsController), Array)
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-09-23 23:02:44 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:45 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:45 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:45 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:45 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:45 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:46 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:46 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:46 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:46 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('usuario')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): Model->__call('findByEmailAndP...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AuthenticationController.php(41): User->findByEmailAndPassword('jose.rodriguezb...', '6d506361a8c0b11...')
+#8 [internal function]: AuthenticationController->login()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuthenticationController), Array)
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuthenticationController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-09-23 23:02:49 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('indicador')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(34): Model->find('all')
+#7 [internal function]: IndicatorsController->indicators_list()
+#8 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(IndicatorsController), Array)
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-09-23 23:02:59 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('indicador')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(34): Model->find('all')
+#7 [internal function]: IndicatorsController->indicators_list()
+#8 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(IndicatorsController), Array)
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}

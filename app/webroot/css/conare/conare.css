@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body>div{
+    display: block;
+    position: relative;
+}
+
+.floating-menu{
+    position: fixed;
+    top: 200px;
+}
+
+#universities{
+    left: 0;
+    z-index: 1;
+}
+
+#user-status{
+    right: 0;
+    z-index: 1;
+}
+
+#user-status ul{
+    width: 100px;
+}
+
+.floating-menu ul{
+    width: 160px;
+}
+
+.floating-menu ul>li{
+    background: none repeat scroll 0 0 white;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: right;
+    vertical-align: top;
+    width: 100px;
+}
+
+#user-status ul>li{
+    font-size: 16px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #4297D7;
+}
+
+#user-status ul>li>span{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#user-status ul>li>span.name{
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+#universities ul>li:hover{
+    width: 105px;
+}
+
+#user-status ul>li:hover{
+    background: #4297D7;
+    color: white;
+}
+
+#universities img{
+    width: 100px;
+}
+
+#header{
+    height: 100px;
+}
+
+#header .container>div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#header .navigation{
+    height: 200px;
+    margin-left: 40px;
+    margin-right: auto;
+    width: 930px;
+}
+
+#header .navigation>div{
+    display: block;
+    min-height: 20px;
+    text-align: center;
+}
+
+#header .title{
+    font-family: 'Coda Caption',sans-serif;
+    font-size: 30px;
+}
+
+#header .navigation .external li{
+    font-size: 14px;
+    text-align: center;
+    width: 100px;
+}
+
+#header .navigation .external{
+    text-align: right;
+}
+
+#header .navigation .internal button{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    width: 120px;
+}
+
+#content{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    min-height: 600px;
+    padding: 5px;
+}
+
+#input-data{
+    margin: 10px auto;
+    padding: 20px;
+    width: 800px;
+}
+
+.chart-tabs{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.data-actions{
+    margin: 0 auto;
+    padding: 0;
+    width: 840px;
+}
+
+.user-actions{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.user-actions>button{
+    display: inline-block;
+}
+
+.container{
+    width: 1024px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.lineal{
+    display: inline-block;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.lineal>li{
+    float: left;
+}
+
+ul.lineal>li>a{
+    text-decoration: none;
+}
+
+ul.vertical{
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+label.error{
+    color: red;
+}
+
+input.error{
+    border: 1px dotted red;
+    color: red;
+}
+
+.form>span{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.form form>div, .accordion-form-container>div>div{
+    margin: 10px 5px;
+}
+
+.form form>div>*, .accordion-form-container>div>div>*{
+    display: block;
+}
+
+.form form>div>input, .form form>div>select, .accordion-form-container>div>div>input, .accordion-form-container>div>div>select{
+    width: 100%;
+}
+
+.form form>div>div>input, .form form>div>div>select{
+    width: 99%;
+}
+
+.form .action{
+    text-align: right;
+}
+
+.hidden{
+    display: none;
+}
+
+.logo>img {
+    height: 115px;
+    position: absolute;
+}
+
+#breadcrumb{
+    
+}
