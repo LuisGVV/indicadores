@@ -15,6 +15,7 @@ TO DO:
 -Meter datos proxy en la base de datos<br>
 -Comprobar que no haga falta ningún indicador<br>
 -Ver que todas las charts estén funcionando correctamente<br>
+-Descargar imagenes<br>
 
 4-Datos: <br>
 -Cuando se van a modificar los datos cargar los que estaban antes<br>
