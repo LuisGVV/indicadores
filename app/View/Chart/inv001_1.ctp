@@ -84,6 +84,10 @@ foreach ($info['series'] as $university_name => $university_series) {
                 placement: 'outside'
             }     
         });
+                
+        var imgData = $('#chart').jqplotToImageStr({}); // retrieve info from plot
+        var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
+        $('#chartImg').append(imgElem); //append data to DOM
     });
 </script>
 
@@ -94,6 +98,7 @@ foreach ($info['series'] as $university_name => $university_series) {
     <ul>
         <li><a href="#tabs-1">Grafico</a></li>
         <li><a href="#tabs-2">Datos</a></li>
+        <li><a href="#tabs-3">Descargar Imagen</a></li>
     </ul>
     <div id="tabs-1">
         <div class="chart-container">
@@ -102,5 +107,9 @@ foreach ($info['series'] as $university_name => $university_series) {
     </div>
     <div id="tabs-2">
         <table id="data-table"></table>
+    </div>
+    <div id="tabs-3">
+        <b>Click derecho sobre la imagen para descargarla...</b>
+        <div id="chartImg"></div>
     </div>
 </div>

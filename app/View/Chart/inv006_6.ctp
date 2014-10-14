@@ -88,6 +88,7 @@ foreach ($info['series'] as $year_series) {
         <ul>
             <li><a href="#tabs-1">Grafico</a></li>
             <li><a href="#tabs-2">Datos</a></li>
+            <li><a href="#tabs-3">Descargar gráficos como imágen</a></li>
         </ul>
         <div id="tabs-1">
             <div class="chart-container-vertical">
@@ -97,6 +98,9 @@ foreach ($info['series'] as $year_series) {
         </div>
         <div id="tabs-2">
             <table id="data-table_<?= $year_series['year'] ?>"></table>
+        </div>
+        <div id="tabs-3">
+            <div id="chartImg_<?= $year_series['year'] ?>"></div>
         </div>
     </div>
     <?php
