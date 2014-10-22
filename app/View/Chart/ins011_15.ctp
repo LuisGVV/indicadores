@@ -71,8 +71,14 @@ foreach ($info['series'][0] as $index => $label) {
             stackSeries: true,
             seriesDefaults:{
                 renderer: $.jqplot.BarRenderer,
-                rendererOptions: {fillToZero: true},
-                pointLabels: {show: true}
+                rendererOptions: {
+                    barMargin: 30,
+                    highlightMouseDown: true 
+                },
+                pointLabels: {
+                    show: true,
+                    stackedValue: true
+                }
             },
             series: series,
             axes: {
@@ -112,6 +118,7 @@ foreach ($info['series'][0] as $index => $label) {
     <div id="tabs-1">
         <div class="chart-container">
             <div id="chart"></div>
+            <div id="chart2"></div>
         </div>
     </div>
     

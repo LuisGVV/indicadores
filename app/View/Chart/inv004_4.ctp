@@ -50,7 +50,9 @@ foreach ($info['series'] as $label) {
             seriesDefaults:{
                 renderer:$.jqplot.BarRenderer,
                 rendererOptions: {fillToZero: true},
-                pointLabels: {show: true,formatString: '%.2f'}
+                pointLabels: {
+                    show: true,
+                    formatString: '%.2f'}
             },
             axes: {
                 xaxis: {

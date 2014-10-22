@@ -117,6 +117,10 @@ foreach ($info['series']['central'] as $year_series) {
                                                                                     
             $("#chart_<?= $year_series['year'] ?>").height(350);
             plot_<?= $year_series['year'] ?>.replot();
+            
+            var imgData = $('#chart_<?= $year_series['year'] ?>').jqplotToImageStr({}); // retrieve info from plot
+            var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
+            $('#chartImg__<?= $year_series['year'] ?>').append(imgElem); //append data to DOM
         });
     </script>
 
@@ -124,6 +128,7 @@ foreach ($info['series']['central'] as $year_series) {
         <ul>
             <li><a href="#tabs-1">Grafico</a></li>
             <li><a href="#tabs-2">Datos</a></li>
+            <li><a href="#tabs-3">Descargar gráficos como imágen</a></li>
         </ul>
         <div id="tabs-1">
             <div class="chart-container-vertical">
@@ -133,6 +138,9 @@ foreach ($info['series']['central'] as $year_series) {
         </div>
         <div id="tabs-2">
             <table id="data-table_<?= $year_series['year'] ?>"></table>
+        </div>
+        <div id="tabs-3">
+            <div id="chartImg__<?= $year_series['year'] ?>"></div>
         </div>
     </div>
     <?php

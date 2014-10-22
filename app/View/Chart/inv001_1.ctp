@@ -64,7 +64,14 @@ foreach ($info['series'] as $university_name => $university_series) {
             stackSeries: true,
             seriesDefaults:{
                 renderer:$.jqplot.BarRenderer,
-                pointLabels: {show: true}
+                rendererOptions: {fillToZero: true,
+                    barMargin: 30,
+                    highlightMouseDown: true 
+                },
+                pointLabels: {
+                    show: true,
+                    stackedValue: true
+                }
             },
             series: series,
             axes: {
@@ -109,7 +116,8 @@ foreach ($info['series'] as $university_name => $university_series) {
         <table id="data-table"></table>
     </div>
     <div id="tabs-3">
-        <b>Click derecho sobre la imagen para descargarla...</b>
         <div id="chartImg"></div>
+        <b>Para guardar la imágen: <br> Haga click derecho sobre la imagen -> 
+            Guardar imagen como...</b>
     </div>
 </div>

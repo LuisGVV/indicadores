@@ -81,6 +81,10 @@ foreach ($info['series'] as $year_series) {
                                         
             $("#chart_<?= $year_series['year'] ?>").height(850);
             plot_<?= $year_series['year'] ?>.replot();
+            
+            var imgData = $('#chart_<?= $year_series['year'] ?>').jqplotToImageStr({}); // retrieve info from plot
+            var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
+            $('#chartImg_<?= $year_series['year'] ?>').append(imgElem); //append data to DOM
         });
     </script>
 
