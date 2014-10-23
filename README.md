@@ -13,6 +13,7 @@ TO DO:
 
 3. Charts: 
 	* Meter datos proxy en la base de datos<br>
+		* Preguntar D63-D65
 	* Comprobar que no haga falta ningún indicador<br>
 	* Ver que todas las charts estén funcionando correctamente (-mala +lista *sin revisar)<br>
 		* INS011 	Total de programas de maestria academica y doctorado <br>
