@@ -12,12 +12,12 @@ TO DO:
 	* Permitir al administrador agregar noticias y manejar cuentas<br>
 
 3. Charts: 
-	* Meter datos proxy en la base de datos<br>
+	* Meter datos proxy en la base de datos
 		* Preguntar D63-D65
 	* Comprobar que no haga falta ningún indicador<br>
 	* Ver que todas las charts estén funcionando correctamente (-mala +lista *sin revisar)<br>
-		* INS011 	Total de programas de maestria academica y doctorado <br>
-		* INV001 	Inversion total en investigacion y desarrollo <br>
+		* INS011 	Total de programas de maestria academica y doctorado 
+		* INV001 	Inversion total en investigacion y desarrollo 
 		* INV002 	Financiamiento externo como porcentaje del total de gastos en I+D <br>
 		* INV003 	Financiamiento interno como porcentaje del total de gastos en I+D <br>
 		* INV004 	Fondos del Sistema como porcentaje del financiamiento externo en I+D<br>
@@ -27,7 +27,7 @@ TO DO:
 		* PRC002 	Proyectos financiados con fondos del sistema como porcentaje del total de proyectos de investigacion<br>
 		* PRC003 	Total de proyectos de investigacion por disciplina<br>
 		* PRC004 	Total de proyectos de investigacion por disciplina segun sede por area cientifica<br>
-		* PRC005 	Proyectos de investigacion por objetivo socioeconomico<br>
+		* PRC005 	Proyectos de investigacion por objetivo socioeconomico
 		* RH001 	Investigadores (as) universitarios (as) activos (as) segun sexo<br>
 		* RH002 	Investigadores (as) universitarios (as) activos (as) <br>
 		* RH003 	Investigadores (as) universitarios (as) activos (as) por grado academico <br>
