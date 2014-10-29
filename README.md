@@ -6,7 +6,7 @@ TO DO:
 1. Interfaz:
   * Arreglar los menus flotantes:
 		* Iconos de universidades
-		* Login
+		* Arreglar inicio sesión submit
 
 2. Contenido: 
 	* Permitir al administrador agregar noticias y manejar cuentas<br>
