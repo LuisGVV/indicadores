@@ -7,6 +7,8 @@ TO DO:
   * Arreglar los menus flotantes:
 		* Iconos de universidades
 		* Arreglar inicio sesión submit
+	* Vista de indicadores
+	* Vista de insertar datos manualmente
 
 2. Contenido: 
 	* Permitir al administrador agregar noticias y manejar cuentas<br>
