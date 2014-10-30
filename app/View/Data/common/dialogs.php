@@ -96,7 +96,7 @@
                     <label>Seleccione un año:</label>
                     <select name="year" id="year" class="required">
                         <?php
-                        for ($i = date('Y'); $i >= date('Y') - 50; $i--) {
+                        for ($i = date('Y'); $i >= date('Y') - 15; $i--) {
                             ?>
                             <option value="<?= $i ?>"><?= $i ?></option>
                             <?php

@@ -1,5 +1,5 @@
 <script type="text/javascript">
-    $(document).ready(function(){
+    /*$(document).ready(function(){
         $("#logout-confirm").dialog({
             resizable: false,
             height:150,
@@ -17,7 +17,7 @@
                 }
             }
         }); 
-    });
+    });*/
     
     /**
      * Sends the ajax request to logout the user and waits for the answer
@@ -35,14 +35,13 @@
         });
     }
     
-    /**
-     * Confirms the logout of the system
-     */
+    /*
     var confirmLogout = function(){
         $("#logout-confirm").dialog("open");
     }
+    */
 </script>
-
+<!--
 <div id="logout-confirm" class="hidden">
     <p><span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span>Esta seguro que desea salir del sistema?</p>
 </div>
@@ -53,3 +52,10 @@
         <li onclick="confirmLogout();" class="ui-corner-left ui-widget ui-widget-content"><span class="ui-icon ui-icon-power"></span><span>Salir</span></li>
     </ul>
 </div>
+-->
+
+<ul class="nav navbar-nav navbar-right">
+    <li><p><?= $user['User']['nombre'] ?></p></li>
+    <li onclick="logout();"><a href="#"><span class="glyphicon glyphicon-log-out"></span> Cerrar sesión</a></li>
+</ul>
+

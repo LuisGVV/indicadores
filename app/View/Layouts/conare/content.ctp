@@ -1,3 +1,3 @@
-<div id="content" class="container center ui-widget">
+<!--<div id="content" class="container">-->
     <?= $this->fetch('content') ?>
-</div>
+<!--</div>-->

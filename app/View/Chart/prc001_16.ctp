@@ -80,6 +80,7 @@ foreach ($info['series'][0] as $index => $label) {
                     label: "Años"
                 },
                 yaxis: {
+                    min: 0,
                     padMin: 0,
                     label: "Cantidad"
                 }

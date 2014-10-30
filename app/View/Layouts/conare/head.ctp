@@ -1,7 +1,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Consejo Nacional de Rectores</title>
 
-<link href='http://fonts.googleapis.com/css?family=Coda+Caption:800' rel='stylesheet' type='text/css'>
+<!--<link href='http://fonts.googleapis.com/css?family=Coda+Caption:800' rel='stylesheet' type='text/css'>-->
 
 <?= $this->Html->css('jquery/jquery-ui-1.10.3.custom.css') ?>
 <?= $this->Html->css('conare/conare.css') ?>

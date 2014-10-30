@@ -21,7 +21,7 @@
                 <div group="Año">
                     <label>Año</label>
                     <select name="year" id="year">
-                        <?php for ($i = date('Y'); $i >= date('Y') - 50; $i--) { ?>
+                        <?php for ($i = date('Y'); $i >= date('Y') - 15; $i--) { ?>
                             <option value="<?= $i ?>"><?= $i ?></option>
                         <?php } ?>
                     </select>

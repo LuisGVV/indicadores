@@ -95,7 +95,7 @@
                     <label>Fecha de inicio:</label>
                     <select name="start" id="start">
                         <?php
-                        for ($i = date('Y'); $i >= date('Y') - 50; $i--) {
+                        for ($i = date('Y'); $i >= date('Y') - 15; $i--) {
                             ?>
                             <option value="<?= $i ?>"><?= $i ?></option>
                             <?php
@@ -107,7 +107,7 @@
                     <label>Fecha de finalizacion:</label>
                     <select name="end" id="end">
                         <?php
-                        for ($i = date('Y'); $i >= date('Y') - 50; $i--) {
+                        for ($i = date('Y'); $i >= date('Y') - 15; $i--) {
                             ?>
                             <option value="<?= $i ?>"><?= $i ?></option>
                             <?php
@@ -124,34 +124,36 @@
     </div>
 </div>
 
-<div>
-    <h1>Lista de indicadores</h1>
-    <table id="indicators-table">
-        <thead>
-            <tr>
-                <th>Nombre</th>
-                <th>Descripcion</th>
-                <th>Tipo</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            <?php
-            foreach ($indicators as $indicator) {
-                ?>
+<div class="container">
+    <div class="starter-template">
+        <h1>Lista de indicadores</h1>
+        <table id="indicators-table">
+            <thead>
                 <tr>
-                    <td><?= $indicator['Indicator']['nombre'] ?></td>
-                    <td><?= $indicator['Indicator']['descripcion'] ?></td>
-                    <td><?= $indicator['Indicator']['tipo'] ?></td>
-                    <td class="center">
-                        <button onclick="openRangeDialog('<?= strtolower($indicator['Indicator']['nombre']) ?>', '<?= $indicator['Indicator']['idindicador'] ?>');">
-                            <span class="ui-icon ui-icon-search"></span>
-                        </button>
-                    </td>
+                    <th>Nombre</th>
+                    <th>Descripcion</th>
+                    <th>Tipo</th>
+                    <th></th>
                 </tr>
+            </thead>
+            <tbody>
                 <?php
-            }
-            ?>
-        </tbody>
-    </table>
+                foreach ($indicators as $indicator) {
+                    ?>
+                    <tr>
+                        <td><?= $indicator['Indicator']['nombre'] ?></td>
+                        <td><?= $indicator['Indicator']['descripcion'] ?></td>
+                        <td><?= $indicator['Indicator']['tipo'] ?></td>
+                        <td class="center">
+                            <button onclick="openRangeDialog('<?= strtolower($indicator['Indicator']['nombre']) ?>', '<?= $indicator['Indicator']['idindicador'] ?>');">
+                                <span class="ui-icon ui-icon-search"></span>
+                            </button>
+                        </td>
+                    </tr>
+                    <?php
+                }
+                ?>
+            </tbody>
+        </table>
+    </div>
 </div>

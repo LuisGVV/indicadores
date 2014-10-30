@@ -60,7 +60,7 @@ foreach ($info['series'] as $university_name => $university_series) {
         });
         
         // Creates the chart
-        $.jqplot('chart', all_series, {
+        var plot = $.jqplot('chart', all_series, {
             stackSeries: true,
             seriesDefaults:{
                 renderer:$.jqplot.BarRenderer,
@@ -95,6 +95,17 @@ foreach ($info['series'] as $university_name => $university_series) {
         var imgData = $('#chart').jqplotToImageStr({}); // retrieve info from plot
         var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
         $('#chartImg').append(imgElem); //append data to DOM
+        
+        /*
+        $(window).resize(function() {
+            if (plot) {
+                $.each(plot.series, function(index, series) {
+                    series.barWidth = undefined;
+                });
+                plot.replot();
+            }
+        });*/
+
     });
 </script>
 
