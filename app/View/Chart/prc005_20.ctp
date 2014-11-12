@@ -32,80 +32,89 @@ foreach ($info['series'] as $year_series) {
 }
 ?>
 </script>
+<div class="container">
+    <h1><?= $indicator['Indicator']['nombre'] ?></h1>
+    <p><?= $indicator['Indicator']['descripcion'] ?></p>
 
-<h1><?= $indicator['Indicator']['nombre'] ?></h1>
-<p><?= $indicator['Indicator']['descripcion'] ?></p>
+    <?php
+    // For each year createsa plot
+    foreach ($info['series'] as $year_series) {
+        ?>
+        <script type="text/javascript">    
+            $(document).ready(function(){
+                // Creates the tabs
+                $("#tabs_<?= $year_series['year'] ?>").tabs();
 
-<?php
-// For each year createsa plot
-foreach ($info['series'] as $year_series) {
-    ?>
-    <script type="text/javascript">    
-        $(document).ready(function(){
-            // Creates the tabs
-            $("#tabs_<?= $year_series['year'] ?>").tabs();
-                    
-            // Creates the table
-            $("#data-table_<?= $year_series['year'] ?>").dataTable({
-                "aaData" : [series_<?= $year_series['year'] ?>],
-                "aoColumns" : columns,
-                "bPaginate": false,
-                "bLengthChange": false,
-                "bFilter": false,
-                "bSort": false,
-                "bInfo": false,
-                "bAutoWidth": false
-            });
-                                
-            // Creates the chart
-            var plot_<?= $year_series['year'] ?> = $.jqplot('chart_<?= $year_series['year'] ?>', [series_<?= $year_series['year'] ?>], {
-                seriesDefaults: {
-                    renderer:$.jqplot.BarRenderer,
-                    pointLabels: { show: true, location: 'e'},
-                    rendererOptions: {
-                        barDirection: 'horizontal',
-                        barWidth: 30
-                    }
-                },
-                axes: {
-                    xaxis: {
-                        label: "Cantidad"  
+                // Creates the table
+                $("#data-table_<?= $year_series['year'] ?>").dataTable({
+                    "aaData" : [series_<?= $year_series['year'] ?>],
+                    "aoColumns" : columns,
+                    "bPaginate": false,
+                    "bLengthChange": false,
+                    "bFilter": false,
+                    "bSort": false,
+                    "bInfo": false,
+                    "bAutoWidth": false
+                });
+
+                // Creates the chart
+                var plot_<?= $year_series['year'] ?> = $.jqplot('chart_<?= $year_series['year'] ?>', [series_<?= $year_series['year'] ?>], {
+                    seriesDefaults: {
+                        renderer:$.jqplot.BarRenderer,
+                        pointLabels: { show: true, location: 'e'},
+                        rendererOptions: {
+                            barDirection: 'horizontal',
+                            barWidth: 30
+                        }
                     },
-                    yaxis: {
-                        renderer: $.jqplot.CategoryAxisRenderer,
-                        "ticks": ticks
+                    axes: {
+                        xaxis: {
+                            label: "Cantidad"  
+                        },
+                        yaxis: {
+                            renderer: $.jqplot.CategoryAxisRenderer,
+                            "ticks": ticks
+                        }
                     }
-                }
-            });
-                                            
-            $("#chart_<?= $year_series['year'] ?>").height(450);
-            plot_<?= $year_series['year'] ?>.replot();
-            
-            var imgData = $('#chart_<?= $year_series['year'] ?>').jqplotToImageStr({}); // retrieve info from plot
-            var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
-            $('#chartImg__<?= $year_series['year'] ?>').append(imgElem); //append data to DOM
-        });
-    </script>
+                });
 
-    <div id="tabs_<?= $year_series['year'] ?>" class="chart-tabs">
-        <ul>
-            <li><a href="#tabs-1">Grafico</a></li>
-            <li><a href="#tabs-2">Datos</a></li>
-            <li><a href="#tabs-3">Descargar gráficos como imágen</a></li>
-        </ul>
-        <div id="tabs-1">
-            <div class="chart-container-vertical">
-                <span><?= $year_series['year'] ?></span>
-                <div id="chart_<?= $year_series['year'] ?>"></div>
+                $("#chart_<?= $year_series['year'] ?>").height(450);
+                plot_<?= $year_series['year'] ?>.replot();
+
+                var imgData = $('#chart_<?= $year_series['year'] ?>').jqplotToImageStr({}); // retrieve info from plot
+                var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
+                $('#chartImg_<?= $year_series['year'] ?>').append(imgElem); //append data to DOM
+            });
+        </script>
+
+        <div>
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#tabs-1_<?= $year_series['year'] ?>" role="tab" data-toggle="tab">Gráfico</a>
+                </li>
+                <li role="presentation"> 
+                    <a href="#tabs-2_<?= $year_series['year'] ?>" role="tab" data-toggle="tab">Datos</a>
+                </li>
+                <li role="presentation">
+                    <a href="#tabs-3_<?= $year_series['year'] ?>" role="tab" data-toggle="tab">Descargar Imagen</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="tabs-1_<?= $year_series['year'] ?>">
+                    <div class="chart-container-vertical">
+                        <span><?= $year_series['year'] ?></span>
+                        <div id="chart_<?= $year_series['year'] ?>"></div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="tabs-2_<?= $year_series['year'] ?>">
+                    <table id="data-table_<?= $year_series['year'] ?>"></table>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="tabs-3_<?= $year_series['year'] ?>">
+                    <div id="chartImg_<?= $year_series['year'] ?>"></div>
+                </div>
             </div>
         </div>
-        <div id="tabs-2">
-            <table id="data-table_<?= $year_series['year'] ?>"></table>
-        </div>
-        <div id="tabs-3">
-            <div id="chartImg__<?= $year_series['year'] ?>"></div>
-        </div>
-    </div>
-    <?php
-}
-?>
+        <?php
+    }
+    ?>
+</div>

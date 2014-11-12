@@ -9,7 +9,7 @@
     });
 </script>
 
-<div>
+<div id="indicador" class="container">
     <h1>Ingreso de datos</h1>
     <div class="data-actions">
         <button onclick="showXMLDialog();">Cargar datos de archivo XML</button>

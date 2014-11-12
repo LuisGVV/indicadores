@@ -44,6 +44,16 @@
     margin-top: 10px;
 }
 
+#lista-indicadores, #indicador, #access-denied{
+    position: relative;
+    top: 80px;
+}
+
+#chartImg{
+    position: relative;
+    top: 40px;
+}
+
 /*
 body{
     margin: 0;

@@ -30,21 +30,20 @@ class RH006_13Component extends Component {
         $universities = $this->University->find('all');
 
         // Gets the value related to the chart
-        $data_d60 = $this->Data->findByNombre('D60');
-
+        $data_d57 = $this->Data->findByNombre('D57');
+        
         // Does the calculation for each year
         for ($year = $start; $year <= $end; $year++) {
             $calculation = 0;
 
             // For each year does the calculation for each university
             foreach ($universities as $university) {
-                $uy_d60 = $this->UniversityYearData->findByDato_iddatoAndUniversidad_iduniversidadAndAnho($data_d60['Data']['iddato'], $university['University']['iduniversidad'], $year);
-
+                $uy_d57 = $this->UniversityYearData->findByDato_iddatoAndUniversidad_iduniversidadAndAnho($data_d57['Data']['iddato'], $university['University']['iduniversidad'], $year);
+                
+                //FirePHP::getInstance(true)->log($uy_d60);
                 // Checks the obtained data and does the calculation
-                if (!empty($uy_d60)) {
-                    $calculation += $uy_d60['UniversityYearData']['valor'];
-                } else {
-                    break;
+                if (!empty($uy_d57)) {
+                    $calculation += $uy_d57['UniversityYearData']['valor'];
                 }
             }
 
@@ -61,10 +60,9 @@ class RH006_13Component extends Component {
         // Adds the view to the result
         $result['view'] = 'rh006_13';
 
-        FirePHP::getInstance(true)->log($result);
+        
 
         // Returns
         return $result;
     }
-
 }

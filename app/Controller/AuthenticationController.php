@@ -39,7 +39,7 @@ class AuthenticationController extends AppController {
 
         // Gets the user
         $user = $this->User->findByEmailAndPassword($email, $password);
-
+        
         // Checks the user
         if (!empty($user)) {
             // Gets the user type

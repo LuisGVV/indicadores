@@ -76,8 +76,7 @@ foreach ($info['series'][0] as $index => $label) {
                     highlightMouseDown: true 
                 },
                 pointLabels: {
-                    show: true,
-                    stackedValue: true
+                    show: true
                 }
             },
             series: series,
@@ -104,31 +103,9 @@ foreach ($info['series'][0] as $index => $label) {
         $('#chartImg').append(imgElem); //append data to DOM
     });
 </script>
-
-<h1><?= $indicator['Indicator']['nombre'] ?></h1>
-<p><?= $indicator['Indicator']['descripcion'] ?></p>
-
-<div id="tabs" class="chart-tabs">
-    <ul>
-        <li><a href="#tabs-1">Grafico</a></li>
-        <li><a href="#tabs-2">Datos</a></li>
-        <li><a href="#tabs-3">Descargar Imagen</a></li>
-    </ul>
-    
-    <div id="tabs-1">
-        <div class="chart-container">
-            <div id="chart"></div>
-            <div id="chart2"></div>
-        </div>
-    </div>
-    
-    <div id="tabs-2">
-        <table id="data-table"></table>
-    </div>
-    
-    <div id="tabs-3">
-        <b>Click derecho sobre la imagen para descargarla...</b>
-        <div id="chartImg"></div>
-    </div>
+<div id="indicador" class="container">
+    <h1><?= $indicator['Indicator']['nombre'] ?></h1>
+    <p><?= $indicator['Indicator']['descripcion'] ?></p>
+    <?php include_once ('singleChartResult.ctp'); ?>
 </div>
 

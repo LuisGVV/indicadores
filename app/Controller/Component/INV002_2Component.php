@@ -28,7 +28,7 @@ class INV002_2Component extends Component {
 
         // Gets all the universities
         $universities = $this->University->find('all');
-
+        
         // Gets the four data involved in this chart
         $data_d1 = $this->Data->findByNombre('D1');
         $data_d2 = $this->Data->findByNombre('D2');
@@ -39,7 +39,7 @@ class INV002_2Component extends Component {
         for ($year = $start; $year <= $end; $year++) {
             // The inv001 calculation required
             $inv001_1_universities = 0;
-
+            
             // The d2 d4 calculation required
             $d2d4_universities = 0;
 

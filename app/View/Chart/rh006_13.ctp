@@ -1,5 +1,16 @@
 <?= $this->Html->css('chart/rh006_13') ?>
 
+<?= $this->Html->css('jqplot/jquery.jqplot.min') ?>
+<?= $this->Html->css('datatables/jquery.dataTables_themeroller.css') ?>
+
+<!--[if lt IE 9]><?= $this->Html->script('jqplot/excanvas.min.js') ?><![endif]-->
+
+<?= $this->Html->script('jqplot/jquery.jqplot.min.js') ?>
+<?= $this->Html->script('jqplot/jquery.jqplot/jqplot.barRenderer.min.js') ?>
+<?= $this->Html->script('jqplot/jquery.jqplot/jqplot.categoryAxisRenderer.min.js') ?>
+<?= $this->Html->script('jqplot/jquery.jqplot/jqplot.pointLabels.min.js') ?>
+<?= $this->Html->script('datatables/jquery.dataTables.js') ?>
+
 <h1><?= $indicator['Indicator']['nombre'] ?></h1>
 <p><?= $indicator['Indicator']['descripcion'] ?></p>
 

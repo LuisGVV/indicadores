@@ -1,20 +1,3 @@
-<!--<div class="container page-header">
-    <div id="header" class="ui-widget-header">
-        <div class="container center">
-            <div class="logo">
-                <?= $this->Html->image('conare/conare-logo.png') ?>
-            </div>
-            <div class="navigation">
-                
-                <div class="title">
-                    <span>Consejo Nacional de Rectores</span>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-</div>-->
-
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
@@ -33,13 +16,12 @@
             include_once('menu/internal.ctp'); 
             ?><!--Menus internos de la app-->
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Más...<b class="caret"></b></a>
+                <a class="dropdown-toggle" data-toggle="dropdown">Más...<b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li><a href="#">Sobre CONARE</a></li>
                     <li><a href="#">Eventos</a></li>
                     <li><a href="#">Noticias</a></li>
-                    <li><a href="#">Contacto</li>
-                    <li><a href="#"></a></li>
+                    <li><a href="#">Contacto</a></li>
                 </ul>
             </li>
         </ul>

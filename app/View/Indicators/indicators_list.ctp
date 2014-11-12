@@ -58,7 +58,7 @@
                     }
                 }
             }
-        })
+        });
     });
     
     /**
@@ -68,29 +68,138 @@
         // Sets the values for later ussage
         $("#name").val(name);
         $("#idindicator").val(idindicator);
-        
         // Opens the dialog
         $("#range-dialog").dialog("open");
-    }
+    };
     
     /**
      * Creates the indicated chart in the indicated range
      */
+    /*
     var createChart = function(){
         if($("#range-form").valid()){
-            $("#range-form").attr("action", $("#range-form").attr("action") + "/" + $("#name").val() + "/" + $("#idindicator").val());
+            $("#range-form").attr("action", $("#range-form").attr("action") + 
+                    "/" + $("#name").val() + "/" + $("#idindicator").val());
             $("#range-form").submit();
         }
-    }
+    };*/
+    
+    var openRangeModal = function(name, idindicator){
+        // Sets the values for later ussage
+        $("#name").val(name);
+        $("#idindicator").val(idindicator);
+        //Open modal
+        $('#range-modal').modal('show');
+    };
+    
+    var createChart = function(){
+        if($("#range-form").valid()){
+            $("#range-form").attr("action", $("#range-form").attr("action") + 
+                    "/" + $("#name").val() + "/" + $("#idindicator").val());
+            $("#range-form").submit();
+        }
+    };
+        
+    
 </script>
 
+<div id="range-modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 id="modal-header" class="modal-title">Rango de graficación</h4>
+
+            </div>
+            <div class="modal-body">
+                <form id="range-form" name="range-modal" method="post" 
+                      action="<?= $this->Html->url(array("controller" => "chart", 
+                          "action" => "create_chart")) ?>">
+                    <input type="hidden" name="idindicator" id="idindicator" />
+                    <input type="hidden" name="name" id="name"/>
+                    <div class="form-group">
+                        <label>Fecha de inicio:</label>
+                        <select name="start" id="start" class="form-control">
+                            <?php
+                            for ($i = date('Y'); $i >= date('Y') - 15; $i--) {
+                                ?>
+                                <option value="<?= $i-1 ?>"><?= $i-1 ?></option>
+                                <?php
+                            }
+                            ?>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Fecha de finalizacion:</label>
+                        <select name="end" id="end" class="form-control">
+                            <?php
+                            for ($i = date('Y'); $i >= date('Y') - 15; $i--) {
+                                ?>
+                                <option value="<?= $i ?>"><?= $i ?></option>
+                                <?php
+                            }
+                            ?>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" onclick="createChart();">Graficar</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<div class="container">
+    <div id="lista-indicadores" class="starter-template">
+        <div class="panel panel-default">
+            <div id="table-panel" class="panel-heading"><strong>Lista de indicadores</strong></div>
+            <table class="table table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Descripcion</th>
+                        <th>Tipo</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    foreach ($indicators as $indicator) {
+                        ?>
+                        <tr>
+                            <td><?= $indicator['Indicator']['nombre'] ?></td>
+                            <td><?= $indicator['Indicator']['descripcion'] ?></td>
+                            <td><?= $indicator['Indicator']['tipo'] ?></td>
+                            <td class="center">
+                                <button onclick="openRangeModal(
+                                            '<?= strtolower($indicator['Indicator']['nombre']) ?>',
+                                            '<?= $indicator['Indicator']['idindicador'] ?>');"
+                                        class="btn btn-default btn-sm">
+                                    <span class="glyphicon glyphicon-stats"></span>
+                                </button>
+                            </td>
+                        </tr>
+                        <?php
+                    }
+                    ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!--
 <div id="range-dialog" class="hidden">
     <div class="form">
         <span>Rango de graficacion</span>
         <div>
             <form id="range-form" name="range-form" method="post" action="<?= $this->Html->url(array("controller" => "chart", "action" => "create_chart")) ?>">
                 <input type="hidden" name="idindicator" id="idindicator" />
-                <input type="hidden" name="name" id="name" />
+                <input type="hidden" name="name" id="name"/>
                 <div>
                     <label>Fecha de inicio:</label>
                     <select name="start" id="start">
@@ -122,38 +231,5 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
-<div class="container">
-    <div class="starter-template">
-        <h1>Lista de indicadores</h1>
-        <table id="indicators-table">
-            <thead>
-                <tr>
-                    <th>Nombre</th>
-                    <th>Descripcion</th>
-                    <th>Tipo</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                foreach ($indicators as $indicator) {
-                    ?>
-                    <tr>
-                        <td><?= $indicator['Indicator']['nombre'] ?></td>
-                        <td><?= $indicator['Indicator']['descripcion'] ?></td>
-                        <td><?= $indicator['Indicator']['tipo'] ?></td>
-                        <td class="center">
-                            <button onclick="openRangeDialog('<?= strtolower($indicator['Indicator']['nombre']) ?>', '<?= $indicator['Indicator']['idindicador'] ?>');">
-                                <span class="ui-icon ui-icon-search"></span>
-                            </button>
-                        </td>
-                    </tr>
-                    <?php
-                }
-                ?>
-            </tbody>
-        </table>
-    </div>
-</div>

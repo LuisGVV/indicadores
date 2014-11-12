@@ -34,7 +34,7 @@ class PRC002_17Component extends Component {
         $data_d63 = $this->Data->findByNombre('D63');
         $data_d64 = $this->Data->findByNombre('D64');
         $data_d65 = $this->Data->findByNombre('D65');
-        $data_d66 = $this->Data->findByNombre('D65');
+        $data_d66 = $this->Data->findByNombre('D66');
 
         // Does the year by year calculatio
         for ($year = $start; $year <= $end; $year++) {
@@ -72,7 +72,7 @@ class PRC002_17Component extends Component {
             if ($prc002_17_universities == 0) {
                 $prc002_17['value'] = 0;
             } else {
-                $prc002_17['value'] = $uy_d66_value / $prc002_17_universities;
+                $prc002_17['value'] = ($uy_d66_value / $prc002_17_universities) * 100;
             }
             array_push($result, $prc002_17);
         }
