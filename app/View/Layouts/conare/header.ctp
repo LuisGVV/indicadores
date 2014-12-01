@@ -7,7 +7,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-            <a class="navbar-brand" href="<?= $this->Html->url(array("controller" => "home", "action" => "index")) ?>">Consejo Nacional de Rectores</a>
+            <a id="header-bar" class="navbar-brand" href="<?= $this->Html->url(array("controller" => "home", "action" => "index")) ?>">CONARE</a>
+            <a id="bar-logo" class="navbar-brand" href="http://www.ucr.ac.cr"><img id="ucr-logo" src="<?= $this->base.'/app/webroot/img/universities/ucr-logo.png'?>"></a>
+            <a id="bar-logo" class="navbar-brand" href="http://www.tec.ac.cr"><img id="tec-logo" src="<?= $this->base.'/app/webroot/img/universities/tec-logo.png'?>"></a>
+            <a id="bar-logo" class="navbar-brand" href="http://www.una.ac.cr"><img id="una-logo" src="<?= $this->base.'/app/webroot/img/universities/una-logo.png'?>"></a>
+            <a id="bar-logo" class="navbar-brand" href="http://www.uned.ac.cr"><img id="uned-logo" src="<?= $this->base.'/app/webroot/img/universities/uned-logo.png'?>"></a>
         </div>
 
         <div class="navbar-collapse collapse navbar-responsive-collapse">

@@ -41,21 +41,9 @@
     }
     */
 </script>
-<!--
-<div id="logout-confirm" class="hidden">
-    <p><span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span>Esta seguro que desea salir del sistema?</p>
-</div>
-
-<div id="user-status" class="floating-menu">
-    <ul class="vertical">
-        <li class="ui-corner-left ui-widget ui-widget-content"><span class="name"><?= $user['User']['nombre'] ?> <?= $user['User']['apellido'] ?></span></li>
-        <li onclick="confirmLogout();" class="ui-corner-left ui-widget ui-widget-content"><span class="ui-icon ui-icon-power"></span><span>Salir</span></li>
-    </ul>
-</div>
--->
 
 <ul class="nav navbar-nav navbar-right">
-    <li><p><?= $user['User']['nombre'] ?></p></li>
+    <li><strong class="navbar-text"><?= $user['User']['nombre'] ?></strong></li>
     <li onclick="logout();"><a href="#"><span class="glyphicon glyphicon-log-out"></span> Cerrar sesión</a></li>
 </ul>
 

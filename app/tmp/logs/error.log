@@ -1745,3 +1745,240 @@
 #10 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
 #11 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2014-10-17 22:20:09 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-24 23:19:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-24 23:19:14 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-24 23:19:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-25 00:18:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-25 00:19:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-25 00:21:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-25 00:21:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-25 00:21:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-25 00:37:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-25 00:39:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-25 00:40:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-27 16:14:11 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-27 17:50:14 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-27 17:50:14 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-27 18:37:40 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-27 18:39:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-27 21:54:07 Error: Fatal Error (4): syntax error, unexpected 'include_once' (T_INCLUDE_ONCE), expecting ',' or ';' in [C:\xampp\htdocs\indicadores\app\View\Layouts\conare\header.ctp, line 36]
+2014-10-27 21:54:07 Error: [FatalErrorException] syntax error, unexpected 'include_once' (T_INCLUDE_ONCE), expecting ',' or ';'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-28 21:36:55 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb(NULL, NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\Component\URLCheckComponent.php(18): FirePHP->log(NULL)
+#3 C:\xampp\htdocs\indicadores\app\Controller\AppController.php(89): URLCheckComponent->analizeAccess(Array, 'home')
+#4 C:\xampp\htdocs\indicadores\app\Controller\AppController.php(54): AppController->verifyAccess()
+#5 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#7 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#8 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-10-28 21:36:56 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb(NULL, NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\Component\URLCheckComponent.php(18): FirePHP->log(NULL)
+#3 C:\xampp\htdocs\indicadores\app\Controller\AppController.php(89): URLCheckComponent->analizeAccess(Array, 'home')
+#4 C:\xampp\htdocs\indicadores\app\Controller\AppController.php(54): AppController->verifyAccess()
+#5 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#7 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#8 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-10-28 21:55:14 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 21:19:10 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\indicadores\app\View\Home\index.ctp, line 55]
+2014-10-29 21:19:11 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 55, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 55, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-29 21:19:15 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\indicadores\app\View\Home\index.ctp, line 55]
+2014-10-29 21:19:15 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 55, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 55, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-29 21:19:40 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\indicadores\app\View\Home\index.ctp, line 55]
+2014-10-29 21:19:40 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 55, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 55, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-29 23:36:59 Error: [MissingControllerException] Controller class IndicadoresController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-04 20:31:26 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-05 23:36:20 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-05 23:36:20 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-05 23:36:20 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-05 23:36:20 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-05 23:36:21 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-05 23:36:21 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-05 23:36:21 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-05 23:36:21 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-06 15:40:06 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-06 15:40:06 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-06 15:40:07 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-06 15:40:08 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-06 15:40:08 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-06 15:40:08 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-06 15:40:08 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-06 15:40:08 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-07 21:56:57 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-10 20:59:40 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb(25000, NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\Component\INV004_4Component.php(88): FirePHP->log(25000)
+#3 C:\xampp\htdocs\indicadores\app\Controller\ChartController.php(48): INV004_4Component->chart('2010', '2011')
+#4 [internal function]: ChartController->create_chart('inv004', '4')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ChartController), Array)
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ChartController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-11-10 21:00:08 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb(25000, NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\Component\INV004_4Component.php(88): FirePHP->log(25000)
+#3 C:\xampp\htdocs\indicadores\app\Controller\ChartController.php(48): INV004_4Component->chart('2010', '2011')
+#4 [internal function]: ChartController->create_chart('inv004', '4')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ChartController), Array)
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ChartController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-11-11 23:22:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-12 22:54:44 Error: Fatal Error (1): Call to undefined method FirePHP::instance() in [C:\xampp\htdocs\indicadores\app\Controller\DataController.php, line 35]
+2014-11-12 22:54:44 Error: [FatalErrorException] Call to undefined method FirePHP::instance()
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-12 22:54:51 Error: Fatal Error (1): Call to undefined method FirePHP::instance() in [C:\xampp\htdocs\indicadores\app\Controller\DataController.php, line 35]
+2014-11-12 22:54:51 Error: [FatalErrorException] Call to undefined method FirePHP::instance()
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-13 20:46:40 Error: Fatal Error (1): Undefined constant 'n' in [C:\xampp\htdocs\indicadores\app\View\Data\index.ctp, line 20]
+2014-11-13 20:46:40 Error: [FatalErrorException] Undefined constant 'n'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Undefined const...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Undefined const...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Undefined const...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-28 16:23:31 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'valor' cannot be null
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('INSERT INTO `in...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `in...')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1730): DboSource->create(Object(UniversityYearData), Array, Array)
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(2089): Model->save(Array, Array)
+#5 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(262): Model->saveMany(Array)
+#6 [internal function]: DataController->save_data()
+#7 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#8 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-11-28 16:23:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-28 16:23:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

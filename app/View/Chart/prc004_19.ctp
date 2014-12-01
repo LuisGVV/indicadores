@@ -117,10 +117,11 @@ foreach ($info['series']['central'] as $year_series) {
 
                 $("#chart_<?= $year_series['year'] ?>").height(350);
                 plot_<?= $year_series['year'] ?>.replot();
-
-                var imgData = $('#chart_<?= $year_series['year'] ?>').jqplotToImageStr({}); // retrieve info from plot
-                var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
-                $('#chartImg_<?= $year_series['year'] ?>').append(imgElem); //append data to DOM
+                if(!window.chrome){
+                    var imgData = $('#chart_<?= $year_series['year'] ?>').jqplotToImageStr({}); // retrieve info from plot
+                    var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
+                    $('#chartImg_<?= $year_series['year'] ?>').append(imgElem); //append data to DOM
+                }
             });
         </script>
         <div>

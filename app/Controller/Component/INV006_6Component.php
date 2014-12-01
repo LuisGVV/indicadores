@@ -28,10 +28,10 @@ class INV006_6Component extends Component {
 
         // Gets the list of universities
         $universities = $this->University->find('all');
-
+        FirePHP::getInstance(true)->log('jesussssss');
         // Gets the values involved in the process
         $d6_d23 = array();
-        for ($i = 6; $i <= 26; $i++) {
+        for ($i = 6; $i <= 23; $i++) {
             array_push($d6_d23, $this->Data->findByNombre('D' . $i));
         }
 
@@ -39,7 +39,7 @@ class INV006_6Component extends Component {
         for ($year = $start; $year <= $end; $year++) {
             // Array to save values related to each discipline
             $disciplines = array();
-            for ($i = 6; $i <= 26; $i++) {
+            for ($i = 6; $i <= 23; $i++) {
                 array_push($disciplines, 0);
             }
 

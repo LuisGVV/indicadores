@@ -69,10 +69,11 @@ foreach ($info['series'] as $label) {
                 }
             }
         });
-                
-        var imgData = $('#chart').jqplotToImageStr({}); // retrieve info from plot
-        var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
-        $('#chartImg').append(imgElem); //append data to DOM
+        if(!window.chrome){
+            var imgData = $('#chart').jqplotToImageStr({}); // retrieve info from plot
+            var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
+            $('#chartImg').append(imgElem); //append data to DOM
+        }
     });
 </script>
 

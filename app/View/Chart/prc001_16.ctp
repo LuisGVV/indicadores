@@ -70,6 +70,12 @@ foreach ($info['series'][0] as $index => $label) {
             stackSeries: true,
             seriesDefaults:{
                 renderer:$.jqplot.BarRenderer,
+                rendererOptions: {
+                    fillToZero: true,
+                    barWidth: 100,
+                    barMargin: 30,
+                    highlightMouseDown: true 
+                },
                 pointLabels: {show: true}
             },
             series: series,
@@ -81,6 +87,7 @@ foreach ($info['series'][0] as $index => $label) {
                 },
                 yaxis: {
                     min: 0,
+                    tickInterval: 200,
                     padMin: 0,
                     label: "Cantidad"
                 }
@@ -92,9 +99,11 @@ foreach ($info['series'][0] as $index => $label) {
             }
         });
         //Insert image into DOM
-        var imgData = $('#chart').jqplotToImageStr({}); // retrieve info from plot
-        var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
-        $('#chartImg').append(imgElem); //append data to DOM
+        if(!window.chrome){
+            var imgData = $('#chart').jqplotToImageStr({}); // retrieve info from plot
+            var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
+            $('#chartImg').append(imgElem); //append data to DOM
+        }
     });
 </script>
 <div id="indicador" class="container">

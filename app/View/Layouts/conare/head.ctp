@@ -8,7 +8,7 @@
 <?= $this->Html->script('jquery/jquery-ui-1.9.0.custom.js') ?>
 <?= $this->Html->script('validate/jquery.validate.min.js') ?>
 
-<?= $this->Html->script('formaccordion/jquery.formaccordion.js') ?>
+
 
 <?= $this->Html->meta('icon', $this->Html->url('/favicon.ico')); ?>
 

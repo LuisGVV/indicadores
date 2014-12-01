@@ -49,10 +49,14 @@ foreach ($info['series'] as $label) {
         $.jqplot('chart', [series], {
             seriesDefaults:{
                 renderer:$.jqplot.BarRenderer,
-                rendererOptions: {fillToZero: true},
+                rendererOptions: {
+                    fillToZero: true,
+                    barWidth: 100
+                },
                 pointLabels: {
                     show: true,
-                    formatString: '%.2f'}
+                    formatString: '%.2f'
+                }
             },
             axes: {
                 xaxis: {
@@ -62,15 +66,18 @@ foreach ($info['series'] as $label) {
                 },
                 yaxis: {
                     min: 0,
+                    tickInterval: 2,
                     padMin: 0,
                     label: "Porcentaje"
                 }
             }
         });
-                
-        var imgData = $('#chart').jqplotToImageStr({}); // retrieve info from plot
-        var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
-        $('#chartImg').append(imgElem); //append data to DOM
+        
+        if(!window.chrome){
+            var imgData = $('#chart').jqplotToImageStr({}); // retrieve info from plot
+            var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
+            $('#chartImg').append(imgElem); //append data to DOM
+        }
     });
 </script>
 <div id="indicador" class="container">

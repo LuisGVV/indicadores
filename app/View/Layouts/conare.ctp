@@ -8,8 +8,6 @@
         ?>
     </head>
     <body>
-        <?php //include_once ('conare/universities.ctp'); ?>
-
         <?php include_once ('conare/header.ctp'); ?>
         <?php include_once ('conare/content.ctp'); ?>
     </body>

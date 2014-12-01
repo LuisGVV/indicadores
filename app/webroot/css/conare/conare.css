@@ -44,14 +44,62 @@
     margin-top: 10px;
 }
 
-#lista-indicadores, #indicador, #access-denied{
+#lista-indicadores, #indicador, #access-denied, #error-action, #success-action,
+#accordion-form
+{
     position: relative;
-    top: 80px;
+    top: 60px;
+}
+
+#accordion{
+    position: relative;
+    top: 15px;
 }
 
 #chartImg{
     position: relative;
     top: 40px;
+}
+
+#conare-logo{
+    height: 100%;
+    width: 20px;
+}
+
+#ucr-logo{
+    height: 100%;
+    width: 50px;
+}
+
+#tec-logo{
+    height: 100%;
+    width: 51px;
+}
+
+#una-logo{
+    height: 100%;
+    width: 58px;
+}
+
+#uned-logo{
+    height: 100%;
+    width: 50px;
+}
+
+#header-bar{
+    margin-right: 15px;
+}
+
+#bar-logo{
+    background-color: #fff;
+}
+
+#login-modal{
+    //z-index: 900; 
+}
+
+#login-error{
+    color: #e12b31;
 }
 
 /*
