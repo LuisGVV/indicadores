@@ -22,7 +22,7 @@
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown">Más...<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">Sobre CONARE</a></li>
+                    <li><a href="http://www.conare.ac.cr/">Sitio Conare</a></li>
                     <li><a href="#">Eventos</a></li>
                     <li><a href="#">Noticias</a></li>
                     <li><a href="#">Contacto</a></li>

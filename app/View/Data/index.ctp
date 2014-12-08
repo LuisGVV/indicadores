@@ -28,6 +28,7 @@
                     </div>
                 </div>
             </div>
+        <!--Aquí es donde se van todos los datos para el año-->
         <?php
         $heading = '';
         foreach ($all_data as $data) { 
@@ -51,16 +52,22 @@
             </div>
             <div id="collapse<?= $data['Data']['iddato'] ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?= $data['Data']['iddato'] ?>">
                 <div class="panel-body">
-                    <label><?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?></label>
+                    <div class="form-group">
+                        <input id="iddato_<?= $data['Data']['iddato'] ?>" name="<?= $data['Data']['iddato'] ?>" type="text" placeholder="<?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?>" class="form-control">
+                    </div>
+<!--                    <label><?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?></label>
                     <input id="iddato_<?= $data['Data']['iddato'] ?>" name="iddato_<?= $data['Data']['iddato'] ?>" value=""
-                           class="required number" min="0" max="2147483647"/><br>
+                           class="required number" min="0" max="20000"/><br>-->
                     <?php
                 $heading = $data['Data']['indicador_idindicador'];
             }else{
             ?>
-                <label><?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?></label>
+                <div class="form-group">
+                    <input id="iddato_<?= $data['Data']['iddato'] ?>" name="<?= $data['Data']['iddato'] ?>" type="text" placeholder="<?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?>" class="form-control">
+                </div>
+<!--                <label><?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?></label>
                 <input id="iddato_<?= $data['Data']['iddato'] ?>" name="iddato_<?= $data['Data']['iddato'] ?>" value=""
-                       class="required number" min="0" max="2147483647"/><br>
+                       class="required number" min="0" max="2147483647"/><br>-->
     <?php   } ?>
         <?php } ?>
             </form>

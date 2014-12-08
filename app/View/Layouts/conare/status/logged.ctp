@@ -43,7 +43,7 @@
 </script>
 
 <ul class="nav navbar-nav navbar-right">
-    <li><strong class="navbar-text"><?= $user['User']['nombre'] ?></strong></li>
+    <li><strong class="navbar-text"><?= $user['User']['nombre'] ?> <?= $user['User']['apellido']?></strong></li>
     <li onclick="logout();"><a href="#"><span class="glyphicon glyphicon-log-out"></span> Cerrar sesión</a></li>
 </ul>
 

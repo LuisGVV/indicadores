@@ -52,7 +52,7 @@
                 if (data.success === true) {
                     location.reload();
                 } else {
-                    $("#login-error").html("Datos equivocados.");
+                    $("#login-error").html("Correo/Contraseña incorrecta");
                 }
             }
         });
