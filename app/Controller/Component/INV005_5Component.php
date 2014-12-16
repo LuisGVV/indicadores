@@ -40,6 +40,9 @@ class INV005_5Component extends Component {
         for ($year = $start; $year <= $end; $year++) {
             // The calculation of the inv001 value
             $inv001_1_universities = 0;
+            
+            // The calclation of d2 d4
+            $d2d4_universities = 0;
 
             // The calculation of d5
             $d5_universities = 0;
@@ -62,19 +65,23 @@ class INV005_5Component extends Component {
                     $uy_d5_value = $uy_d5['UniversityYearData']['valor'];
 
                     $inv001_1_universities += $uy_d1_value + $uy_d2_value + $uy_d3_value + $uy_d4_value;
+                    /*SUBTOTAL --> Liquidaciones equipo e infraestructura
+                     *  y gastos en recurso humano - EXTERNOS
+                    */
+                    $d2d4_universities += $uy_d2_value + $uy_d4_value;
                     $d5_universities += $uy_d5_value;
                 }
             }
 
             // Saves the current year calculation
-            $inv004_4 = array();
-            $inv004_4['year'] = $year;
-            if ($inv001_1_universities == 0) {
-                $inv004_4['value'] = 0;
+            $inv005_5 = array();
+            $inv005_5['year'] = $year;
+            if ($d2d4_universities == 0) {
+                $inv005_5['value'] = 0;
             } else {
-                $inv004_4['value'] = ($d5_universities / $inv001_1_universities) * 100;
+                $inv005_5['value'] = ($d5_universities / $d2d4_universities) * 100;
             }
-            array_push($result, $inv004_4);
+            array_push($result, $inv005_5);
         }
 
         // Gets the ticks and series

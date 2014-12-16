@@ -60,11 +60,13 @@ foreach ($info['series'] as $university_name => $university_series) {
         });
         
         // Creates the chart
-        $.jqplot('chart', all_series, {
+        var plot = $.jqplot('chart', all_series, {
             stackSeries: true,
             seriesDefaults:{
                 renderer:$.jqplot.BarRenderer,
-                rendererOptions: {fillToZero: true,
+                rendererOptions: {
+                    fillToZero: true,
+                    barWidth: 100,
                     barMargin: 30,
                     highlightMouseDown: true 
                 },
@@ -81,6 +83,8 @@ foreach ($info['series'] as $university_name => $university_series) {
                     label: "Años"
                 },
                 yaxis: {
+                    min: 0,
+                    tickInterval: 5000,
                     padMin: 0,
                     label: "Total"
                 }
@@ -91,33 +95,16 @@ foreach ($info['series'] as $university_name => $university_series) {
                 placement: 'outside'
             }     
         });
-                
-        var imgData = $('#chart').jqplotToImageStr({}); // retrieve info from plot
-        var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
-        $('#chartImg').append(imgElem); //append data to DOM
+        //Insert image into DOM
+        if(!window.chrome){
+            var imgData = $('#chart').jqplotToImageStr({}); // retrieve info from plot
+            var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
+            $('#chartImg').append(imgElem); //append data to DOM*/
+        }
     });
 </script>
-
-<h1><?= $indicator['Indicator']['nombre'] ?></h1>
-<p><?= $indicator['Indicator']['descripcion'] ?></p>
-
-<div id="tabs" class="chart-tabs">
-    <ul>
-        <li><a href="#tabs-1">Grafico</a></li>
-        <li><a href="#tabs-2">Datos</a></li>
-        <li><a href="#tabs-3">Descargar Imagen</a></li>
-    </ul>
-    <div id="tabs-1">
-        <div class="chart-container">
-            <div id="chart"></div>
-        </div>
-    </div>
-    <div id="tabs-2">
-        <table id="data-table"></table>
-    </div>
-    <div id="tabs-3">
-        <div id="chartImg"></div>
-        <b>Para guardar la imágen: <br> Haga click derecho sobre la imagen -> 
-            Guardar imagen como...</b>
-    </div>
+<div id="indicador" class="container">
+    <h1><?= $indicator['Indicator']['nombre'] ?></h1>
+    <p><?= $indicator['Indicator']['descripcion'] ?></p>
+    <?php include_once ('singleChartResult.ctp'); ?>
 </div>

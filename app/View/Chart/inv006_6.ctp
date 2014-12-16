@@ -11,17 +11,20 @@
 <?= $this->Html->script('datatables/jquery.dataTables.js') ?>
 
 <script type="text/javascript">
+var ticks = new Array();
+var columns = new Array();
+var allSeries = new Array();
 <?php
-// Sets the ticks
-echo "var ticks = new Array();\n";
-echo "var columns = new Array();\n";
-foreach ($info['ticks'] as $index => $tick) {
+foreach ($info['ticks'] as $index => $tick) { 
     $tick = str_replace(' (equipo e infraestructura)', '', $tick);
-    $tick = str_replace(' (Incluye Ad honorem)', '', $tick);
-    echo "ticks.push('" . ($index + 1) . ' - ' . $tick . "');\n";
+    $tick = str_replace('Gastos en inversion en', '', $tick);
+    $tick = str_replace(' (Incluye Ad honorem)', '', $tick); 
+    echo "ticks.push('" . $tick . "');\n";
+    //echo "ticks.push('" . ($index + 1) . ' - ' . $tick . "');\n";
     echo "columns.push({'sTitle' : '" . ($index + 1) . "*'});\n";
-}
+}?>
 
+<?php
 // Sets the series
 foreach ($info['series'] as $year_series) {
     echo "\nvar series_" . $year_series['year'] . " = new Array();\n";
@@ -29,39 +32,36 @@ foreach ($info['series'] as $year_series) {
     foreach ($series as $label) {
         echo "series_" . $year_series['year'] . ".push(" . $label . ");\n";
     }
+    echo "\nallSeries.push(series_" . $year_series['year'] . ")";
 }
 ?>
 </script>
+<script type="text/javascript">
+    $(document).ready(function () {
 
-<h1><?= $indicator['Indicator']['nombre'] ?></h1>
-<p><?= $indicator['Indicator']['descripcion'] ?></p>
+        //HACER DESPUES LO DE LAS TABS
+        /* Creates the tabs
+         $("#tabs_<?= $year_series['year'] ?>").tabs();
+         
+         // Creates the table
+         $("#data-table_<?= $year_series['year'] ?>").dataTable({
+         "aaData" : [series_<?= $year_series['year'] ?>],
+         "aoColumns" : columns,
+         "bPaginate": false,
+         "bLengthChange": false,
+         "bFilter": false,
+         "bSort": false,
+         "bInfo": false,
+         "bAutoWidth": false
+         });*/
 
-<?php
-// Does a chart for each year series
-foreach ($info['series'] as $year_series) {
-    ?>
-    <script type="text/javascript">    
-        $(document).ready(function(){
-            // Creates the tabs
-            $("#tabs_<?= $year_series['year'] ?>").tabs();
-                    
-            // Creates the table
-            $("#data-table_<?= $year_series['year'] ?>").dataTable({
-                "aaData" : [series_<?= $year_series['year'] ?>],
-                "aoColumns" : columns,
-                "bPaginate": false,
-                "bLengthChange": false,
-                "bFilter": false,
-                "bSort": false,
-                "bInfo": false,
-                "bAutoWidth": false
-            });
-                                
             // Creates the chart
-            var plot_<?= $year_series['year'] ?> = $.jqplot('chart_<?= $year_series['year'] ?>', [series_<?= $year_series['year'] ?>], {
+            var plot = $.jqplot('chart', allSeries, {
                 seriesDefaults: {
-                    renderer:$.jqplot.BarRenderer,
-                    pointLabels: { show: true, location: 'e', edgeTolerance: -15 },
+                    renderer: $.jqplot.BarRenderer,
+                    pointLabels: {
+                        show: true, location: 'e', edgeTolerance: -15
+                    },
                     shadowAngle: 135,
                     rendererOptions: {
                         barDirection: 'horizontal',
@@ -70,43 +70,31 @@ foreach ($info['series'] as $year_series) {
                 },
                 axes: {
                     xaxis: {
-                        label: "Total"  
+                        min: 0,
+                        tickInterval: 500,
+                        padMin: 0,
+                        label: "Total"
                     },
                     yaxis: {
+                        pad: 1.05,
                         renderer: $.jqplot.CategoryAxisRenderer,
                         "ticks": ticks
                     }
                 }
             });
-                                        
-            $("#chart_<?= $year_series['year'] ?>").height(850);
-            plot_<?= $year_series['year'] ?>.replot();
-            
-            var imgData = $('#chart_<?= $year_series['year'] ?>').jqplotToImageStr({}); // retrieve info from plot
-            var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
-            $('#chartImg_<?= $year_series['year'] ?>').append(imgElem); //append data to DOM
-        });
-    </script>
 
-    <div id="tabs_<?= $year_series['year'] ?>" class="chart-tabs">
-        <ul>
-            <li><a href="#tabs-1">Grafico</a></li>
-            <li><a href="#tabs-2">Datos</a></li>
-            <li><a href="#tabs-3">Descargar gráficos como imágen</a></li>
-        </ul>
-        <div id="tabs-1">
-            <div class="chart-container-vertical">
-                <span><?= $year_series['year'] ?></span>
-                <div id="chart_<?= $year_series['year'] ?>"></div>
-            </div>
-        </div>
-        <div id="tabs-2">
-            <table id="data-table_<?= $year_series['year'] ?>"></table>
-        </div>
-        <div id="tabs-3">
-            <div id="chartImg_<?= $year_series['year'] ?>"></div>
-        </div>
-    </div>
-    <?php
-}
-?>
+            $("#chart").height(800);
+            plot.replot();
+            if (!window.chrome) {
+                var imgData = $('#chart').jqplotToImageStr({}); // retrieve info from plot
+                var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
+                $('#chartImg').append(imgElem); //append data to DOM
+            }
+        });
+</script>
+
+<div id="indicador" class="container">
+    <h1><?= $indicator['Indicator']['nombre'] ?></h1>
+    <p><?= $indicator['Indicator']['descripcion'] ?></p>
+    <?php include_once ('singleChartResult.ctp'); ?>
+</div>

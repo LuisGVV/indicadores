@@ -49,7 +49,16 @@ foreach ($info['series'] as $label) {
         $.jqplot('chart', [series], {
             seriesDefaults:{
                 renderer:$.jqplot.BarRenderer,
-                pointLabels: {show: true,formatString: '%.2f'}
+                rendererOptions: {
+                    fillToZero: true,
+                    barWidth: 100,
+                    barMargin: 30,
+                    highlightMouseDown: true 
+                },
+                pointLabels: {
+                    show: true,
+                    formatString: '%.2f'
+                }
             },
             axes: {
                 xaxis: {
@@ -58,28 +67,24 @@ foreach ($info['series'] as $label) {
                     label: "Años"
                 },
                 yaxis: {
+                    min: 0,
+                    max: 10,
+                    tickInterval: 1,
                     padMin: 0,
                     label: "Porcentaje"
                 }
             }
         });
+        //Insert image into DOM
+        if(!window.chrome){
+            var imgData = $('#chart').jqplotToImageStr({}); // retrieve info from plot
+            var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
+            $('#chartImg').append(imgElem); //append data to DOM
+        }
     });
 </script>
-
-<h1><?= $indicator['Indicator']['nombre'] ?></h1>
-<p><?= $indicator['Indicator']['descripcion'] ?></p>
-
-<div id="tabs" class="chart-tabs">
-    <ul>
-        <li><a href="#tabs-1">Grafico</a></li>
-        <li><a href="#tabs-2">Datos</a></li>
-    </ul>
-    <div id="tabs-1">
-        <div class="chart-container">
-            <div id="chart"></div>
-        </div>
-    </div>
-    <div id="tabs-2">
-        <table id="data-table"></table>
-    </div>
+<div id="indicador" class="container">
+    <h1><?= $indicator['Indicator']['nombre'] ?></h1>
+    <p><?= $indicator['Indicator']['descripcion'] ?></p>
+    <?php include_once ('singleChartResult.ctp'); ?>
 </div>

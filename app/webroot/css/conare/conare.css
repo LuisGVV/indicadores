@@ -1,3 +1,108 @@
+.carousel .container {
+    position: relative;
+    z-index: 9;
+}
+
+.carousel-control {
+    position: absolute;
+    height: 500px;
+    margin-top: 0;
+    font-size: 120px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    background-color: transparent;
+    border: 0;
+    z-index: 10;
+}
+
+.carousel .item {
+    height: 500px;
+}
+.carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+    max-width: none;
+}
+
+.carousel-caption {
+    background-color: transparent;
+    position: static;
+    max-width: 550px;
+    padding: 0 20px;
+    margin-top: 200px;
+}
+.carousel-caption h1,
+.carousel-caption .lead {
+    margin: 0;
+    line-height: 1.25;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel-caption .btn {
+    margin-top: 10px;
+}
+
+#lista-indicadores, #indicador, #access-denied, #error-action, #success-action,
+#accordion-form
+{
+    position: relative;
+    top: 60px;
+}
+
+#accordion{
+    position: relative;
+    top: 15px;
+}
+
+#chartImg{
+    position: relative;
+    top: 40px;
+}
+
+#conare-logo{
+    height: 100%;
+    width: 20px;
+}
+
+#ucr-logo{
+    height: 100%;
+    width: 50px;
+}
+
+#tec-logo{
+    height: 100%;
+    width: 51px;
+}
+
+#una-logo{
+    height: 100%;
+    width: 58px;
+}
+
+#uned-logo{
+    height: 100%;
+    width: 50px;
+}
+
+#header-bar{
+    margin-right: 15px;
+}
+
+#bar-logo{
+    background-color: #fff;
+}
+
+#login-modal{
+    //z-index: 900; 
+}
+
+#login-error{
+    color: #e12b31;
+}
+
+/*
 body{
     margin: 0;
     padding: 0;
@@ -112,7 +217,7 @@ body>div{
     text-align: right;
 }
 
-#header .navigation .internal button{
+/*#header .navigation .internal button{
     margin-left: 5px;
     margin-right: 5px;
     text-transform: uppercase;
@@ -156,6 +261,7 @@ body>div{
 .container{
     width: 1024px;
 }
+
 
 .center{
     margin-left: auto;
@@ -229,3 +335,4 @@ input.error{
 #breadcrumb{
     
 }
+*/

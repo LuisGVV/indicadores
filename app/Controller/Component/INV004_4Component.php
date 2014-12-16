@@ -28,7 +28,6 @@ class INV004_4Component extends Component {
 
         // Gets all the universities
         $universities = $this->University->find('all');
-
         // Gets the 5 data related to the chart
         $data_d1 = $this->Data->findByNombre('D1');
         $data_d2 = $this->Data->findByNombre('D2');
@@ -36,13 +35,9 @@ class INV004_4Component extends Component {
         $data_d4 = $this->Data->findByNombre('D4');
         $data_d5 = $this->Data->findByNombre('D5');
 
-        // Starts the year by year calculation
         for ($year = $start; $year <= $end; $year++) {
             // The calculation of inv001
             $inv001_1_universities = 0;
-
-            // The calclation of d2 d4
-            $d2d4_universities = 0;
 
             // The d5 data
             $d5_universities = 0;
@@ -63,9 +58,11 @@ class INV004_4Component extends Component {
                     $uy_d3_value = $uy_d3['UniversityYearData']['valor'];
                     $uy_d4_value = $uy_d4['UniversityYearData']['valor'];
                     $uy_d5_value = $uy_d5['UniversityYearData']['valor'];
-
-                    $inv001_1_universities += $uy_d1_value + $uy_d2_value + $uy_d3_value + $uy_d4_value;
-                    $d2d4_universities += $uy_d2_value + $uy_d4_value;
+                                        
+                    //TOTAL DE FONDOS
+                    $inv001_1_universities += $uy_d1_value + $uy_d2_value + 
+                            $uy_d3_value + $uy_d4_value;
+                    
                     $d5_universities += $uy_d5_value;
                 }
             }
@@ -76,8 +73,7 @@ class INV004_4Component extends Component {
             if ($inv001_1_universities == 0) {
                 $inv004_4['value'] = 0;
             } else {
-                $inv_002 = ($d2d4_universities / $inv001_1_universities) * 100;
-                $inv004_4['value'] = ($d5_universities / $inv_002) * 100;
+                $inv004_4['value'] = ($d5_universities / $inv001_1_universities) * 100;
             }
             array_push($result, $inv004_4);
         }

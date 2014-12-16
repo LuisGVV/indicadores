@@ -61,37 +61,23 @@ foreach ($info['series'] as $label) {
                     label: "Años"
                 },
                 yaxis: {
+                    min: 0,
+                    tickInterval: 5,
                     padMin: 0,
                     label: "Porcentaje"
                 }
             }
         });
-                
-        var imgData = $('#chart').jqplotToImageStr({}); // retrieve info from plot
-        var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
-        $('#chartImg').append(imgElem); //append data to DOM
+        if(!window.chrome){
+            var imgData = $('#chart').jqplotToImageStr({}); // retrieve info from plot
+            var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
+            $('#chartImg').append(imgElem); //append data to DOM
+        }
     });
 </script>
 
-<h1><?= $indicator['Indicator']['nombre'] ?></h1>
-<p><?= $indicator['Indicator']['descripcion'] ?></p>
-
-<div id="tabs" class="chart-tabs">
-    <ul>
-        <li><a href="#tabs-1">Grafico</a></li>
-        <li><a href="#tabs-2">Datos</a></li>
-        <li><a href="#tabs-3">Descargar Imagen</a></li>
-    </ul>
-    <div id="tabs-1">
-        <div class="chart-container">
-            <div id="chart"></div>
-        </div>
-    </div>
-    <div id="tabs-2">
-        <table id="data-table"></table>
-    </div>
-    <div id="tabs-3">
-        <b>Click derecho sobre la imagen para descargarla...</b>
-        <div id="chartImg"></div>
-    </div>
+<div id="indicador" class="container">
+    <h1><?= $indicator['Indicator']['nombre'] ?></h1>
+    <p><?= $indicator['Indicator']['descripcion'] ?></p>
+    <?php include_once ('singleChartResult.ctp'); ?>
 </div>

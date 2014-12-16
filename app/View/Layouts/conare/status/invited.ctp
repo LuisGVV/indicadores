@@ -1,18 +1,6 @@
 <script type="text/javascript">
-    $(document).ready(function(){
-        
-        //Creates the dialog of the login
-        $("#login-dialog").dialog({
-            resizable: false,
-            modal: true,
-            draggable: false,
-            show: "fold",
-            hide: "fold",
-            autoOpen: false,
-            height: 250
-        });
-        
-        
+    $(document).ready(function () {
+
         //Validate rules for the login
         $("#login-form").validate({
             rules: {
@@ -25,65 +13,79 @@
                 }
             }
         });
+
+        //Binding de eventos para cuando el usuario hace enter
+        $("#password").keyup(function (e) {
+            if ((e.which === 13) && $("#login-form").valid()) {
+                submitLogin();
+            }
+        });
+        
+         $("#email").keyup(function (e) {
+            if ((e.which === 13) && $("#login-form").valid()) {
+                submitLogin();
+            }
+        });
     });
-    
-    /**
-     * Opens the login dialog
-     */
-    var showLogin = function(){
-        $("#login-dialog").dialog("open");
-    }
-    
+
+    var openLoginModal = function () {
+        //fix-around para que el modal se muestre, si el modal hereda 
+        //de un fixed-relative position no se muestra correcamente
+        $('#login-modal').appendTo("body"); 
+        $('#login-modal').modal('show');
+    };
+
     /**
      * Submits the login dialog
      */
-    var submitLogin = function(){
-        $("#login-error").html("");
-        if ($("#login-form").valid()){
-            $.ajax({
-                type: "post",
-                url: "<?= $this->Html->url(array("controller" => "authentication", "action" => "login")) ?>",
-                data: {
-                    email: $("#email").val(),
-                    password: $("#password").val()
-                },
-                dataTypeString: "json",
-                success: function(data){
-                    if (data.success == true){
-                        location.reload();
-                    } else {
-                        $("#login-error").html("Datos equivocados.");
-                    }
+    var submitLogin = function () {
+        //$("#login-error").html("");
+        $.ajax({
+            type: "post",
+            url: "<?= $this->Html->url(array("controller" => "authentication", "action" => "login")) ?>",
+            data: {
+                email: $("#email").val(),
+                password: $("#password").val()
+            },
+            dataTypeString: "json",
+            success: function (data) {
+                if (data.success === true) {
+                    location.reload();
+                } else {
+                    $("#login-error").html("Correo/Contraseña incorrecta");
                 }
-            });
-        }
+            }
+        });
     }
 </script>
 
-<div id="login-dialog" class="hidden">
-    <div class="form">
-        <span>Entrada</span>
-        <div>
-            <form id="login-form" name="login-form" method="post" action="">
-                <div>
-                    <label>Email:</label>
-                    <input type="text" id="email" name="email" />
-                </div>
-                <div>
-                    <label>Contraseña</label>
-                    <input type="password" id="password" name="password" />
-                </div>
-            </form>
-            <label class="error" id="login-error"></label>
-            <div class="action">
-                <button onclick="submitLogin();">Aceptar</button>
-            </div>
-        </div>
-    </div>
+<div class="navbar-form navbar-right" role="form">
+    <button type="button" class="btn btn-primary" onclick="openLoginModal()">Iniciar Sesión</button>
 </div>
 
-<div id="user-status" class="floating-menu">
-    <ul class="vertical">
-        <li onclick="showLogin();" class="ui-corner-left ui-widget ui-widget-content"><span class="ui-icon ui-icon-person"></span><span>Entrar</span></li>
-    </ul>
-</div>
+<div id="login-modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 id="modal-header" class="modal-title">Iniciar Sesión</h4>
+            </div>
+            <form id="login-form" name="login-form-modal">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input id="email" name="email" type="text" placeholder="Correo" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input id="password" type="password" placeholder="Contraseña" class="form-control">
+                    </div>
+                    <div id="error-message">
+                        <strong id="login-error"></strong>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary btn-sm" onclick="submitLogin();">Entrar</button>
+                </div>
+            </form>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

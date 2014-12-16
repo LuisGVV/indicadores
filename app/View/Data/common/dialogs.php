@@ -42,14 +42,14 @@
      * Opens the load from xml dialog
      */
     var showXMLDialog = function(){
-        $("#xml-dialog").dialog("open");
+        $('#xml-modal').modal('show');
     };
     
     /**
      * Opens the load year dialog
      */
     var showLoadYearDialog = function(){
-        $("#load-year-dialog").dialog("open");
+        $("#load-year-modal").modal('show');
     };
     
     /**
@@ -69,67 +69,77 @@
     };
 </script>
 
-<div id="xml-dialog" class="hidden">
-    <div class="form">
-        <span>Cargar datos</span>
-        <div>
-            <form enctype="multipart/form-data" id="xml-form" name="xml-form" method="post" action="<?= $this->Html->url(array("controller" => "data", "action" => "xml_file")) ?>">
-                <div>
-                    <label>Archivo XML:</label>
-                    <input type="file" id="xml" name="xml" accept="text/xml" class="required" />
+<div id="xml-modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 id="modal-header-XML" class="modal-title">Rango de graficación</h4>
+            </div>
+            <div class="modal-body">
+                <form enctype="multipart/form-data" id="xml-form" name="xml-form" method="post" action="<?= $this->Html->url(array("controller" => "data", "action" => "xml_file")) ?>">
+                    <div>
+                        <h5>Carga de datos mediante XML:</h5>
+                        <input class="file" type="file" id="xml" name="xml" accept="text/xml" class="required" />
+                    </div>
+                </form>
+                <label class="error" id="xml-error"></label>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                    <button class="btn btn-primary" onclick="submitXML();">Cargar</button>
                 </div>
-            </form>
-            <label class="error" id="xml-error"></label>
-            <div class="action">
-                <button onclick="submitXML();">Aceptar</button>
             </div>
         </div>
     </div>
 </div>
 
-<div id="load-year-dialog" class="hidden">
-    <div class="form">
-        <span>Cargar datos</span>
-        <div>
-            <form id="load-year-form" name="load-year-form" method="post" action="<?= $this->Html->url(array("controller" => "data", "action" => "load_data")) ?>">
-                <div>
-                    <label>Seleccione un año:</label>
-                    <select name="year" id="year" class="required">
-                        <?php
-                        for ($i = date('Y'); $i >= date('Y') - 50; $i--) {
-                            ?>
-                            <option value="<?= $i ?>"><?= $i ?></option>
-                            <?php
-                        }
-                        ?>
-                    </select>
-                </div>
-            </form>
-            <label class="error" id="xml-error"></label>
-            <div class="action">
-                <button onclick="submitLoadYear();">Aceptar</button>
+<div id="load-year-modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 id="modal-header" class="modal-title">Modificar datos previamente guardados</h4>
             </div>
-        </div>
-    </div>
+            <div class="modal-body">
+                <form id="load-year-form" name="load-year-form-modal" method="post" 
+                      action="<?= $this->Html->url(array("controller" => "data", "action" => "load_data")) ?>">
+                    <div class="form-group">
+                        <label>Seleccione un año:</label>
+                        <select name="year" id="year" class="form-control">
+                            <?php
+                            for ($i = date('Y'); $i >= date('Y') - 15; $i--) {
+                                ?>
+                                <option value="<?= $i ?>"><?= $i ?></option>
+                                <?php
+                            }
+                            ?>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" onclick="submitLoadYear();">Cargar datos</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
 </div>
 
 <?php
 if (isset($result)) {
     if (!$result) {
         ?>
-        <div class="ui-widget">
-            <div style="margin-top: 10px; padding: 0 .7em;" class="ui-state-error ui-corner-all">
-                <p><span style="float: left; margin-right: .3em;" class="ui-icon ui-icon-alert"></span>
-                    <strong>Error:</strong> <?= $message ?></p>
+        <div class="container">
+            <div id="error-action" class="alert alert-danger">    
+                <p><strong>Error:</strong> <?= $message ?></p>
             </div>
         </div>
         <?php
     } else {
         ?>
-        <div class="ui-widget">
-            <div style="margin-top: 10px; padding: 0 .7em;" class="ui-state-highlight ui-corner-all">
-                <p><span style="float: left; margin-right: .3em;" class="ui-icon ui-icon-info"></span>
-                    <strong>Exito!</strong> <?= $message ?></p>
+        <div class="container">
+            <div id="success-action" class="alert alert-success">    
+                <p><strong>Exito!</strong> <?= $message ?></p>
             </div>
         </div>
         <?php

@@ -32,15 +32,16 @@ class DataController extends AppController {
 
         // Gets the indicators
         $indicator_array = $this->Indicator->find('all');
-
+        //FirePHP::getInstance(true)->log($indicator_array);
         // Gets the names of the indicators
         foreach ($data_array as $index => $data) {
-            foreach ($indicator_array as $indicator) {
+            foreach ($indicator_array as $indicator) { //join raro
                 if ($data['Data']['indicador_idindicador'] == $indicator['Indicator']['idindicador']) {
                     $data['Data']['indicador_idindicador'] = $indicator['Indicator']['descripcion'];
                     $data_array[$index] = $data;
                     break;
                 }
+                //FirePHP::getInstance(true)->log($indicator);
             }
         }
 
@@ -140,7 +141,7 @@ class DataController extends AppController {
         $this->set('message', $message);
 
         // Renders the page
-        $this->render('xml_data', 'conare');
+        $this->render('index', 'conare');
     }
 
     /**
