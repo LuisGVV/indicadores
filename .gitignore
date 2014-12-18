@@ -1,0 +1,4 @@
+
+#ignorar directorio de caches
+
+app/tmp/cache/

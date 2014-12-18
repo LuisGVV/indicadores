@@ -23,6 +23,20 @@ class SystemController extends AppController {
      */
     public function index() {
         // Renders the page
+        // Gets the list of all users
+        $users = $this->User->find('all');
+
+        // Gets the user types
+        $user_types = $this->UserType->find('all');
+        unset($user_types[0]);
+
+        // Gets all the universities
+        $universities = $this->University->find('all');
+
+        // Sets the user information
+        $this->set('users', $users);
+        $this->set('user_types', $user_types);
+        $this->set('universities', $universities);
         $this->render('index', 'conare');
     }
 
@@ -46,7 +60,7 @@ class SystemController extends AppController {
         $this->set('universities', $universities);
 
         // Renders the page
-        $this->render('users', 'ajax');
+        $this->render('index', 'conare');
     }
     
     /**

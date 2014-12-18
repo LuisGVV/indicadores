@@ -1,5 +1,4 @@
-<?= $this->Html->css('datatables/jquery.dataTables_themeroller.css') ?>
-<?= $this->Html->script('datatables/jquery.dataTables.js') ?>
+
 
 <script type="text/javascript">
     $(document).ready(function(){

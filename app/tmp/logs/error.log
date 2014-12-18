@@ -1982,3 +1982,65 @@
 2014-11-28 16:23:31 Error: [MissingControllerException] Controller class ImgController could not be found.
 #0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-12-18 17:13:36 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\indicadores\app\View\System\users.ctp, line 1]
+2014-12-18 17:13:36 Error: [FatalErrorException] syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-18 17:13:39 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\indicadores\app\View\System\users.ctp, line 1]
+2014-12-18 17:13:39 Error: [FatalErrorException] syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-18 17:13:40 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\indicadores\app\View\System\users.ctp, line 1]
+2014-12-18 17:13:40 Error: [FatalErrorException] syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-18 17:13:44 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\indicadores\app\View\System\users.ctp, line 1]
+2014-12-18 17:13:44 Error: [FatalErrorException] syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-18 18:49:31 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\indicadores\app\View\System\users.ctp, line 1]
+2014-12-18 18:49:31 Error: [FatalErrorException] syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-18 18:49:34 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\indicadores\app\View\System\users.ctp, line 1]
+2014-12-18 18:49:34 Error: [FatalErrorException] syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-18 18:49:40 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\indicadores\app\View\System\users.ctp, line 1]
+2014-12-18 18:49:40 Error: [FatalErrorException] syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 1, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-18 22:35:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-18 22:38:48 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
