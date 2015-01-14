@@ -4,7 +4,9 @@
 
 <?php
 if (isset($access) && $URLCheck->analizeAccess($access, 'data')) {
-    ?><li><a href='<?= $this->Html->url(array("controller" => "data", "action" => "index")) ?>'>Datos</a></li><?php
+    ?><li><a href='<?= $this->Html->url(array("controller" => "data", "action" => "index")) ?>'>Datos</a></li>
+    <li><a href='<?= $this->Html->url(array("controller" => "audit", "action" => "index")) ?>'>Auditorias</a></li>    
+<?php
 }
 ?>
 

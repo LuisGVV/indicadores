@@ -43,6 +43,7 @@ class IndicatorsController extends AppController {
                 unset($indicators[$index]);
             }
         }
+        FirePHP::getInstance(true)->log($indicators);
 
         // Sets the list of indicators
         $this->set('indicators', $indicators);

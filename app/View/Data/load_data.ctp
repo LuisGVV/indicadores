@@ -1,14 +1,5 @@
 <?php include_once('common/dialogs.php'); ?>
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        $("#input-form").formaccordion();
-        $("#accordion-container").accordion({
-            heightStyle: "content"
-        });
-    });
-</script>
-
 <div class="container">
     <div id="accordion-form">
         <h1>Ingreso de datos</h1>
@@ -17,66 +8,75 @@
             <button type="button" class="btn btn-primary" onclick="showLoadYearDialog();">Modificar datos de un año especifico</button>
         </div>
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-            <form>
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingOne">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Año
-                        </a>
-                    </h4>
+            <form id="input-form" method="post" action="<?= $this->Html->url(array("controller" => "data", "action" => "save_data")) ?>">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Año
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <select name="year" id="year" class="form-control">
+                                <?php for ($i = date('Y'); $i >= date('Y') - 15; $i--) { ?>
+                                    <option value="<?= $i ?>"><?= $i ?></option>
+                                <?php } ?>
+                            </select>
+                        </div>
+                    </div>
                 </div>
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                    <div class="panel-body">
-                        <select name="year" id="year" class="form-control">
-                            <?php for ($i = date('Y'); $i >= date('Y') - 15; $i--) { ?>
-                                <option value="<?= $i ?>"><?= $i ?></option>
-                            <?php } ?>
-                        </select>
+                <?php
+                $heading = '';
+                foreach ($all_data as $index => $data) {
+                    if ($heading != $data['Data']['indicador_idindicador']) {
+                        if ($heading != '') {
+                            ?>
                     </div>
                 </div>
             </div>
-        <?php
-        $heading = '';
-        foreach ($all_data as $index => $data) { 
-            if($heading != $data['Data']['indicador_idindicador']){ 
-                if($heading != ''){ ?>
-                    </div>
-                    </div>
-                    </div>
 
-                <?php
-                } 
-                ?>
+            <?php
+        }
+        ?>
 
         <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="heading<?= $data['Data']['iddato'] ?>">
                 <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse<?= $data['Data']['iddato'] ?>" aria-expanded="true" aria-controls="collapse<?= $data['Data']['iddato'] ?>">
-                        <?= $data['Data']['indicador_idindicador'] ?>
+        <?= $data['Data']['indicador_idindicador'] ?>
                     </a>
                 </h4>
             </div>
             <div id="collapse<?= $data['Data']['iddato'] ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?= $data['Data']['iddato'] ?>">
                 <div class="panel-body">
-                    <label><?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?></label>
-                    <input id="iddato_<?= $data['Data']['iddato'] ?>" name="iddato_<?= $data['Data']['iddato'] ?>" value="<?= isset($load_data) && !empty($load_data) ? $load_data[$index]['valor'] : '' ?>"
-                           class="required number" min="0" max="2147483647"/><br>
+                    <div class="form-group">
+                        <input id="iddato_<?= $data['Data']['iddato'] ?>" name="iddato_<?= $data['Data']['iddato'] ?>" 
+                               type="text" placeholder="<?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?>"
+                               value="<?= isset($load_data) && !empty($load_data) ? $load_data[$index]['valor'] : '' ?>"
+                               class="form-control">
+                    </div>
                     <?php
-                $heading = $data['Data']['indicador_idindicador'];
-            }else{
-            ?>
-                <label><?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?></label>
-                <input id="iddato_<?= $data['Data']['iddato'] ?>" name="iddato_<?= $data['Data']['iddato'] ?>" value="<?= isset($load_data) && !empty($load_data) ? $load_data[$index]['valor'] : '' ?>"
-                       class="required number" min="0" max="2147483647"/><br>
-    <?php   } ?>
-        <?php } ?>
+                    $heading = $data['Data']['indicador_idindicador'];
+                } else {
+                    ?>
+                    <div class="form-group">
+                        <input id="iddato_<?= $data['Data']['iddato'] ?>" name="iddato_<?= $data['Data']['iddato'] ?>" 
+                               type="text" placeholder="<?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?>" 
+                               value="<?= isset($load_data) && !empty($load_data) ? $load_data[$index]['valor'] : '' ?>"
+                               class="form-control">
+                    </div>
+                <?php } ?>
+<?php } ?>
             </form>
+
         </div>
     </div>
+    <button type="button" class="btn btn-primary"  onclick="submitDataForm();">Guardar</button>
 </div>
-
-<!--<div>
+<!--
+<div>
     <h1>Ingreso de datos</h1>
     <div class="data-actions">
         <button onclick="showXMLDialog();">Cargar datos de archivo XML</button>
@@ -91,9 +91,9 @@
                         <?php
                         for ($i = date('Y'); $i >= date('Y') - 50; $i--) {
                             ?>
-                            <option 
+                            <option
                                 value="<?= $i ?>"
-                                <?= isset($year) && $i == $year ? 'selected="selected"' : '' ?>><?= $i ?>
+                            <?= isset($year) && $i == $year ? 'selected="selected"' : '' ?>><?= $i ?>
                             </option>
                             <?php
                         }
@@ -105,7 +105,7 @@
                     ?>
                     <div group="<?= $data['Data']['indicador_idindicador'] ?>">
                         <label><?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?></label>
-                        <input id="iddato_<?= $data['Data']['iddato'] ?>" name="iddato_<?= $data['Data']['iddato'] ?>" 
+                        <input id="iddato_<?= $data['Data']['iddato'] ?>" name="iddato_<?= $data['Data']['iddato'] ?>"
                                value="<?= isset($load_data) && !empty($load_data) ? $load_data[$index]['valor'] : '' ?>"
                                class="required number" min="0" max="10"/>
                     </div>
@@ -120,4 +120,3 @@
         </div>
     </div>
 </div>-->
-                                

@@ -198,6 +198,7 @@ class DataController extends AppController {
         } else {
             // Sets the result
             $result = false;
+            $load_data_array = null;
             $message = 'No existen datos para el año indicado.';
         }
 
@@ -207,6 +208,8 @@ class DataController extends AppController {
         $this->set('year', $year);
         $this->set('result', $result);
         $this->set('message', $message);
+        
+        FirePHP::getInstance(true)->log($load_data_array);
 
         // Renders the page
         $this->render('load_data', 'conare');
@@ -228,7 +231,7 @@ class DataController extends AppController {
 
         // Gets the year
         $year = $this->request->data['year'];
-
+        FirePHP::getInstance(true)->log($this->request->data);
         // Checks if the year information was already submited
         $existing_data = $this->UniversityYearData->findByAnhoAndUniversidad_iduniversidad($year, $iduniversity);
         if ($existing_data == NULL) {
@@ -244,7 +247,7 @@ class DataController extends AppController {
                 $university_year_data['universidad_iduniversidad'] = $iduniversity;
                 $university_year_data['anho'] = $year;
                 $university_year_data['valor'] = $this->request->data['iddato_' . $data['Data']['iddato']];
-
+                
                 // Saves the audit information
                 $audit_data = array();
                 $audit_data['valor'] = $university_year_data['valor'];

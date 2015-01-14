@@ -53,7 +53,7 @@
             <div id="collapse<?= $data['Data']['iddato'] ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?= $data['Data']['iddato'] ?>">
                 <div class="panel-body">
                     <div class="form-group">
-                        <input id="iddato_<?= $data['Data']['iddato'] ?>" name="<?= $data['Data']['iddato'] ?>" type="text" placeholder="<?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?>" class="form-control">
+                        <input id="iddato_<?= $data['Data']['iddato'] ?>" name="iddato_<?= $data['Data']['iddato'] ?>" type="text" placeholder="<?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?>" class="form-control">
                     </div>
 <!--                    <label><?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?></label>
                     <input id="iddato_<?= $data['Data']['iddato'] ?>" name="iddato_<?= $data['Data']['iddato'] ?>" value=""
@@ -63,7 +63,7 @@
             }else{
             ?>
                 <div class="form-group">
-                    <input id="iddato_<?= $data['Data']['iddato'] ?>" name="<?= $data['Data']['iddato'] ?>" type="text" placeholder="<?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?>" class="form-control">
+                    <input id="iddato_<?= $data['Data']['iddato'] ?>" name="iddato_<?= $data['Data']['iddato'] ?>" type="text" placeholder="<?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?>" class="form-control">
                 </div>
 <!--                <label><?= $data['Data']['nombre'] ?> - <?= $data['Data']['descripcion'] ?></label>
                 <input id="iddato_<?= $data['Data']['iddato'] ?>" name="iddato_<?= $data['Data']['iddato'] ?>" value=""

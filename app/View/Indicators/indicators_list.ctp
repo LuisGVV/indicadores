@@ -1,36 +1,46 @@
-<?= $this->Html->css('datatables/jquery.dataTables_themeroller.css') ?>
-<?= $this->Html->script('datatables/jquery.dataTables.js') ?>
+<?=
+$this->Html->script('//cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js', array('inline' => false));
+$this->Html->css('//cdn.datatables.net/1.10.4/css/jquery.dataTables.css', null, array('inline' => false));
+?>
+
 
 <script type="text/javascript">
-    $(document).ready(function(){
-       
+    $(document).ready(function () {
+
+        //Inicializar DataTable
+        $('#table-indicators').DataTable({
+            "language": {
+                "url": "http://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Spanish.json"
+            }
+        });
+
         // Additional methods for jquery validate
-        jQuery.validator.addMethod("greater_than", function(value, element, param) {
-            return this.optional(element) || ($(param).val() <= value); 
+        jQuery.validator.addMethod("greater_than", function (value, element, param) {
+            return this.optional(element) || ($(param).val() <= value);
         }, "Solo años mayores o iguales al inicial.");
-        
-        jQuery.validator.addMethod("gap_no_less_than", function(value, element, param) {
-            return this.optional(element) || (value - $(param.element).val() >= param.value); 
+
+        jQuery.validator.addMethod("gap_no_less_than", function (value, element, param) {
+            return this.optional(element) || (value - $(param.element).val() >= param.value);
         }, "No se pueden graficar menos de 2 años");
-        
-        jQuery.validator.addMethod("gap_no_more_than", function(value, element, param) {
-            return this.optional(element) || (value - $(param.element).val() <= param.value); 
+
+        jQuery.validator.addMethod("gap_no_more_than", function (value, element, param) {
+            return this.optional(element) || (value - $(param.element).val() <= param.value);
         }, "No se pueden graficar mas de 10 años.");
-        
+
         // Validation for the date range
         $("#range-form").validate({
             rules: {
-                start:{
+                start: {
                     required: true
                 },
-                end:{
+                end: {
                     required: true,
                     greater_than: "#start",
-                    gap_no_less_than : {
+                    gap_no_less_than: {
                         element: "#start",
                         value: 1
                     },
-                    gap_no_more_than : {
+                    gap_no_more_than: {
                         element: "#start",
                         value: 10
                     }
@@ -38,27 +48,27 @@
             }
         });
     });
-    
+
     /**
      * Opens the range dialog
      */
-    var openRangeModal = function(name, idindicator){
+    var openRangeModal = function (name, idindicator) {
         // Sets the values for later ussage
         $("#name").val(name);
         $("#idindicator").val(idindicator);
         //Open modal
         $('#range-modal').modal('show');
     };
-    
-    var createChart = function(){
-        if($("#range-form").valid()){
-            $("#range-form").attr("action", $("#range-form").attr("action") + 
+
+    var createChart = function () {
+        if ($("#range-form").valid()) {
+            $("#range-form").attr("action", $("#range-form").attr("action") +
                     "/" + $("#name").val() + "/" + $("#idindicator").val());
             $("#range-form").submit();
         }
     };
-        
-    
+
+
 </script>
 
 <div id="range-modal" class="modal fade">
@@ -71,8 +81,10 @@
             </div>
             <div class="modal-body">
                 <form id="range-form" name="range-modal" method="post" 
-                      action="<?= $this->Html->url(array("controller" => "chart", 
-                          "action" => "create_chart")) ?>">
+                      action="<?=
+                      $this->Html->url(array("controller" => "chart",
+                          "action" => "create_chart"))
+                      ?>">
                     <input type="hidden" name="idindicator" id="idindicator" />
                     <input type="hidden" name="name" id="name"/>
                     <div class="form-group">
@@ -81,7 +93,7 @@
                             <?php
                             for ($i = date('Y'); $i >= date('Y') - 15; $i--) {
                                 ?>
-                                <option value="<?= $i-1 ?>"><?= $i-1 ?></option>
+                                <option value="<?= $i - 1 ?>"><?= $i - 1 ?></option>
                                 <?php
                             }
                             ?>
@@ -113,40 +125,38 @@
 
 <div class="container">
     <div id="lista-indicadores" class="starter-template">
-        <div class="panel panel-default">
-            <div id="table-panel" class="panel-heading"><strong>Lista de indicadores</strong></div>
-            <table class="table table-striped table-bordered table-hover">
-                <thead>
+        
+        <table id="table-indicators" class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Descripcion</th>
+                    <th>Tipo</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                foreach ($indicators as $indicator) {
+                    ?>
                     <tr>
-                        <th>Nombre</th>
-                        <th>Descripcion</th>
-                        <th>Tipo</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <?php
-                    foreach ($indicators as $indicator) {
-                        ?>
-                        <tr>
-                            <td><?= $indicator['Indicator']['nombre'] ?></td>
-                            <td><?= $indicator['Indicator']['descripcion'] ?></td>
-                            <td><?= $indicator['Indicator']['tipo'] ?></td>
-                            <td class="center">
-                                <button onclick="openRangeModal(
+                        <td><?= $indicator['Indicator']['nombre'] ?></td>
+                        <td><?= $indicator['Indicator']['descripcion'] ?></td>
+                        <td><?= $indicator['Indicator']['tipo'] ?></td>
+                        <td class="center">
+                            <button onclick="openRangeModal(
                                             '<?= strtolower($indicator['Indicator']['nombre']) ?>',
                                             '<?= $indicator['Indicator']['idindicador'] ?>');"
-                                        class="btn btn-default btn-sm">
-                                    <span class="glyphicon glyphicon-stats"></span>
-                                </button>
-                            </td>
-                        </tr>
-                        <?php
-                    }
-                    ?>
-                </tbody>
-            </table>
-        </div>
+                                    class="btn btn-default btn-sm">
+                                <span class="glyphicon glyphicon-stats"></span>
+                            </button>
+                        </td>
+                    </tr>
+                    <?php
+                }
+                ?>
+            </tbody>
+        </table>
     </div>
 </div>
 
