@@ -45,7 +45,7 @@
 }
 
 #lista-indicadores, #indicador, #access-denied, #error-action, #success-action,
-#accordion-form
+#accordion-form, .cake-error
 {
     position: relative;
     top: 60px;

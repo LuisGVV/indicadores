@@ -36,7 +36,7 @@ class IndicatorsController extends AppController {
         // Checks the access to view every indicator
         foreach ($indicators as $index => $indicator) {
             // Forms the indicator url
-            $url = 'chart/create_chart/' . $indicator['Indicator']['nombre'] . '/' . $indicator['Indicator']['idindicador'];
+            $url = 'chart/create_chart/' . $indicator['Indicator']['codigo'] . '/' . $indicator['Indicator']['idindicador'];
 
             // Checks the access
             if (!$this->URLCheck->analizeAccess($access, $url)) {
@@ -50,6 +50,31 @@ class IndicatorsController extends AppController {
 
         // Renders the list
         $this->render('indicators_list', 'conare');
+    }
+    
+    public function get_details() {
+        // The result
+        $result = array();
+
+        // Indicates error
+        $result['success'] = false;
+
+        // Gets the indicator
+        $indicatorId = $this->request->data['indicatorId'];
+        $indicator = $this->Indicator->findByidindicador($indicatorId);
+        
+        // Saves the details to display about indicator
+        $result['descripcion'] = $indicator['Indicator']['descripcion'];
+        $result['formula'] = $indicator['Indicator']['formula'];
+        
+        FirePHP::getInstance(true)->log($result);
+        // Sets result success as true
+        $result['success'] = true;
+
+        // Sends the response
+        $this->response->type('application/json');
+        $this->response->body(json_encode($result));
+        return $this->response;
     }
 
 }

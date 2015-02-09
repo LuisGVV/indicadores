@@ -25,14 +25,24 @@ class AuditController extends AppController {
      */
     public function index() {
         // Gets the session information
-        $access = $this->Session->read('access');
-        
+        //$access = $this->Session->read('access');
+        $before = memory_get_usage();        
         // Gets all the indicators
-        $audit = $this->Audit->find('all');
-
+        $audit = $this->Audit->find('all', array('fields'=>array('Audit.idauditoria',
+            'Audit.valor', 'Audit.anho', 'Audit.usuario_idusuario', 'dato_iddato',
+            'Data.nombre', 'Data.descripcion')));
+        //$audit = $this->Audit->find('all');
+        
+        $after = memory_get_usage();
+        $allocatedSize = ($after - $before);
+        FirePHP::getInstance(true)->log($audit);
+        FirePHP::getInstance(true)->log($allocatedSize);
         // Sets the list of indicators
+        $before1 = memory_get_usage();
         $this->set('audit', $audit);
-
+        $after1 = memory_get_usage();
+        $allocatedSize1 = ($after1 - $before1);
+        FirePHP::getInstance(true)->log($allocatedSize1);
         // Renders the list
         $this->render('index', 'conare');
     }
@@ -66,8 +76,6 @@ class AuditController extends AppController {
         $result['descripcionDato'] = $dato['Data']['descripcion']; 
         $result['fecha'] = $audit['Audit']['fecha'];
         $result['success'] = true;
-        FirePHP::getInstance(true)->log($result);
-
         // Sends the response
         $this->response->type('application/json');
         $this->response->body(json_encode($result));

@@ -67,6 +67,29 @@ $this->Html->css('//cdn.datatables.net/1.10.4/css/jquery.dataTables.css', null, 
             $("#range-form").submit();
         }
     };
+    
+    var openIndicatorModal = function (code, name, indicatorId) {
+        
+        
+        // Gets the user
+        $.ajax({
+            type: "post",
+            url: "<?= $this->Html->url(array("controller" => "indicators", "action" => "get_details")) ?>",
+            data: {
+                "indicatorId": indicatorId
+            },
+            dataTypeString: "json",
+            success: function (data) {
+                if (data.success === true) {
+                    //Populate modal with received data
+                    $("#code-name").html(code+" - "+name);
+                    $("#description").html(data.descripcion);
+                    $("#formula").html(data.formula);
+                    $('#details-modal').modal('show');
+                }
+            }
+        });
+    };
 
 
 </script>
@@ -121,7 +144,27 @@ $this->Html->css('//cdn.datatables.net/1.10.4/css/jquery.dataTables.css', null, 
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-
+<div id="details-modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h3 id="modal-header" class="modal-title">Detalles del Indicador</h3>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <h4 id="code-name"></h4>
+                </div>
+                <div class="form-group">
+                    <label>Descripción:</label><p id="description"></p>
+                </div>
+                <div class="form-group">
+                    <label>Fórmula:</label><p id="formula"></p>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
 <div class="container">
     <div id="lista-indicadores" class="starter-template">
@@ -129,10 +172,11 @@ $this->Html->css('//cdn.datatables.net/1.10.4/css/jquery.dataTables.css', null, 
         <table id="table-indicators" class="table table-striped table-bordered table-hover">
             <thead>
                 <tr>
+                    <th>Codigo</th>
                     <th>Nombre</th>
-                    <th>Descripcion</th>
+                    <th>Descripción y fórmula</th>
                     <th>Tipo</th>
-                    <th></th>
+                    <th>Graficar</th>
                 </tr>
             </thead>
             <tbody>
@@ -140,12 +184,21 @@ $this->Html->css('//cdn.datatables.net/1.10.4/css/jquery.dataTables.css', null, 
                 foreach ($indicators as $indicator) {
                     ?>
                     <tr>
+                        <td><?= $indicator['Indicator']['codigo'] ?></td>
                         <td><?= $indicator['Indicator']['nombre'] ?></td>
-                        <td><?= $indicator['Indicator']['descripcion'] ?></td>
+                        <td class="center">
+                            <button onclick="openIndicatorModal(
+                                            '<?= $indicator['Indicator']['codigo'] ?>',
+                                            '<?= $indicator['Indicator']['nombre']?>',
+                                            '<?= $indicator['Indicator']['idindicador'] ?>');"
+                                    class="btn btn-default btn-sm">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </td>
                         <td><?= $indicator['Indicator']['tipo'] ?></td>
                         <td class="center">
                             <button onclick="openRangeModal(
-                                            '<?= strtolower($indicator['Indicator']['nombre']) ?>',
+                                            '<?= strtolower($indicator['Indicator']['codigo']) ?>',
                                             '<?= $indicator['Indicator']['idindicador'] ?>');"
                                     class="btn btn-default btn-sm">
                                 <span class="glyphicon glyphicon-stats"></span>

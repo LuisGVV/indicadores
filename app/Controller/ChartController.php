@@ -49,6 +49,7 @@ class ChartController extends AppController {
 
         // Renders the view
         $this->set('indicator', $indicator);
+        FirePHP::getInstance(true)->log($indicator);
         $this->set('info', $info);
         $this->render($info['view'], 'conare');
     }

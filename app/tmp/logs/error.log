@@ -2044,3 +2044,1038 @@
 2014-12-18 22:38:48 Error: [MissingControllerException] Controller class JsController could not be found.
 #0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-01-19 15:18:03 Error: Fatal Error (4): syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\xampp\htdocs\indicadores\app\Controller\DataController.php, line 102]
+2015-01-19 15:18:03 Error: [FatalErrorException] syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 102)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 102, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 102, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 15:25:59 Error: Fatal Error (4): syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\xampp\htdocs\indicadores\app\Controller\DataController.php, line 102]
+2015-01-19 15:25:59 Error: [FatalErrorException] syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 102)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 102, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 102, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 15:26:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-19 15:26:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-19 16:03:52 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\indicadores\app\Controller\DataController.php, line 284]
+2015-01-19 16:03:52 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 284)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 284, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 284, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 16:03:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-19 16:03:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-19 16:03:55 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\indicadores\app\Controller\DataController.php, line 284]
+2015-01-19 16:03:55 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 284)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 284, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 284, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 16:04:06 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\indicadores\app\Controller\DataController.php, line 284]
+2015-01-19 16:04:06 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 284)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 284, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 284, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 16:04:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-19 16:04:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 17:41:20 Error: Fatal Error (1): Call to undefined function load() in [C:\xampp\htdocs\indicadores\app\Controller\DataController.php, line 100]
+2015-01-23 17:41:20 Error: [FatalErrorException] Call to undefined function load()
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 100)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 100, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 100, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-23 17:41:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 17:41:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:29:54 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb(Array, NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(153): FirePHP->log(Array)
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-23 21:29:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:29:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:30:40 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb(Array, NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(153): FirePHP->log(Array)
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-23 21:30:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:30:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:33:17 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb(Array, NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(153): FirePHP->log(Array)
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-23 21:33:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:33:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:33:55 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb(Array, NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(153): FirePHP->log(Array)
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-23 21:33:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:33:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:34:41 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('$errors', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(153): FirePHP->log('$errors')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-23 21:34:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:34:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:34:47 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('$errors', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(153): FirePHP->log('$errors')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-23 21:34:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:34:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:35:40 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('$errors', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(153): FirePHP->log('$errors')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-23 21:35:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:35:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:36:59 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(153): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-23 21:36:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:37:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:37:10 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(153): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-23 21:37:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:37:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:38:54 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(153): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-23 21:38:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:38:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:39:29 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(153): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-23 21:39:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:39:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:40:09 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(153): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-23 21:40:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 21:40:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 15:41:25 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(153): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 15:41:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 15:41:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 15:42:35 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 15:42:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 15:42:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 15:43:04 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 15:43:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 15:43:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:06:13 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 16:06:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:06:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:12:24 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 16:12:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:12:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:13:23 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 16:13:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:13:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:18:30 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 16:18:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:18:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:32:32 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 16:32:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:32:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:33:03 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 16:33:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:33:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:38:09 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 16:38:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:38:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:39:41 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 16:39:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:39:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:40:01 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 16:40:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:40:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:43:20 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 16:43:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:43:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:46:50 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 16:46:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 16:46:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 17:36:07 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 17:36:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 17:36:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 17:36:17 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 17:36:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 17:36:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 17:36:42 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 17:36:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 17:36:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 17:36:55 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 17:36:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 17:36:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 17:37:10 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 17:37:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 17:37:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 22:20:54 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 22:20:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 22:20:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 22:30:43 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 22:30:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 22:30:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 22:30:53 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 22:30:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 22:30:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 22:31:36 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 22:31:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 22:31:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 22:32:10 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 22:32:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 22:32:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 22:32:15 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 22:32:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 22:32:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 22:32:29 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 22:32:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 22:32:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 22:32:54 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('dsgsdf', NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(154): FirePHP->log('dsgsdf')
+#3 [internal function]: DataController->xml_file()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-01-26 22:32:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-26 22:32:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-30 17:23:57 Error: [MissingControllerException] Controller class IndicatorController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-30 17:25:22 Error: [MissingControllerException] Controller class IndicatorController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-30 17:27:00 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Indicator.idindicator' in 'where clause'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Indicat...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Indicat...', Array, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Indicat...', false)
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Indicator), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(598): Model->find('first', Array)
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): DboSource->query('findByidindicat...', Array, Object(Indicator))
+#7 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(64): Model->__call('findByidindicat...', Array)
+#8 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(64): Indicator->findByidindicator('15')
+#9 [internal function]: IndicatorsController->get_details()
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(IndicatorsController), Array)
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-01-30 17:45:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Indicator.idindicator' in 'where clause'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Indicat...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Indicat...', Array, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Indicat...', false)
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Indicator), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(598): Model->find('first', Array)
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): DboSource->query('findByidindicat...', Array, Object(Indicator))
+#7 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(64): Model->__call('findByidindicat...', Array)
+#8 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(64): Indicator->findByidindicator('15')
+#9 [internal function]: IndicatorsController->get_details()
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(IndicatorsController), Array)
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-01-30 17:47:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Indicator.idindicator' in 'where clause'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Indicat...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Indicat...', Array, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Indicat...', false)
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Indicator), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(598): Model->find('first', Array)
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): DboSource->query('findByidindicat...', Array, Object(Indicator))
+#7 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(66): Model->__call('findByidindicat...', Array)
+#8 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(66): Indicator->findByidindicator('1')
+#9 [internal function]: IndicatorsController->get_details()
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(IndicatorsController), Array)
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-01-30 18:21:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Indicator.idindicator' in 'where clause'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Indicat...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Indicat...', Array, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Indicat...', false)
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Indicator), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(598): Model->find('first', Array)
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): DboSource->query('findByidindicat...', Array, Object(Indicator))
+#7 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(66): Model->__call('findByidindicat...', Array)
+#8 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(66): Indicator->findByidindicator('15')
+#9 [internal function]: IndicatorsController->get_details()
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(IndicatorsController), Array)
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-01-30 18:24:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Indicator.idindicator' in 'where clause'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Indicat...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Indicat...', Array, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Indicat...', false)
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Indicator), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(598): Model->find('first', Array)
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): DboSource->query('findByidindicat...', Array, Object(Indicator))
+#7 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(66): Model->__call('findByidindicat...', Array)
+#8 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(66): Indicator->findByidindicator('1')
+#9 [internal function]: IndicatorsController->get_details()
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(IndicatorsController), Array)
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-01-30 18:26:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Indicator.idindicator' in 'where clause'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Indicat...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Indicat...', Array, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Indicat...', false)
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Indicator), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(598): Model->find('first', Array)
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): DboSource->query('findByidindicat...', Array, Object(Indicator))
+#7 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(66): Model->__call('findByidindicat...', Array)
+#8 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(66): Indicator->findByidindicator('15')
+#9 [internal function]: IndicatorsController->get_details()
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(IndicatorsController), Array)
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-01-30 18:35:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Indicator.idindicator' in 'where clause'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Indicat...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Indicat...', Array, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Indicat...', false)
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Indicator), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(598): Model->find('first', Array)
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): DboSource->query('findByidindicat...', Array, Object(Indicator))
+#7 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(66): Model->__call('findByidindicat...', Array)
+#8 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(66): Indicator->findByidindicator('15')
+#9 [internal function]: IndicatorsController->get_details()
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(IndicatorsController), Array)
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-01-30 18:44:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Indicator.idindicator' in 'where clause'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Indicat...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Indicat...', Array, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Indicat...', false)
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Indicator), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(598): Model->find('first', Array)
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): DboSource->query('findByidindicat...', Array, Object(Indicator))
+#7 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(66): Model->__call('findByidindicat...', Array)
+#8 C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php(66): Indicator->findByidindicator('15')
+#9 [internal function]: IndicatorsController->get_details()
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(IndicatorsController), Array)
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(IndicatorsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-01-30 18:46:11 Error: Fatal Error (4): syntax error, unexpected '$result' (T_VARIABLE) in [C:\xampp\htdocs\indicadores\app\Controller\IndicatorsController.php, line 72]
+2015-01-30 18:46:11 Error: [FatalErrorException] syntax error, unexpected '$result' (T_VARIABLE)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 72)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 72, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 72, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-30 18:46:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-30 18:46:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 23:27:04 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\indicadores\app\Controller\AuditController.php, line 38]
+2015-02-05 23:27:04 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 38, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 38, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-05 23:27:15 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\indicadores\app\Controller\AuditController.php, line 38]
+2015-02-05 23:27:15 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 38, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 38, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-05 23:27:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 23:27:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 16:56:35 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 33382621 bytes) in [C:\xampp\htdocs\indicadores\lib\Cake\View\View.php, line 924]
+2015-02-06 16:56:35 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 33382621 bytes)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-06 16:56:47 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 33382621 bytes) in [C:\xampp\htdocs\indicadores\lib\Cake\View\View.php, line 924]
+2015-02-06 16:56:47 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 33382621 bytes)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-06 16:56:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 16:56:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 18:37:25 Error: [Exception] Headers already sent in C:\xampp\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\xampp\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb(NULL, NULL, 'LOG', Array)
+#2 C:\xampp\htdocs\indicadores\app\Controller\AuditController.php(35): FirePHP->log(NULL)
+#3 [internal function]: AuditController->index()
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuditController), Array)
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuditController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-02-06 18:37:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 18:37:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 18:39:06 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 33382621 bytes) in [C:\xampp\htdocs\indicadores\lib\Cake\View\View.php, line 924]
+2015-02-06 18:39:06 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 33382621 bytes)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-06 18:39:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 18:39:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:23:48 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 32702313 bytes) in [C:\xampp\htdocs\indicadores\lib\Cake\View\View.php, line 924]
+2015-02-06 20:23:48 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 32702313 bytes)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-06 20:23:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:23:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:26:43 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 32702313 bytes) in [C:\xampp\htdocs\indicadores\lib\Cake\View\View.php, line 924]
+2015-02-06 20:26:43 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 32702313 bytes)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-06 20:26:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:26:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:35:36 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 32702313 bytes) in [C:\xampp\htdocs\indicadores\lib\Cake\View\View.php, line 924]
+2015-02-06 20:35:36 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 32702313 bytes)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-06 20:35:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:35:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:35:52 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 32702313 bytes) in [C:\xampp\htdocs\indicadores\lib\Cake\View\View.php, line 924]
+2015-02-06 20:35:52 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 32702313 bytes)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-06 20:35:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:35:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:36:09 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 32702313 bytes) in [C:\xampp\htdocs\indicadores\lib\Cake\View\View.php, line 924]
+2015-02-06 20:36:09 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 32702313 bytes)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-06 20:36:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:36:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:48:51 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 32702313 bytes) in [C:\xampp\htdocs\indicadores\lib\Cake\View\View.php, line 924]
+2015-02-06 20:48:51 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 32702313 bytes)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', 'C:\\xampp\\htdocs...', 924, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-06 20:48:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 20:48:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 23:05:01 Error: Fatal Error (4): syntax error, unexpected '$indicator_array' (T_VARIABLE) in [C:\xampp\htdocs\indicadores\app\Controller\DataController.php, line 39]
+2015-02-06 23:05:01 Error: [FatalErrorException] syntax error, unexpected '$indicator_array' (T_VARIABLE)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-06 23:05:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 23:05:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 23:41:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Data.nombre' in 'field list'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Audit`....', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Audit`....', Array, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Audit`....', false)
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(2630): DboSource->read(Object(Audit), Array)
+#5 C:\xampp\htdocs\indicadores\app\Controller\AuditController.php(33): Model->find('all', Array)
+#6 [internal function]: AuditController->index()
+#7 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AuditController), Array)
+#8 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AuditController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-02-06 23:41:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-06 23:41:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

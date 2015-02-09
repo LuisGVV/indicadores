@@ -37,7 +37,7 @@ class DataController extends AppController {
         foreach ($data_array as $index => $data) {
             foreach ($indicator_array as $indicator) { //join raro
                 if ($data['Data']['indicador_idindicador'] == $indicator['Indicator']['idindicador']) {
-                    $data['Data']['indicador_idindicador'] = $indicator['Indicator']['descripcion'];
+                    $data['Data']['indicador_idindicador'] = $indicator['Indicator']['nombre'];
                     $data_array[$index] = $data;
                     break;
                 }
@@ -75,6 +75,7 @@ class DataController extends AppController {
 
         // Contains the information from the xml
         $xml_data = array();
+        $save_audit_array = array();
 
         // The year
         $year = 0;
@@ -95,42 +96,70 @@ class DataController extends AppController {
 
             // Gets the xml information
             $xml_information = simplexml_load_file($filename);
+            $xml_test = new DOMDocument();
+            $xml_test->load($filename);
+            $xml_schema = './xml/formatoIndicadores.xsd';
+            libxml_use_internal_errors(true);
+            $check_schema = $xml_test->schemaValidate($xml_schema);
+            FirePHP::getInstance(true)->log($check_schema);
 
-            // Gets the year
-            $year = (int) isset($xml_information->periodo) ? $xml_information->periodo : 0;
+            foreach ($xml_information->periodo as $periodo) {
+                $year = (int) $xml_information->periodo;
+            }
+            
+            if($check_schema){
+                // Checks if the year information was already submited
+                $existing_data = $this->UniversityYearData->findByAnhoAndUniversidad_iduniversidad($year, $iduniversity);
+                if ($existing_data == NULL ) {
+                    // Creates the data from the xml
+                    if (isset($xml_information->totales) && isset($xml_information->totales->total) &&
+                            isset($xml_information->periodo)) {
+                        foreach ($xml_information->periodo as $periodo) {
+                            $year = (int) $xml_information->periodo;
+                        }
+                        foreach ($xml_information->totales->total as $total) {
+                            // Gets the id and the value
+                            $data_name = (string) $total->id;
+                            $data_value = (int) $total->valor;
+                            $data = $this->Data->findByNombre($data_name);
 
-            // Checks if the year information was already submited
-            $existing_data = $this->UniversityYearData->findByAnhoAndUniversidad_iduniversidad($year, $iduniversity);
-            if ($existing_data == NULL) {
-                // Creates the data from the xml
-                if (isset($xml_information->totales) && isset($xml_information->totales->total)) {
-                    foreach ($xml_information->totales->total as $total) {
-                        // Gets the id and the value
-                        $data_name = (string) $total->id;
-                        $data_value = (int) $total->valor;
-                        $data = $this->Data->findByNombre($data_name);
+                            $year_data = array();
+                            $year_data['dato_iddato'] = $data['Data']['iddato'];
+                            $year_data['universidad_iduniversidad'] = $iduniversity;
+                            $year_data['anho'] = $year;
+                            $year_data['valor'] = $data_value;
 
-                        $year_data = array();
-                        $year_data['dato_iddato'] = $data['Data']['iddato'];
-                        $year_data['universidad_iduniversidad'] = $iduniversity;
-                        $year_data['anho'] = $year;
-                        $year_data['valor'] = $data_value;
+                            // Saves the audit information
+                            $audit_data = array();
+                            $audit_data['valor'] = $data_value;
+                            $audit_data['anho'] = $year;
+                            $audit_data['fecha'] = date("Y-m-d H:i:s");
+                            $audit_data['usuario_idusuario'] = $user['User']['idusuario'];
+                            $audit_data['dato_iddato'] = $data['Data']['iddato'];
 
-                        array_push($xml_data, $year_data);
+                            array_push($save_audit_array, $audit_data);
+                            array_push($xml_data, $year_data);
+                        }
+
+                        $this->UniversityYearData->saveMany($xml_data);
+                        $this->Audit->saveMany($save_audit_array);
+                        $message = 'Los datos fueron cargados correctamente.';
+                    } else {
+                        $result = false;
+                        $message = 'El formato del XML es incorrecto.';
                     }
-
-                    $message = 'Los datos fueron cargados correctamente.';
                 } else {
                     $result = false;
-                    $message = 'El formato del XML es incorrecto.';
+                    $message = 'Ya existe informacion para el año indicado. Cargue los datos y modifíquelos manualmente o bien borre todos los datos para ese año.';
                 }
-            } else {
+            }else{
                 $result = false;
-                $message = 'Ya existe informacion para el año indicado.';
+                $message = 'El formato del XML es incorrecto. Por favor revise de nuevo el archivo. Recuerde que las mayúsculas y minúsculas son distintas';
             }
         } catch (Exception $e) {
+            $errors = libxml_get_errors();
             $result = false;
-            $message = 'Ocurrio un error al leer el XML.  Por favor intente de nuevo.';
+            $message = 'Ooops error interno del servidor. Por favor intente de nuevo o contacte al administrador del sitio.';
         }
 
         // Sets the information for the UI
@@ -208,7 +237,7 @@ class DataController extends AppController {
         $this->set('year', $year);
         $this->set('result', $result);
         $this->set('message', $message);
-        
+
         FirePHP::getInstance(true)->log($load_data_array);
 
         // Renders the page
@@ -242,25 +271,28 @@ class DataController extends AppController {
             // Checks each data into the submit and add it to save the value later
             foreach ($data_array as $data) {
                 // Gets all the required information
-                $university_year_data = array();
-                $university_year_data['dato_iddato'] = $data['Data']['iddato'];
-                $university_year_data['universidad_iduniversidad'] = $iduniversity;
-                $university_year_data['anho'] = $year;
-                $university_year_data['valor'] = $this->request->data['iddato_' . $data['Data']['iddato']];
-                
-                // Saves the audit information
-                $audit_data = array();
-                $audit_data['valor'] = $university_year_data['valor'];
-                $audit_data['anho'] = $university_year_data['anho'];
-                $audit_data['fecha'] = date("Y-m-d H:i:s");
-                $audit_data['usuario_idusuario'] = $user['User']['idusuario'];
-                $audit_data['dato_iddato'] = $university_year_data['dato_iddato'];
+                if($this->request->data['iddato_' . $data['Data']['iddato']] != null){
+                    $university_year_data = array();
+                    $university_year_data['dato_iddato'] = $data['Data']['iddato'];
+                    $university_year_data['universidad_iduniversidad'] = $iduniversity;
+                    $university_year_data['anho'] = $year;
+                    $university_year_data['valor'] = $this->request->data['iddato_' . $data['Data']['iddato']];
 
-                // Pushes the information
-                array_push($save_data_array, $university_year_data);
-                array_push($save_audit_array, $audit_data);
+                    // Saves the audit information
+                    $audit_data = array();
+                    $audit_data['valor'] = $university_year_data['valor'];
+                    $audit_data['anho'] = $university_year_data['anho'];
+                    $audit_data['fecha'] = date("Y-m-d H:i:s");
+                    $audit_data['usuario_idusuario'] = $user['User']['idusuario'];
+                    $audit_data['dato_iddato'] = $university_year_data['dato_iddato'];
+
+                    // Pushes the information
+                    array_push($save_data_array, $university_year_data);
+                    array_push($save_audit_array, $audit_data);
+                }
             }
-
+            FirePHP::getInstance(true)->log($save_data_array);
+            FirePHP::getInstance(true)->log($save_audit_array);
             // Saves the information
             $this->UniversityYearData->saveMany($save_data_array);
             $this->Audit->saveMany($save_audit_array);
@@ -269,8 +301,11 @@ class DataController extends AppController {
             $result = true;
         }
 
+        $message = 'Los datos fueron subidos correctamente';
+
         // Sets the result
         $this->set('result', $result);
+        $this->set('message', $message);
 
         // Renders the page
         $this->render('save_data', 'conare');

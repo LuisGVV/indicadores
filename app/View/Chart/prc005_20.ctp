@@ -33,22 +33,24 @@ foreach ($info['series'] as $year_series) {
 ?>
 </script>
 <div class="container">
-    <h1><?= $indicator['Indicator']['nombre'] ?></h1>
+    <h1><?= $indicator['Indicator']['codigo'] ?> - <?= $indicator['Indicator']['nombre'] ?></h1>
+    <h3>Descripción:</h3>
     <p><?= $indicator['Indicator']['descripcion'] ?></p>
-
+    <h3>Fórmula:</h3>
+    <p><?= $indicator['Indicator']['formula'] ?></p>
     <?php
     // For each year createsa plot
     foreach ($info['series'] as $year_series) {
         ?>
-        <script type="text/javascript">    
-            $(document).ready(function(){
+        <script type="text/javascript">
+            $(document).ready(function () {
                 // Creates the tabs
                 $("#tabs_<?= $year_series['year'] ?>").tabs();
 
                 // Creates the table
                 $("#data-table_<?= $year_series['year'] ?>").dataTable({
-                    "aaData" : [series_<?= $year_series['year'] ?>],
-                    "aoColumns" : columns,
+                    "aaData": [series_<?= $year_series['year'] ?>],
+                    "aoColumns": columns,
                     "bPaginate": false,
                     "bLengthChange": false,
                     "bFilter": false,
@@ -60,8 +62,8 @@ foreach ($info['series'] as $year_series) {
                 // Creates the chart
                 var plot_<?= $year_series['year'] ?> = $.jqplot('chart_<?= $year_series['year'] ?>', [series_<?= $year_series['year'] ?>], {
                     seriesDefaults: {
-                        renderer:$.jqplot.BarRenderer,
-                        pointLabels: { show: true, location: 'e'},
+                        renderer: $.jqplot.BarRenderer,
+                        pointLabels: {show: true, location: 'e'},
                         rendererOptions: {
                             barDirection: 'horizontal',
                             barWidth: 30
@@ -69,7 +71,7 @@ foreach ($info['series'] as $year_series) {
                     },
                     axes: {
                         xaxis: {
-                            label: "Cantidad"  
+                            label: "Cantidad"
                         },
                         yaxis: {
                             renderer: $.jqplot.CategoryAxisRenderer,
@@ -80,11 +82,11 @@ foreach ($info['series'] as $year_series) {
 
                 $("#chart_<?= $year_series['year'] ?>").height(450);
                 plot_<?= $year_series['year'] ?>.replot();
-                if(!window.chrome){
+                if (!window.chrome) {
                     var imgData = $('#chart_<?= $year_series['year'] ?>').jqplotToImageStr({}); // retrieve info from plot
                     var imgElem = $('<img/>').attr('src', imgData); // create an img and add the data to it
                     $('#chartImg_<?= $year_series['year'] ?>').append(imgElem); //append data to DOM
-                }   
+                }
             });
         </script>
 

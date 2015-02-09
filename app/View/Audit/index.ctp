@@ -3,7 +3,6 @@ $this->Html->script('//cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js', a
 $this->Html->css('//cdn.datatables.net/1.10.4/css/jquery.dataTables.css', null, array('inline' => false));
 ?>
 
-
 <script>
     $(document).ready(function () {
         //Inicializar DataTable
@@ -17,7 +16,6 @@ $this->Html->css('//cdn.datatables.net/1.10.4/css/jquery.dataTables.css', null, 
     var showAuditDetails = function (auditId) {
         // Cleans the dialog 
         $("#audit-details-modal").modal('show');
-        //$("#user-modal").find("input").val("");
 
         // Gets the user
         $.ajax({
@@ -40,7 +38,6 @@ $this->Html->css('//cdn.datatables.net/1.10.4/css/jquery.dataTables.css', null, 
             }
         })
     }
-
 </script>
 
 <div class="container">
@@ -49,7 +46,8 @@ $this->Html->css('//cdn.datatables.net/1.10.4/css/jquery.dataTables.css', null, 
         <table id="table-audit" class="table table-striped table-bordered table-hover">
             <thead>
                 <tr>
-                    <th>Código Dato</th>
+                    <th>Dato</th>
+                    <th>Descripción</th>
                     <th>Valor</th>
                     <th>Año</th>
                     <th>Detalles</th>
@@ -60,7 +58,8 @@ $this->Html->css('//cdn.datatables.net/1.10.4/css/jquery.dataTables.css', null, 
                 foreach ($audit as $auditoria) {
                     ?>
                     <tr>
-                        <td>D<?= $auditoria['Audit']['dato_iddato'] ?></td>
+                        <td><?= $auditoria['Data']['nombre'] ?></td>
+                        <td><?= $auditoria['Data']['descripcion'] ?></td>
                         <td><?= $auditoria['Audit']['valor'] ?></td>
                         <td><?= $auditoria['Audit']['anho'] ?></td>
                         <td class="center">

@@ -1,7 +1,13 @@
+<h1><?= $indicator['Indicator']['codigo'] ?> - <?= $indicator['Indicator']['nombre'] ?></h1>
+<h3>Descripción:</h3>
+<p><?= $indicator['Indicator']['descripcion'] ?></p>
+<h3>Fórmula:</h3>
+<p><?= $indicator['Indicator']['formula'] ?></p>
+
 <div>
     <ul class="nav nav-tabs" role="tablist">
         <li role="presentation" class="active">
-            <a href="#tabs-1" role="tab" data-toggle="tab">Grafico</a>
+            <a href="#tabs-1" role="tab" data-toggle="tab">Gráfico</a>
         </li>
         <li role="presentation"> 
             <a href="#tabs-2" role="tab" data-toggle="tab">Datos</a>

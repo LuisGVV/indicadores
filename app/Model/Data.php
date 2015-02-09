@@ -11,8 +11,6 @@
  * @author Lhoz
  */
 class Data extends AppModel {
-
     public $useTable = 'dato';
     public $primaryKey = 'iddato';
-
 }

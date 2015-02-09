@@ -11,8 +11,11 @@
 <?= $this->Html->script('jqplot/jquery.jqplot/jqplot.pointLabels.min.js') ?>
 <?= $this->Html->script('datatables/jquery.dataTables.js') ?>
 
-<h1><?= $indicator['Indicator']['nombre'] ?></h1>
+<h1><?= $indicator['Indicator']['codigo'] ?> - <?= $indicator['Indicator']['nombre'] ?></h1>
+<h3>Descripción:</h3>
 <p><?= $indicator['Indicator']['descripcion'] ?></p>
+<h3>Fórmula:</h3>
+<p><?= $indicator['Indicator']['formula'] ?></p>
 
 <div class="chart-list">
     <ul>

@@ -78,7 +78,5 @@ foreach ($info['series'] as $label) {
     });
 </script>
 <div id="indicador" class="container">
-    <h1><?= $indicator['Indicator']['nombre'] ?></h1>
-    <p><?= $indicator['Indicator']['descripcion'] ?></p>
     <?php include_once ('singleChartResult.ctp'); ?>
 </div>

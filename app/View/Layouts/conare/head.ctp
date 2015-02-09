@@ -1,7 +1,7 @@
 
 
 
-//<?= $this->Html->css('jquery/jquery-ui-1.10.3.custom.css') ?>
+<?= $this->Html->css('jquery/jquery-ui-1.10.3.custom.css') ?>
 <?= $this->Html->css('conare/conare.css') ?>
 
 <?= $this->Html->script('jquery/jquery-1.8.2.js') ?>
