@@ -12,7 +12,8 @@ if (isset($access) && $URLCheck->analizeAccess($access, 'data')) {
 
 <?php
 if (isset($access) && $URLCheck->analizeAccess($access, 'system')) {
-    ?><li><a href='<?= $this->Html->url(array("controller" => "system", "action" => "index")) ?>'>Sistema</button></li><?php
+    ?><li><a href='<?= $this->Html->url(array("controller" => "system", "action" => "index")) ?>'>Sistema</a></li>
+<?php
 }
 ?>
 

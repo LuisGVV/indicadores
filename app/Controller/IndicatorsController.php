@@ -43,7 +43,7 @@ class IndicatorsController extends AppController {
                 unset($indicators[$index]);
             }
         }
-        FirePHP::getInstance(true)->log($indicators);
+        //FirePHP::getInstance(true)->log($indicators);
 
         // Sets the list of indicators
         $this->set('indicators', $indicators);
@@ -67,7 +67,6 @@ class IndicatorsController extends AppController {
         $result['descripcion'] = $indicator['Indicator']['descripcion'];
         $result['formula'] = $indicator['Indicator']['formula'];
         
-        FirePHP::getInstance(true)->log($result);
         // Sets result success as true
         $result['success'] = true;
 

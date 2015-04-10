@@ -1,4 +1,4 @@
-.carousel .container {
+.carousel  {
     position: relative;
     z-index: 9;
 }
@@ -33,7 +33,7 @@
     padding: 0 20px;
     margin-top: 200px;
 }
-.carousel-caption h1,
+.carousel-caption,
 .carousel-caption .lead {
     margin: 0;
     line-height: 1.25;

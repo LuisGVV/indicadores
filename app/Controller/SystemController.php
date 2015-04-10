@@ -62,22 +62,22 @@ class SystemController extends AppController {
         // Renders the page
         $this->render('index', 'conare');
     }
-    
+
     /**
      * Handles the audit information (just shows the information)
      */
-    public function audit(){
+    public function audit() {
         // Gets the list of all users
         $audit = $this->Audit->find('all');
-        
+
         // Gets the data and user
-        foreach($audit as $index => $audit_data){
+        foreach ($audit as $index => $audit_data) {
             $user = $this->User->findByIdusuario($audit_data['Audit']['usuario_idusuario']);
             $audit_data['Audit']['usuario_idusuario'] = $user['User']['email'];
-            
+
             $data = $this->Data->findByIddato($audit_data['Audit']['dato_iddato']);
             $audit_data['Audit']['dato_iddato'] = $data['Data']['nombre'];
-            
+
             $audit[$index] = $audit_data;
         }
 
@@ -154,26 +154,34 @@ class SystemController extends AppController {
         $type = $this->request->data['usertype_id'];
         $university = $this->request->data['university_id'];
 
-        // Checks the user type and university association
-        if ($type == 2 && $university == NULL) {
-            $result['errorMessage'] = 'Un editor debe estar asociado a una universidad.';
-        } else if ($type == 3 && $university != NULL) {
-            $result['errorMessage'] = 'Un administrador no debe estar asociado a ninguna universidad.';
-        } else {
-            // Creates the user array
-            $user = array();
-            $user['nombre'] = $first_name;
-            $user['apellido'] = $last_name;
-            $user['email'] = $email;
-            $user['password'] = $password;
-            $user['tipo_usuario_idtipo_usuario'] = $type;
-            $user['universidad_iduniversidad'] = $university;
+        try {
+            // Checks the user type and university association
+            if ($type == 2 && $university == NULL) {
+                
+            } else if ($this->User->findByemail($email)) {
+                $result['errorMessage'] = 'El correo ingresado ya está registrado';
+            } else if ($type == 3 && $university != NULL) {
+                $result['errorMessage'] = 'Un administrador no debe estar asociado a ninguna universidad.';
+            } else {
+                // Creates the user array
+                $user = array();
+                $user['nombre'] = $first_name;
+                $user['apellido'] = $last_name;
+                $user['email'] = $email;
+                $user['password'] = $password;
+                $user['tipo_usuario_idtipo_usuario'] = $type;
+                $user['universidad_iduniversidad'] = $university;
 
-            // Saves the user
-            $this->User->save($user);
+                // Saves the user
+                $this->User->save($user);
 
-            // Indicates success
-            $result['success'] = true;
+
+                // Indicates success
+                $result['success'] = true;
+            }
+        } catch (Exception $e) {
+            $result['success'] = false;
+            $result['errorMessage'] = 'Ooops algo falló';
         }
 
         // Sends the response
@@ -191,7 +199,7 @@ class SystemController extends AppController {
 
         // Indicates error
         $result['success'] = false;
-
+        
         // Gets the value
         $id_user = $this->request->data['id'];
         $first_name = $this->request->data['first_name'];
@@ -200,28 +208,33 @@ class SystemController extends AppController {
         $password = md5($this->request->data['password']);
         $type = $this->request->data['usertype_id'];
         $university = $this->request->data['university_id'];
-
-        // Checks the user type and university association
-        if ($type == 2 && $university == NULL) {
-            $result['errorMessage'] = 'Un editor debe estar asociado a una universidad.';
-        } else if ($type == 3 && $university != NULL) {
-            $result['errorMessage'] = 'Un administrador no debe estar asociado a ninguna universidad.';
-        } else {
-            // Creates the user array
-            $user = array();
-            $user['idusuario'] = $id_user;
-            $user['nombre'] = $first_name;
-            $user['apellido'] = $last_name;
-            $user['email'] = $email;
-            $user['password'] = $password;
-            $user['tipo_usuario_idtipo_usuario'] = $type;
-            $user['universidad_iduniversidad'] = $university;
-
-            // Saves the user
-            $this->User->save($user);
-
-            // Indicates success
-            $result['success'] = true;
+        try {
+            // Checks the user type and university association
+            if ($type == 2 && $university == NULL) {
+                $result['errorMessage'] = 'Un editor debe estar asociado a una universidad.';
+            } else if ($type == 3 && $university != NULL) {
+                $result['errorMessage'] = 'Un administrador no debe estar asociado a ninguna universidad.';
+            } else {
+                FirePHP::getInstance(true)->log("Keepo1");
+                // Creates the user array
+                $user = array();
+                $user['idusuario'] = $id_user;
+                $user['nombre'] = $first_name;
+                $user['apellido'] = $last_name;
+                $user['email'] = $email;
+                $user['password'] = $password;
+                $user['tipo_usuario_idtipo_usuario'] = $type;
+                $user['universidad_iduniversidad'] = $university;
+                FirePHP::getInstance(true)->log("Keepo2");
+                // Saves the user
+                $this->User->save($user);
+                FirePHP::getInstance(true)->log("Keepo3");
+                // Indicates success
+                $result['success'] = true;
+            }
+        } catch (Exception $e) {
+            $result['success'] = false;
+            $result['errorMessage'] = 'Ooops algo falló. ';
         }
 
         // Sends the response

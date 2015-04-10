@@ -1,11 +1,11 @@
 <script type="text/javascript">
-    $(document).ready(function(){
+    $(document).ready(function () {
         // Validates the input form
         $("#input-form").validate();
-        
+
         // Validates the xml file
         $("#xml-form").validate();
-        
+
         // Creates the dialog of the xml load data
         $("#xml-dialog").dialog({
             resizable: false,
@@ -16,7 +16,7 @@
             autoOpen: false,
             height: 190
         });
-        
+
         // Creates the dialog to load an specific year
         $("#load-year-dialog").dialog({
             resizable: false,
@@ -28,43 +28,43 @@
             height: 190
         });
     });
-    
+
     /**
      * Validates the form
      */
-    var submitDataForm = function(){
-        if($("#input-form").valid()){
+    var submitDataForm = function () {
+        if ($("#input-form").valid()) {
             $("#input-form").submit();
         }
     };
-    
+
     /**
      * Opens the load from xml dialog
      */
-    var showXMLDialog = function(){
+    var showXMLDialog = function () {
         $('#xml-modal').modal('show');
     };
-    
+
     /**
      * Opens the load year dialog
      */
-    var showLoadYearDialog = function(){
+    var showLoadYearDialog = function () {
         $("#load-year-modal").modal('show');
     };
-    
+
     /**
      * Submit the xml information
      */
-    var submitXML = function(){
-        if($("#xml-form").valid()){
+    var submitXML = function () {
+        if ($("#xml-form").valid()) {
             $("#xml-form").submit();
         }
     };
-    
+
     /**
      * Submit the load year information
      */
-    var submitLoadYear = function(){
+    var submitLoadYear = function () {
         $("#load-year-form").submit();
     };
 </script>
@@ -86,7 +86,7 @@
                 <label class="error" id="xml-error"></label>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-                    <button class="btn btn-primary" onclick="submitXML();">Cargar</button>
+                    <button class="btn btn-primary" onclick="submitXML();"><span class="glyphicon glyphicon-open" aria-hidden="true"></span> Cargar</button>
                 </div>
             </div>
         </div>
@@ -129,18 +129,14 @@
 if (isset($result)) {
     if (!$result) {
         ?>
-        <div class="container">
-            <div id="error-action" class="alert alert-danger">    
-                <p><strong>Error:</strong> <?= $message ?></p>
-            </div>
+        <div id="error-action" class="alert alert-danger">    
+            <p><strong>Error:</strong> <?= $message ?></p>
         </div>
         <?php
     } else {
         ?>
-        <div class="container">
-            <div id="success-action" class="alert alert-success">    
-                <p><strong>Exito!</strong> <?= $message ?></p>
-            </div>
+        <div id="success-action" class="alert alert-success">    
+            <p><strong>Exito!</strong> <?= $message ?></p>
         </div>
         <?php
     }

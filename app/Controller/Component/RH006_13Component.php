@@ -36,11 +36,11 @@ class RH006_13Component extends Component {
         for ($year = $start; $year <= $end; $year++) {
             $calculation = 0;
 
+            // This seems kind of redundant as it isn't necessary to access data university by university...
             // For each year does the calculation for each university
             foreach ($universities as $university) {
                 $uy_d57 = $this->UniversityYearData->findByDato_iddatoAndUniversidad_iduniversidadAndAnho($data_d57['Data']['iddato'], $university['University']['iduniversidad'], $year);
                 
-                //FirePHP::getInstance(true)->log($uy_d60);
                 // Checks the obtained data and does the calculation
                 if (!empty($uy_d57)) {
                     $calculation += $uy_d57['UniversityYearData']['valor'];

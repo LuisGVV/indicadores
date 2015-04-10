@@ -1,13 +1,8 @@
-<?php include_once('common/dialogs.php'); ?>
-
-
 <div class="container">
-    <div id="accordion-form">
-        <h1>Ingreso de datos</h1>
-        <div class="data-actions">
-            <button type="button" class="btn btn-primary" onclick="showXMLDialog();">Cargar datos de archivo XML</button>
-            <button type="button" class="btn btn-primary" onclick="showLoadYearDialog();">Modificar datos de un año especifico</button>
-        </div>
+    
+        <h1 class="page-header">Ingreso de datos</h1>
+        <?php include_once('common/actions.php'); ?>
+        <?php include_once('common/dialogs.php'); ?>
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
             <form id="input-form" method="post" action="<?= $this->Html->url(array("controller" => "data", "action" => "save_data")) ?>">
             <div class="panel panel-default">
@@ -67,7 +62,8 @@
             </form>
              
         </div>
-    </div>
-            <button type="button" class="btn btn-primary"  onclick="submitDataForm();">Guardar</button>
+    
+            
 </div>
+<button type="button" class="btn btn-primary"  onclick="submitDataForm();">Guardar</button>
 

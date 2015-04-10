@@ -3079,3 +3079,169 @@
 2015-02-06 23:41:49 Error: [MissingControllerException] Controller class ImgController could not be found.
 #0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-02-16 23:27:32 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'nombre' cannot be null
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('INSERT INTO `in...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `in...')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1730): DboSource->create(Object(User), Array, Array)
+#4 C:\xampp\htdocs\indicadores\app\Controller\SystemController.php(173): Model->save(Array)
+#5 [internal function]: SystemController->create_user()
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#7 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-02-18 21:44:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'lgvv06@gmail.com' for key 'email'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('INSERT INTO `in...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `in...')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1730): DboSource->create(Object(User), Array, Array)
+#4 C:\xampp\htdocs\indicadores\app\Controller\SystemController.php(173): Model->save(Array)
+#5 [internal function]: SystemController->create_user()
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#7 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-02-18 21:50:15 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'lgvv06@gmail.com' for key 'email'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('INSERT INTO `in...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `in...')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1730): DboSource->create(Object(User), Array, Array)
+#4 C:\xampp\htdocs\indicadores\app\Controller\SystemController.php(173): Model->save(Array)
+#5 [internal function]: SystemController->create_user()
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#7 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-02-23 23:09:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'halpizar@una.cr' for key 'email'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('INSERT INTO `in...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `in...')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1730): DboSource->create(Object(User), Array, Array)
+#4 C:\xampp\htdocs\indicadores\app\Controller\SystemController.php(228): Model->save(Array)
+#5 [internal function]: SystemController->update_user()
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#7 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-02-23 23:11:05 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'halpizar@una.cr' for key 'email'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('INSERT INTO `in...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `in...')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1730): DboSource->create(Object(User), Array, Array)
+#4 C:\xampp\htdocs\indicadores\app\Controller\SystemController.php(229): Model->save(Array)
+#5 [internal function]: SystemController->update_user()
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#7 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-02-23 23:12:18 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'halpizar@una.cr' for key 'email'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('INSERT INTO `in...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `in...')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1730): DboSource->create(Object(User), Array, Array)
+#4 C:\xampp\htdocs\indicadores\app\Controller\SystemController.php(229): Model->save(Array)
+#5 [internal function]: SystemController->update_user()
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#7 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-02-23 23:13:04 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin@ind_ext.com' for key 'email'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('INSERT INTO `in...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `in...')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1730): DboSource->create(Object(User), Array, Array)
+#4 C:\xampp\htdocs\indicadores\app\Controller\SystemController.php(229): Model->save(Array)
+#5 [internal function]: SystemController->update_user()
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#7 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-02-23 23:14:21 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin@ind_ext.com' for key 'email'
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('INSERT INTO `in...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `in...')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1730): DboSource->create(Object(User), Array, Array)
+#4 C:\xampp\htdocs\indicadores\app\Controller\SystemController.php(229): Model->save(Array)
+#5 [internal function]: SystemController->update_user()
+#6 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(SystemController), Array)
+#7 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(SystemController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-04 21:59:11 Error: Fatal Error (1): Call to undefined method DataType::find() in [C:\xampp\htdocs\indicadores\app\Controller\DataController.php, line 34]
+2015-03-04 21:59:11 Error: [FatalErrorException] Call to undefined method DataType::find()
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-04 21:59:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 21:59:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 22:12:11 Error: Fatal Error (4): syntax error, unexpected '$data' (T_VARIABLE) in [C:\xampp\htdocs\indicadores\app\Controller\DataController.php, line 41]
+2015-03-04 22:12:11 Error: [FatalErrorException] syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 41, Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 41, Array)
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-04 22:12:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 22:12:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 23:41:51 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'anho' cannot be null
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('INSERT INTO `in...', Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(1007): DboSource->execute('INSERT INTO `in...')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1730): DboSource->create(Object(UniversityYearData), Array, Array)
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(2089): Model->save(Array, Array)
+#5 C:\xampp\htdocs\indicadores\app\Controller\DataController.php(298): Model->saveMany(Array)
+#6 [internal function]: DataController->save_data()
+#7 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(DataController), Array)
+#8 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(DataController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-03-06 23:41:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 23:41:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-25 21:22:49 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 C:\xampp\htdocs\indicadores\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 C:\xampp\htdocs\indicadores\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(3179): Model->setSource('acceso')
+#5 C:\xampp\htdocs\indicadores\lib\Cake\Model\Model.php(784): Model->getDataSource()
+#6 C:\xampp\htdocs\indicadores\app\Controller\AppController.php(67): Model->__call('findAllByTipo_u...', Array)
+#7 C:\xampp\htdocs\indicadores\app\Controller\AppController.php(67): Access->findAllByTipo_usuario_idtipo_usuario(1)
+#8 C:\xampp\htdocs\indicadores\app\Controller\AppController.php(54): AppController->verifyAccess()
+#9 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#10 C:\xampp\htdocs\indicadores\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#11 C:\xampp\htdocs\indicadores\lib\Cake\Controller\Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#12 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#13 C:\xampp\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-25 21:23:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-25 21:23:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

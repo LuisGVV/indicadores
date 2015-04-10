@@ -46,7 +46,7 @@ class RH005_12Component extends Component {
         for ($year = $start; $year <= $end; $year++) {
             // The responsibles list
             $responsibles = array();
-            for ($i = 51; $i <= 53; $i++) {
+            for ($i = 51; $i <= 56; $i++) {
                 array_push($responsibles, 0);
             }
 

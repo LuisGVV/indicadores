@@ -46,9 +46,9 @@
 <div class="container">
     <h1>Indicadores de Investigación</h1>
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut mi faucibus libero volutpat egestas in vel erat. Praesent sagittis, dui at ullamcorper rhoncus, enim leo venenatis velit, eget eleifend erat diam sit amet magna. Pellentesque mollis tempus enim nec euismod. Nunc ultrices dolor ac tortor volutpat sit amet tincidunt arcu hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc a sem risus. Proin placerat tristique imperdiet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin eget neque sit amet nibh cursus viverra et id arcu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        La Comisión de Vicerrectores de Investigación del Consejo Nacional de Rectores (CONARE) se honra en presentar a las comunidades universitaria, nacional e internacional el sitio de publicación sobre los indicadores de investigación interuniversitaria estatal de las cuatro instituciones de educación superior que conforman este Consejo.
     </p>
     <p>
-        Donec ultricies, massa a pharetra tempus, sapien sapien tristique neque, id bibendum arcu orci eget purus. Sed eu ipsum lectus, vel lobortis sapien. Suspendisse nec felis enim. Donec vulputate lectus orci, ac semper elit. Vivamus in varius est. Etiam ut ipsum iaculis leo aliquet gravida. Proin suscipit velit a arcu tempus eu bibendum diam elementum. Etiam ornare rhoncus mi ac sagittis.
+        La expectativa es que esta publicación se convierta en un insumo esperado, año tras año, por quienes ostentan cargos que demandan la toma de decisiones; pero también por aquellos y aquellas académicas que gustan del análisis crítico de la situación y/o tendencias de la investigación universitaria. Análisis que permita concluir sobre los logros y limitaciones alrededor del proceso de investigación en nuestras instituciones de educación superior universitaria estatal.
     </p>
 </div>

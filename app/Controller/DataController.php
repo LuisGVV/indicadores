@@ -16,7 +16,7 @@ class DataController extends AppController {
     /**
      * Models used by the controler 
      */
-    public $uses = array('Data', 'University', 'UniversityYearData', 'Audit', 'Indicator');
+    public $uses = array('Data', 'University', 'UniversityYearData', 'Audit', 'Indicator', 'DataType');
 
     /**
      * The components used in this controller 
@@ -31,13 +31,14 @@ class DataController extends AppController {
         $data_array = $this->Data->find('all');
 
         // Gets the indicators
-        $indicator_array = $this->Indicator->find('all');
+        $dataType_array = $this->DataType->find('all');
         //FirePHP::getInstance(true)->log($indicator_array);
+        FirePHP::getInstance(true)->log($dataType_array);
         // Gets the names of the indicators
         foreach ($data_array as $index => $data) {
-            foreach ($indicator_array as $indicator) { //join raro
-                if ($data['Data']['indicador_idindicador'] == $indicator['Indicator']['idindicador']) {
-                    $data['Data']['indicador_idindicador'] = $indicator['Indicator']['nombre'];
+            foreach ($dataType_array as $dataType) { //join raro
+                if ($data['Data']['indicador_idindicador'] == $dataType['DataType']['idtipodato']) {
+                    $data['Data']['indicador_idindicador'] = $dataType['DataType']['tipo'];
                     $data_array[$index] = $data;
                     break;
                 }
@@ -59,14 +60,14 @@ class DataController extends AppController {
         // Gets the data to create the form
         $data_array = $this->Data->find('all');
 
-        // Gets the indicators
-        $indicator_array = $this->Indicator->find('all');
-
+        $dataType_array = $this->DataType->find('all');
+        //FirePHP::getInstance(true)->log($indicator_array);
+        FirePHP::getInstance(true)->log($dataType_array);
         // Gets the names of the indicators
         foreach ($data_array as $index => $data) {
-            foreach ($indicator_array as $indicator) {
-                if ($data['Data']['indicador_idindicador'] == $indicator['Indicator']['idindicador']) {
-                    $data['Data']['indicador_idindicador'] = $indicator['Indicator']['descripcion'];
+            foreach ($dataType_array as $dataType) { //join raro
+                if ($data['Data']['indicador_idindicador'] == $dataType['DataType']['idtipodato']) {
+                    $data['Data']['indicador_idindicador'] = $dataType['DataType']['tipo'];
                     $data_array[$index] = $data;
                     break;
                 }
@@ -101,7 +102,7 @@ class DataController extends AppController {
             $xml_schema = './xml/formatoIndicadores.xsd';
             libxml_use_internal_errors(true);
             $check_schema = $xml_test->schemaValidate($xml_schema);
-            FirePHP::getInstance(true)->log($check_schema);
+            //FirePHP::getInstance(true)->log($check_schema);
 
             foreach ($xml_information->periodo as $periodo) {
                 $year = (int) $xml_information->periodo;
@@ -140,17 +141,18 @@ class DataController extends AppController {
                             array_push($save_audit_array, $audit_data);
                             array_push($xml_data, $year_data);
                         }
-
+                         
                         $this->UniversityYearData->saveMany($xml_data);
                         $this->Audit->saveMany($save_audit_array);
-                        $message = 'Los datos fueron cargados correctamente.';
+                        $result = true;
+                        $message = 'Los datos encontrados en el archivo fueron cargados correctamente. Se encontraron datos para el año '.$year;
                     } else {
                         $result = false;
                         $message = 'El formato del XML es incorrecto.';
                     }
                 } else {
                     $result = false;
-                    $message = 'Ya existe informacion para el año indicado. Cargue los datos y modifíquelos manualmente o bien borre todos los datos para ese año.';
+                    $message = 'Ya existe informacion para el año '.$year.'. Cargue los datos y modifíquelos manualmente o bien borre todos los datos para ese año.';
                 }
             }else{
                 $result = false;
@@ -159,7 +161,7 @@ class DataController extends AppController {
         } catch (Exception $e) {
             $errors = libxml_get_errors();
             $result = false;
-            $message = 'Ooops error interno del servidor. Por favor intente de nuevo o contacte al administrador del sitio.';
+            $message = 'Ooops error interno del servidor. Por favor intente de nuevo o contacte al administrador del sitio. '.$errors;
         }
 
         // Sets the information for the UI
@@ -170,7 +172,7 @@ class DataController extends AppController {
         $this->set('message', $message);
 
         // Renders the page
-        $this->render('index', 'conare');
+        $this->render('xml_data', 'conare');
     }
 
     /**
@@ -187,13 +189,13 @@ class DataController extends AppController {
         $data_array = $this->Data->find('all');
 
         // Gets the indicators
-        $indicator_array = $this->Indicator->find('all');
+        $dataType_array = $this->DataType->find('all');
 
         // Gets the names of the indicators
         foreach ($data_array as $index => $data) {
-            foreach ($indicator_array as $indicator) {
-                if ($data['Data']['indicador_idindicador'] == $indicator['Indicator']['idindicador']) {
-                    $data['Data']['indicador_idindicador'] = $indicator['Indicator']['descripcion'];
+            foreach ($dataType_array as $dataType) { //join raro
+                if ($data['Data']['indicador_idindicador'] == $dataType['DataType']['idtipodato']) {
+                    $data['Data']['indicador_idindicador'] = $dataType['DataType']['tipo'];
                     $data_array[$index] = $data;
                     break;
                 }
@@ -238,7 +240,7 @@ class DataController extends AppController {
         $this->set('result', $result);
         $this->set('message', $message);
 
-        FirePHP::getInstance(true)->log($load_data_array);
+        //FirePHP::getInstance(true)->log($load_data_array);
 
         // Renders the page
         $this->render('load_data', 'conare');
@@ -260,7 +262,7 @@ class DataController extends AppController {
 
         // Gets the year
         $year = $this->request->data['year'];
-        FirePHP::getInstance(true)->log($this->request->data);
+        //FirePHP::getInstance(true)->log($this->request->data);
         // Checks if the year information was already submited
         $existing_data = $this->UniversityYearData->findByAnhoAndUniversidad_iduniversidad($year, $iduniversity);
         if ($existing_data == NULL) {
@@ -291,17 +293,19 @@ class DataController extends AppController {
                     array_push($save_audit_array, $audit_data);
                 }
             }
-            FirePHP::getInstance(true)->log($save_data_array);
-            FirePHP::getInstance(true)->log($save_audit_array);
+            //FirePHP::getInstance(true)->log($save_data_array);
+            //FirePHP::getInstance(true)->log($save_audit_array);
             // Saves the information
             $this->UniversityYearData->saveMany($save_data_array);
             $this->Audit->saveMany($save_audit_array);
-
+            
             // The result is success
             $result = true;
+            $message = 'Los datos fueron subidos correctamente';
+        }else{
+            
         }
-
-        $message = 'Los datos fueron subidos correctamente';
+        
 
         // Sets the result
         $this->set('result', $result);
@@ -366,10 +370,14 @@ class DataController extends AppController {
 
             // The result is success
             $result = true;
+            $message = 'Los datos del para el año <strong>'.$year.'</strong> fueron actualizados.';
+        }else{
+            $message = 'Ooops al parecer hay un error interno.';
         }
 
         // Sets the result
         $this->set('result', $result);
+        $this->set('message', $message);
 
         // Renders the page
         $this->render('save_data', 'conare');

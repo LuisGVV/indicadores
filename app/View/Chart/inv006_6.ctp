@@ -19,10 +19,22 @@ foreach ($info['ticks'] as $index => $tick) {
     $tick = str_replace(' (equipo e infraestructura)', '', $tick);
     $tick = str_replace('Gastos en inversion en', '', $tick);
     $tick = str_replace(' (Incluye Ad honorem)', '', $tick); 
+    $tick = str_replace('Gastos en recurso humano en ', '', $tick);
+    $tick = str_replace('Gastos en operacion en ', '', $tick);
     echo "ticks.push('" . $tick . "');\n";
     //echo "ticks.push('" . ($index + 1) . ' - ' . $tick . "');\n";
     echo "columns.push({'sTitle' : '" . ($index + 1) . "*'});\n";
-}?>
+}
+
+?>
+
+//Workaround to eliminate duplicates in ticks
+//This should be improved as it may cause overhead on the client side
+var gastosUnicos = [];
+$.each(ticks, function(i, el){
+    if($.inArray(el, gastosUnicos) === -1) gastosUnicos.push(el);
+});
+ticks = gastosUnicos;
 
 <?php
 // Sets the series

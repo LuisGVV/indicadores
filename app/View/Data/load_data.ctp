@@ -1,14 +1,14 @@
-<?php include_once('common/dialogs.php'); ?>
+
 
 <div class="container">
     <div id="accordion-form">
         <h1>Ingreso de datos</h1>
-        <div class="data-actions">
-            <button type="button" class="btn btn-primary" onclick="showXMLDialog();">Cargar datos de archivo XML</button>
-            <button type="button" class="btn btn-primary" onclick="showLoadYearDialog();">Modificar datos de un año especifico</button>
-        </div>
+        <?php include_once('common/actions.php'); ?>
+        <?php include_once('common/dialogs.php'); ?>
+        
+        <?php if($result){ ?>
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-            <form id="input-form" method="post" action="<?= $this->Html->url(array("controller" => "data", "action" => "save_data")) ?>">
+            <form id="input-form" method="post" action="<?= $this->Html->url(array("controller" => "data", "action" => "update_data")) ?>">
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingOne">
                         <h4 class="panel-title">
@@ -19,11 +19,8 @@
                     </div>
                     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
-                            <select name="year" id="year" class="form-control">
-                                <?php for ($i = date('Y'); $i >= date('Y') - 15; $i--) { ?>
-                                    <option value="<?= $i ?>"><?= $i ?></option>
-                                <?php } ?>
-                            </select>
+                            <h3><?= $year ?></h3>
+                            <input id="year" name="year" type="text" value="<?= $year ?>" class="hidden">
                         </div>
                     </div>
                 </div>
@@ -73,5 +70,7 @@
 
         </div>
     </div>
-    <button type="button" class="btn btn-primary"  onclick="submitDataForm();">Guardar</button>
 </div>
+<button type="button" class="btn btn-primary"  onclick="submitDataForm();">Guardar</button>
+
+<?php } ?>

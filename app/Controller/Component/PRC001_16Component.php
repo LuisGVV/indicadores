@@ -94,6 +94,7 @@ class PRC001_16Component extends Component {
         $result['series'] = $series;
         $result['grades'] = $grades;
         $result['view'] = 'prc001_16';
+        FirePHP::getInstance(true)->log($result);
 
         // Returns
         return $result;

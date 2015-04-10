@@ -62,8 +62,8 @@ $this->Html->css('//cdn.datatables.net/1.10.4/css/jquery.dataTables.css', null, 
                         <td><?= $auditoria['Data']['descripcion'] ?></td>
                         <td><?= $auditoria['Audit']['valor'] ?></td>
                         <td><?= $auditoria['Audit']['anho'] ?></td>
-                        <td class="center">
-                            <button class="btn btn-default btn-sm" onclick="showAuditDetails(
+                        <td class="text-center">
+                            <button class="btn btn-primary btn-xs" onclick="showAuditDetails(
                                                 '<?= $auditoria['Audit']['idauditoria'] ?>');">
                                 <span class="glyphicon glyphicon-list-alt"></span>
                             </button>

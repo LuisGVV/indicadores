@@ -11,7 +11,8 @@ $this->Html->css('//cdn.datatables.net/1.10.4/css/jquery.dataTables.css', null, 
         $('#table-indicators').DataTable({
             "language": {
                 "url": "http://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Spanish.json"
-            }
+            },
+            "ordering": false
         });
 
         // Additional methods for jquery validate
@@ -167,15 +168,14 @@ $this->Html->css('//cdn.datatables.net/1.10.4/css/jquery.dataTables.css', null, 
 </div><!-- /.modal -->
 
 <div class="container">
-    <div id="lista-indicadores" class="starter-template">
-        
+    <div id="lista-indicadores" class="starter-template table-responsive">
         <table id="table-indicators" class="table table-striped table-bordered table-hover">
             <thead>
                 <tr>
                     <th>Codigo</th>
                     <th>Nombre</th>
-                    <th>Descripción y fórmula</th>
                     <th>Tipo</th>
+                    <th>Descripción y fórmula</th>
                     <th>Graficar</th>
                 </tr>
             </thead>
@@ -186,21 +186,21 @@ $this->Html->css('//cdn.datatables.net/1.10.4/css/jquery.dataTables.css', null, 
                     <tr>
                         <td><?= $indicator['Indicator']['codigo'] ?></td>
                         <td><?= $indicator['Indicator']['nombre'] ?></td>
-                        <td class="center">
+                        <td><?= $indicator['Indicator']['tipo'] ?></td>
+                        <td class="text-center">
                             <button onclick="openIndicatorModal(
                                             '<?= $indicator['Indicator']['codigo'] ?>',
                                             '<?= $indicator['Indicator']['nombre']?>',
                                             '<?= $indicator['Indicator']['idindicador'] ?>');"
-                                    class="btn btn-default btn-sm">
+                                    class="btn btn-default btn-xs btn-primary">
                                 <span class="glyphicon glyphicon-search"></span>
                             </button>
                         </td>
-                        <td><?= $indicator['Indicator']['tipo'] ?></td>
-                        <td class="center">
+                        <td class="text-center">
                             <button onclick="openRangeModal(
                                             '<?= strtolower($indicator['Indicator']['codigo']) ?>',
                                             '<?= $indicator['Indicator']['idindicador'] ?>');"
-                                    class="btn btn-default btn-sm">
+                                    class="btn btn-default btn-xs btn-success">
                                 <span class="glyphicon glyphicon-stats"></span>
                             </button>
                         </td>

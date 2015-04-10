@@ -1,71 +1,16 @@
-<?= $this->Html->css('http://cdn.datatables.net/plug-ins/3cfcc339e89/integration/bootstrap/3/dataTables.bootstrap.css') ?>
-<?= $this->Html->script('http://cdn.datatables.net/plug-ins/3cfcc339e89/integration/bootstrap/3/dataTables.bootstrap.js') ?>
-<script type="text/javascript">
-    $(document).ready(function () {
-//        $("#tabs").tabs({
-//            beforeLoad: function( event, ui ) {
-//                ui.jqXHR.error(function() {
-//                    ui.panel.html("No se pudo cargar la pagina deseada");
-//                });
-//            }
-//        });
-    });
-</script>
+<?=
+$this->Html->script('//cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js', array('inline' => false));
+$this->Html->css('//cdn.datatables.net/1.10.4/css/jquery.dataTables.css', null, array('inline' => false));
+?>
 
 <script type="text/javascript">
     $(document).ready(function () {
-        // Sets the buttons
-        $("button").button();
 
-        // Creates the table
-        $("#users-table").DataTable(
-//                {
-//            "bJQueryUI": true,
-//            "bAutoWidth": true,
-//            "bPaginate": false,
-//            "aoColumns": [
-//                null,
-//                null,
-//                null,
-//                {"sWidth": "25px", "bSortable": false},
-//                {"sWidth": "25px", "bSortable": false}
-//            ]}
-            );
-
-        // Removes the hidden class of the table
-        $("#users-table").removeClass("hidden");
-
-        // The delete user confirmation dialog
-        $("#delete-user-confirm").dialog({
-            resizable: false,
-            height: 150,
-            modal: true,
-            autoOpen: false,
-            draggable: false,
-            show: "fold",
-            hide: "fold",
-            buttons: {
-                "Eliminar": function () {
-                    deleteUser($("#delete-user-id").val());
-                },
-                "Cancelar": function () {
-                    $(this).dialog("close");
-                }
+        $('#table-users').DataTable({
+            "language": {
+                "url": "http://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Spanish.json"
             }
         });
-
-        // Creates the user dialog
-//        $("#user-dialog").dialog({
-//            resizable: false,
-//            height: 480,
-//            width: 400,
-//            modal: true,
-//            autoOpen: false,
-//            draggable: false,
-//            show: "fold",
-//            hide: "fold"
-//        });
-
         // Adds validation for the user form
         $("#user-form").validate({
             rules: {
@@ -94,18 +39,72 @@
     });
 
     /**
+     * Opens the create user dialog
+     */
+    var showModalCreateUser = function () {
+        $("#create-user-modal").modal('show');
+        $("#first-create").val('');
+        $("#last-create").val('');
+        $("#email-create").val('');
+        $("#password-create").val('');
+        $("#type-create").val('');
+        $("#university-create").val('');
+    };
+
+    var createUser = function () {
+        $.ajax({
+            type: "post",
+            url: "<?= $this->Html->url(array("controller" => "system", "action" => "create_user")) ?>",
+            data: {
+                "first_name": $("#first-create").val(),
+                "last_name": $("#last-create").val(),
+                "email": $("#email-create").val(),
+                "password": $("#password-create").val(),
+                "usertype_id": $("#type-create").val(),
+                "university_id": $("#university-create").val()
+            },
+            dataTypeString: "json",
+            success: function (data) {
+                if (data.success === true) {
+                    location.reload();
+                } else {
+                    // Indicates the error to the user
+                    $("#create-error").html(data.errorMessage);
+                }
+            }
+        });
+    };
+
+    /**
      * Opens the delete user confirmation dialog
      */
-    var openDeleteUserConfirm = function (email, id) {
-        $("#delete-user-email").html(email);
-        $("#delete-user-id").val(id);
-        $("#delete-user-confirm").dialog("open");
+    var showModalDeleteUser = function (id) {
+        $('#delete-user-modal').modal('show');
+        $.ajax({
+            type: "post",
+            url: "<?= $this->Html->url(array("controller" => "system", "action" => "get_user")) ?>",
+            data: {
+                "id": id
+            },
+            dataTypeString: "json",
+            success: function (data) {
+                if (data.success === true) {
+                    // Gets the user
+                    var user = data.user.User;
+                    // Sets the information
+                    $("#id-delete").val(user.idusuario);
+                    $("#name-delete").html(user.nombre+" "+user.apellido);
+                    $("#email-delete").html(user.email);
+                }
+            }
+        });
     };
 
     /**
      * Deletes the indicated user
      */
-    var deleteUser = function (id) {
+    var deleteUser = function () {
+        id = $('#id-delete').val();
         $.ajax({
             type: "post",
             url: "<?= $this->Html->url(array("controller" => "system", "action" => "delete_user")) ?>",
@@ -114,42 +113,22 @@
             },
             dataTypeString: "json",
             success: function (data) {
-                if (data.success == true) {
-                    // Closes the dialog
-                    $("#delete-user-confirm").dialog("close");
-
-                    // Reloads the tab
-                    var current_index = $("#tabs").tabs("option", "selected");
-                    $("#tabs").tabs('load', current_index);
+                if (data.success === true) {
+                    location.reload();
                 } else {
                     // Indicates the error to the user
-                    $("#user-error").html(data.errorMessage);
+                    $("#delete-error").html(data.errorMessage);
                 }
             }
         });
     };
 
     /**
-     * Opens the create user dialog
-     */
-    var openCreateUserModal = function () {
-        // Cleans the dialog
-        $("#create-user-modal")
-        $("#user-form").find("input").val("");
-
-        // Opens the dialog
-        $("#user-dialog-title").html("Crear usuario");
-        $("#user-form-action").attr("onclick", "createUser();");
-        $("#user-dialog").dialog("open");
-    };
-
-    /**
      * Opens the update user dialog
      */
-    var showUpdateUserModal = function (id) {
-        // Cleans the dialog 
+    var showModalUpdateUser = function (id) {
+        // Cleans the dialog
         $("#update-user-modal").modal('show');
-        //$("#user-modal").find("input").val("");
 
         // Gets the user
         $.ajax({
@@ -165,107 +144,68 @@
                     var user = data.user.User;
 
                     // Sets the information
-                    $("#first").val(user.nombre);
-                    $("#last").val(user.apellido);
-                    $("#email").val(user.email);
-                    $("#password").val(user.password);
-                    $("#type").val(user.tipo_usuario_idtipo_usuario);
-                    $("#university").val(user.universidad_iduniversidad);
-
-                    // Opens the dialog
-                    //$("#user-dialog-title").html("Actualizar usuario");
-                    $("#user-form-action").attr("onclick", "updateUser();");
-                    $("#id").val(id);
-                    $("#user-dialog").dialog("open");
+                    $("#id-update").val(user.idusuario);
+                    $("#first-update").val(user.nombre);
+                    $("#last-update").val(user.apellido);
+                    $("#email-update").val(user.email);
+                    $("#password-update").val(user.password);
+                    $("#type-update").val(user.tipo_usuario_idtipo_usuario);
+                    $("#university-update").val(user.universidad_iduniversidad);
                 }
             }
         });
-    };
-
-
-    /**
-     * Creates a new user
-     */
-    var createUser = function () {
-        // Clears the form error
-        $("#user-error").html("");
-
-        // Checks if the user form is valid
-        if ($("#user-form").valid()) {
-            // Creates the user
-            $.ajax({
-                type: "post",
-                url: "<?= $this->Html->url(array("controller" => "system", "action" => "create_user")) ?>",
-                data: {
-                    "first_name": $("#first").val(),
-                    "last_name": $("#last").val(),
-                    "email": $("#email").val(),
-                    "password": $("#password").val(),
-                    "usertype_id": $("#type").val(),
-                    "university_id": $("#university").val()
-                },
-                dataTypeString: "json",
-                success: function (data) {
-                    if (data.success == true) {
-                        location.reload();
-                    } else {
-                        // Indicates the error to the user
-                        $("#user-error").html(data.errorMessage);
-                    }
-                }
-            });
-        }
     };
 
     /**
      * Updates the ser
      */
     var updateUser = function () {
-        // Clears the form error
+// Clears the form error
         $("#user-error").html("");
-
         // Checks if the user form is valid
-        if ($("#user-form").valid()) {
+        //if ($("#user-form").valid()) {
             // Creates the user
             $.ajax({
                 type: "post",
                 url: "<?= $this->Html->url(array("controller" => "system", "action" => "update_user")) ?>",
                 data: {
-                    "id": $("#id").val(),
-                    "first_name": $("#first").val(),
-                    "last_name": $("#last").val(),
-                    "email": $("#email").val(),
-                    "password": $("#password").val(),
-                    "usertype_id": $("#type").val(),
-                    "university_id": $("#university").val()
+                    "id": $("#id-update").val(),
+                    "first_name": $("#first-update").val(),
+                    "last_name": $("#last-update").val(),
+                    "email": $("#email-update").val(),
+                    "password": $("#password-update").val(),
+                    "usertype_id": $("#type-update").val(),
+                    "university_id": $("#university-update").val()
                 },
                 dataTypeString: "json",
                 success: function (data) {
-                    if (data.success == true) {
+                    if (data.success === true) {
                         location.reload();
                     } else {
                         // Indicates the error to the user
-                        $("#user-error").html(data.errorMessage);
+                        $("#update-error").html(data.errorMessage);
                     }
                 }
             });
-        }
+        //}
     };
 </script>
 
-<div class="container">
+<div id="indicador" class="container">
     <h1>Usuarios</h1>
 
-    <button class="btn-primary btn-lg" onclick="openCreateUserDialog();">Crear un nuevo usuario</button>
+    <button class="btn btn-primary" onclick="showModalCreateUser();">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>Agregar usuario</button>
 
-    <table class="table" id="users-table" class="hidden">
+    <table class="table table-striped table-bordered table-hover" id="table-users">
         <thead class="panel-heading">
             <tr>
                 <th>Nombre</th>
                 <th>Apellido</th>
                 <th>Email</th>
-                <th></th>
-                <th></th>
+                <th class="text-center">Editar</th>
+                <th class="text-center">Borrar</th>
             </tr>
         </thead>
         <tbody>
@@ -276,19 +216,14 @@
                     <td><?= $user['User']['nombre'] ?></td>
                     <td><?= $user['User']['apellido'] ?></td>
                     <td><?= $user['User']['email'] ?></td>
-                    <td class="center"><button onclick="showUpdateUserModal('<?= $user['User']['idusuario'] ?>');"><span class="ui-icon ui-icon-pencil"></span></button></td>
-                    <td class="center"><button onclick="openDeleteUserConfirm('<?= $user['User']['email'] ?>', '<?= $user['User']['idusuario'] ?>');"><span class="ui-icon ui-icon-trash"></span></button></td>
+                    <td class="text-center"><button class="btn btn-xs btn-primary" onclick="showModalUpdateUser('<?= $user['User']['idusuario'] ?>');"><span class="glyphicon glyphicon-pencil"></span></button></td>
+                    <td class="text-center"><button class="btn btn-xs btn-danger" onclick="showModalDeleteUser('<?= $user['User']['idusuario'] ?>');"><span class="glyphicon glyphicon-trash"></span></button></td>
                 </tr>
                 <?php
             }
             ?>
         </tbody>
     </table>
-</div>
-
-<div id="delete-user-confirm" class="modal">
-    <p><span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span>Esta seguro que desea borrar el usuario <span id="delete-user-email"></span>?</p>
-    <input type="hidden" id="delete-user-id" />
 </div>
 
 <div id="update-user-modal" class="modal">
@@ -300,57 +235,176 @@
             </div>
             <div class="modal-body">
                 <span id="user-dialog-title"></span>
-                <form id="user-form" name="user-form">
+                <form class="form-horizontal" id="user-form" name="user-form">
                     <div class="form-group">
-                        <input type="hidden" id="id" name="id" />
-                        <label>Nombre:</label>
-                        <input type="text" id="first" name="first" />
+                        <input class="form-control" type="hidden" id="id-update" name="id" />
+                        <label class="col-sm-2">Nombre:</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" id="first-update" name="first_name" />
+                        </div>
                     </div>
                     <div class="form-group">
-                        <label>Apellido:</label>
-                        <input type="text" id="last" name="last" />
+                        <label class="col-sm-2">Apellido:</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" id="last-update" name="last_name" />
+                        </div>
                     </div>
                     <div class="form-group">
-                        <label>Email:</label>
-                        <input type="text" id="email" name="email" />
+                        <label class="col-sm-2">Email:</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" id="email-update" name="email" />
+                        </div>
                     </div>
                     <div class="form-group">
-                        <label>Contraseña:</label>
-                        <input type="password" id="password" name="password" />
+                        <label class="col-sm-2">Contraseña:</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="password" id="password-update" name="password" />
+                        </div>
                     </div>
                     <div class="form-group">
-                        <label>Tipo de usuario:</label>
-                        <select id="type" name="type">
-                            <?php
-                            foreach ($user_types as $user_type) {
-                                ?>
-                                <option value="<?= $user_type['UserType']['idtipo_usuario'] ?>"><?= ucfirst($user_type['UserType']['nombre']) ?></option>
+                        <label class="col-sm-2">Tipo de usuario:</label>
+                        <div class="col-sm-10">
+                            <select class="form-control" id="type-update" name="type">
                                 <?php
-                            }
-                            ?>
-                        </select>
+                                foreach ($user_types as $user_type) {
+                                    ?>
+                                    <option value="<?= $user_type['UserType']['idtipo_usuario'] ?>"><?= ucfirst($user_type['UserType']['nombre']) ?></option>
+                                    <?php
+                                }
+                                ?>
+                            </select>
+                        </div>
                     </div>
                     <div class="form-group">
-                        <label>Universidad:</label>
-                        <select id="university" name="university">
-                            <option value="">---</option>
-                            <?php
-                            foreach ($universities as $university) {
-                                ?>
-                                <option value="<?= $university['University']['iduniversidad'] ?>"><?= $university['University']['acronimo'] ?></option>
+                        <label class="col-sm-2">Universidad:</label>
+                        <div class="col-sm-10">
+                            <select class="form-control" id="university-update" name="university">
+                                <option value="">---</option>
                                 <?php
-                            }
-                            ?>
-                        </select>
+                                foreach ($universities as $university) {
+                                    ?>
+                                    <option value="<?= $university['University']['iduniversidad'] ?>"><?= $university['University']['acronimo'] ?></option>
+                                    <?php
+                                }
+                                ?>
+                            </select>
+                        </div>
                     </div>
                 </form>
             </div>
-            <label class="error" id="user-error"></label>
+            <label class="error" id="update-error"></label>
             <div class="modal-footer">
                 <div class="action">
-                    <button class="btn-primary" id="user-form-action" onclick="">Aceptar</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                    <button class="btn btn-primary" id="user-form-action" onclick="updateUser();">Actualizar usuario</button>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<div id="create-user-modal" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Crear usuario</h4>
+            </div>
+            <div class="modal-body">
+                <span id="user-dialog-title"></span>
+                <form class="form-horizontal" id="user-form" name="user-form" action="">
+                    <div class="form-group">
+                        <input type="hidden" id="id" name="id" />
+                        <label class="col-sm-2 control-label">Nombre:</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" id="first-create" name="first" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Apellido:</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" id="last-create" name="last" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Email:</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" id="email-create" name="email" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Contraseña:</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="password" id="password-create" name="password" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Tipo de usuario:</label>
+                        <div class="col-sm-10">
+                            <select class="form-control" id="type-create" name="type">
+                                <?php
+                                foreach ($user_types as $user_type) {
+                                    ?>
+                                    <option value="<?= $user_type['UserType']['idtipo_usuario'] ?>"><?= ucfirst($user_type['UserType']['nombre']) ?></option>
+                                    <?php
+                                }
+                                ?>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Universidad:</label>
+                        <div class="col-sm-10">
+                            <select class="form-control" id="university-create" name="university">
+                                <option value="">---</option>
+                                <?php
+                                foreach ($universities as $university) {
+                                    ?>
+                                    <option value="<?= $university['University']['iduniversidad'] ?>"><?= $university['University']['acronimo'] ?></option>
+                                    <?php
+                                }
+                                ?>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+
+                <label class="error" id="create-error"></label>
+            </div>
+            <div class="modal-footer">
+                <div class="action">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                    <button class="btn btn-primary" id="user-form-action" onclick="createUser();">Crear usuario</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="delete-user-modal" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Borrar usuario</h4>
+            </div>
+            <div class="modal-body">
+                <h4>Desea borrar el usuario?</h4>
+                <div class="form-group">
+                    <input type="hidden" id="id-delete" name="id" />
+                    <label>Nombre:</label><p id="name-delete"></p>
+                </div>
+                <div class="form-group">
+                    <label>Correo:</label><p id="email-delete"></p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="action">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                    <button class="btn btn-primary" id="user-form-action" onclick="deleteUser();">Borrar usuario</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
