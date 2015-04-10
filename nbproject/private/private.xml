@@ -3,15 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/indicadores/app/Model/Indicator.php</file>
-            <file>file:/C:/xampp/htdocs/indicadores/app/webroot/xml/formatoIndicadores.xsd</file>
-            <file>file:/C:/xampp/htdocs/indicadores/app/View/Chart/prc003_18.ctp</file>
             <file>file:/C:/xampp/htdocs/indicadores/app/View/Chart/inv006_6.ctp</file>
-            <file>file:/C:/xampp/htdocs/indicadores/app/View/Layouts/conare/status/invited.ctp</file>
             <file>file:/C:/xampp/htdocs/indicadores/app/Controller/Component/INV006_6Component.php</file>
-            <file>file:/C:/xampp/htdocs/indicadores/app/Model/Data.php</file>
-            <file>file:/C:/xampp/htdocs/indicadores/app/webroot/xml/newXMLDocument.xml</file>
-            <file>file:/C:/xampp/htdocs/indicadores/app/View/Data/index.ctp</file>
+            <file>file:/C:/xampp/htdocs/indicadores/app/Controller/Component/RH003_9Component.php</file>
+            <file>file:/C:/xampp/htdocs/indicadores/app/Controller/Component/RH001_7Component.php</file>
+            <file>file:/C:/xampp/htdocs/indicadores/app/Controller/Component/RH002_8Component.php</file>
         </group>
     </open-files>
 </project-private>
