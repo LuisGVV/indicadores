@@ -86,7 +86,7 @@ class PRC004_19Component extends Component {
         for ($year = $start; $year <= $end; $year++) {
             // The list of responsibles
             $responsibles = array();
-            for ($i = 81; $i <= 87; $i++) {
+            for ($i = 81; $i <= 86; $i++) {
                 array_push($responsibles, 0);
             }
 

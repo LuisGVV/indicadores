@@ -41,7 +41,7 @@ $this->Html->css('//cdn.datatables.net/1.10.4/css/jquery.dataTables.css', null, 
 </script>
 
 <div class="container">
-    <h1>Auditorias</h1>
+    <h1>Auditorías</h1>
     <div id="lista-indicadores" class="starter-template">
         <table id="table-audit" class="table table-striped table-bordered table-hover">
             <thead>

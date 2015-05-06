@@ -44,12 +44,18 @@
     var showXMLDialog = function () {
         $('#xml-modal').modal('show');
     };
+    
+    
 
     /**
      * Opens the load year dialog
      */
     var showLoadYearDialog = function () {
         $("#load-year-modal").modal('show');
+    };
+    
+    var newYear = function() {
+        location.href = '<?php echo $this->Html->url( array("controller" => "data", "action" => "new_year_data")) ?>' 
     };
 
     /**
@@ -77,7 +83,7 @@
                 <h4 id="modal-header-XML" class="modal-title">Rango de graficación</h4>
             </div>
             <div class="modal-body">
-                <form enctype="multipart/form-data" id="xml-form" name="xml-form" method="post" action="<?= $this->Html->url(array("controller" => "data", "action" => "xml_file")) ?>">
+                <form enctype="multipart/form-data" id="xml-form" name="xml-form" method="post" action="<?= $this->Html->url( array("controller" => "data", "action" => "xml_file")) ?>">
                     <div>
                         <h5>Carga de datos mediante XML:</h5>
                         <input class="file" type="file" id="xml" name="xml" accept="text/xml" class="required" />

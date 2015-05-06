@@ -2,6 +2,7 @@
 
 App::uses('AppController', 'Controller');
 App::uses('FirePHP', 'Vendor');
+App::uses('PHPExcel','Vendor');
 
 /**
  * Controller for the home page of the application
@@ -33,7 +34,7 @@ class DataController extends AppController {
         // Gets the indicators
         $dataType_array = $this->DataType->find('all');
         //FirePHP::getInstance(true)->log($indicator_array);
-        FirePHP::getInstance(true)->log($dataType_array);
+        //FirePHP::getInstance(true)->log($dataType_array);
         // Gets the names of the indicators
         foreach ($data_array as $index => $data) {
             foreach ($dataType_array as $dataType) { //join raro
@@ -52,6 +53,35 @@ class DataController extends AppController {
         // Renders the page
         $this->render('index', 'conare');
     }
+    
+    /**
+     * Insert new year Data
+     * /
+     */
+    public function new_year_data () {
+        // Gets the data
+        $data_array = $this->Data->find('all');
+
+        // Gets the indicators
+        $dataType_array = $this->DataType->find('all');
+        //FirePHP::getInstance(true)->log($indicator_array);
+        FirePHP::getInstance(true)->log($dataType_array);
+        // Gets the names of the indicators
+        foreach ($data_array as $index => $data) {
+            foreach ($dataType_array as $dataType) { //join raro
+                if ($data['Data']['indicador_idindicador'] == $dataType['DataType']['idtipodato']) {
+                    $data['Data']['indicador_idindicador'] = $dataType['DataType']['tipo'];
+                    $data_array[$index] = $data;
+                    break;
+                }
+                //FirePHP::getInstance(true)->log($indicator);
+            }
+        }
+        // Sets the data into the request
+        $this->set('all_data', $data_array);
+        $this->render('newYear_data', 'conare');
+    }
+    
 
     /**
      * XML information from file

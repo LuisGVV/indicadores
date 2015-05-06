@@ -78,13 +78,18 @@ class AppController extends Controller {
         if (!empty($user)) {
             $this->set('user', $user);
         }
+        //FirePHP::getInstance(true)->log($user);
 
         // Gets the current url
         $url = $this->request->url;
         if (strlen($url) == 0) {
             $url = 'home';
         }
-
+        
+        /*
+        FirePHP::getInstance(true)->log($access);
+        FirePHP::getInstance(true)->log($url);
+        */    
         // Checks the access
         $success = $this->URLCheck->analizeAccess($access, $url);
 

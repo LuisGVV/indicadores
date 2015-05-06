@@ -3,6 +3,7 @@
         <h1 class="page-header">Ingreso de datos</h1>
         <?php include_once('common/actions.php'); ?>
         <?php include_once('common/dialogs.php'); ?>
+        <!--
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
             <form id="input-form" method="post" action="<?= $this->Html->url(array("controller" => "data", "action" => "save_data")) ?>">
             <div class="panel panel-default">
@@ -24,6 +25,7 @@
                 </div>
             </div>
         <!--Aquí es donde van todos los datos para el año-->
+        <!--
         <?php
         $heading = '';
         foreach ($all_data as $data) { 
@@ -62,8 +64,8 @@
             </form>
              
         </div>
-    
-            
+    <button type="button" class="btn btn-primary"  onclick="submitDataForm();">Guardar</button>
+        -->
 </div>
-<button type="button" class="btn btn-primary"  onclick="submitDataForm();">Guardar</button>
+
 
