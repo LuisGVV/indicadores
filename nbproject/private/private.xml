@@ -3,12 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/indicadores/app/View/Data/common/actions.php</file>
-            <file>file:/C:/xampp/htdocs/indicadores/app/View/Data/load_data.ctp</file>
-            <file>file:/C:/xampp/htdocs/indicadores/app/View/Data/common/dialogs.php</file>
-            <file>file:/C:/xampp/htdocs/indicadores/app/View/Data/index.ctp</file>
-            <file>file:/C:/xampp/htdocs/indicadores/app/View/Data/newYear_data.ctp</file>
-            <file>file:/C:/xampp/htdocs/indicadores/app/Controller/DataController.php</file>
+            <file>file:/C:/Bitnami/wampstack-5.4.36-0/apache2/htdocs/indicadores/app/View/Chart/singleChartResult.ctp</file>
+            <file>file:/C:/Bitnami/wampstack-5.4.36-0/apache2/htdocs/indicadores/app/Controller/IndicatorsController.php</file>
+            <file>file:/C:/Bitnami/wampstack-5.4.36-0/apache2/htdocs/indicadores/app/View/Chart/inv001_1.ctp</file>
+            <file>file:/C:/Bitnami/wampstack-5.4.36-0/apache2/htdocs/indicadores/app/Controller/Component/INV001_1Component.php</file>
+            <file>file:/C:/Bitnami/wampstack-5.4.36-0/apache2/htdocs/indicadores/app/Controller/ChartController.php</file>
         </group>
     </open-files>
 </project-private>

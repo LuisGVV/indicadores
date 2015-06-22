@@ -32,7 +32,7 @@ class AuditController extends AppController {
             'Audit.valor', 'Audit.anho', 'Audit.usuario_idusuario', 'dato_iddato',
             'Data.nombre', 'Data.descripcion')));
         //$audit = $this->Audit->find('all');
-        FirePHP::getInstance(true)->log($audit);
+        //FirePHP::getInstance(true)->log($audit);
         /*$after = memory_get_usage();
         $allocatedSize = ($after - $before);
         FirePHP::getInstance(true)->log($audit);

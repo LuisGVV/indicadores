@@ -76,12 +76,14 @@ class INV001_1Component extends Component {
 
             array_push($result, $inv001_1);
         }
+        
+        FirePHP::getInstance(true)->log($result);
 
         // Ticks and series arrays (including labels)
         $ticks = array();
         $series_labels = array();
         $series = array();
-
+        $years = array();
         // Gets the labels
         foreach ($result as $year_result) {
             array_push($ticks, $year_result['year']);
@@ -91,6 +93,22 @@ class INV001_1Component extends Component {
                 }
             }
         }
+        
+        //Start code for GoogleData
+        $dataRows = array();
+        // Gets the labels
+        foreach ($result as $year_result) {
+            $dataRow = array();
+            array_push($dataRow, $year_result['year'] );
+            array_push($years, $year_result['year'] );
+            FirePHP::getInstance(true)->log( (string) $year_result['year']);
+            foreach ($year_result['data'] as $year_data) {
+                array_push($dataRow, $year_data['total']);
+            }
+            array_push($dataRows, $dataRow);
+        }
+        //End code for GoogleData
+        FirePHP::getInstance(true)->log($dataRows);
 
         // Gets the series
         foreach ($series_labels as $label) {
@@ -104,9 +122,12 @@ class INV001_1Component extends Component {
             }
             $series[$label] = $university_series;
         }
+        
 
         // Sets the results
         $result = array();
+        $result['years'] = $years;
+        $result['dataRows'] = $dataRows;
         $result['ticks'] = $ticks;
         $result['series_labels'] = $series_labels;
         $result['series'] = $series;

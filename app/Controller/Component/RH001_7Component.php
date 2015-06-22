@@ -29,44 +29,36 @@ class RH001_7Component extends Component {
         // Gets all the universities
         $universities = $this->University->find('all');
 
-        // Gets the 2 values related
-        $data_d24 = $this->Data->findByNombre('D24');
-        $data_d25 = $this->Data->findByNombre('D25');
+        // Gets the unique involved data
+        $data_d26 = $this->Data->findByNombre('D26');
 
-        // Does the calculation year by year
+        // Starts the calculation year by year
         for ($year = $start; $year <= $end; $year++) {
-            // Calculation for male per university
-            $university_male = 0;
+            // The total for each university
+            $university_totals = array();
 
-            // Calculation for female per university
-            $university_female = 0;
-
-            // For each year does the calculation of male and female per university
+            // For each yeardoes the calculation for each university
             foreach ($universities as $university) {
-                // Gets the values involved
-                $uy_d24 = $this->UniversityYearData->findByDato_iddatoAndUniversidad_iduniversidadAndAnho($data_d24['Data']['iddato'], $university['University']['iduniversidad'], $year);
-                $uy_d25 = $this->UniversityYearData->findByDato_iddatoAndUniversidad_iduniversidadAndAnho($data_d25['Data']['iddato'], $university['University']['iduniversidad'], $year);
+                // Gets the university data
+                $uy_d26 = $this->UniversityYearData->findByDato_iddatoAndUniversidad_iduniversidadAndAnho($data_d26['Data']['iddato'], $university['University']['iduniversidad'], $year);
 
-                // Checks the values and does the calculation
-                if (!empty($uy_d24) && !empty($uy_d25)) {
-                    $uy_d24_value = $uy_d24['UniversityYearData']['valor'];
-                    $uy_d25_value = $uy_d25['UniversityYearData']['valor'];
-
-                    $university_male += $uy_d24_value;
-                    $university_female += $uy_d25_value;
+                // Checks the data and does the calculation
+                if (!empty($uy_d26)) {
+                    $uy_d26_value = $uy_d26['UniversityYearData']['valor'];
+                    array_push($university_totals, $uy_d26_value);
+                } else {
+                    array_push($university_totals, 0);
                 }
             }
 
-            // Saves the year calculation
-            $rh001_7 = array();
-            $rh001_7['year'] = $year;
-            $rh001_7['value'] = array();
-            array_push($rh001_7['value'], $university_male);
-            array_push($rh001_7['value'], $university_female);
-            array_push($result, $rh001_7);
+            // Saves the current year calculation
+            $rh002_8 = array();
+            $rh002_8['year'] = $year;
+            $rh002_8['value'] = $university_totals;
+            array_push($result, $rh002_8);
         }
 
-        // Gets the ticks and series
+        // Gets the series and ticks
         $ticks = array();
         $series = array();
         foreach ($result as $year_result) {
@@ -78,10 +70,12 @@ class RH001_7Component extends Component {
         $result = array();
         $result['ticks'] = $ticks;
         $result['series'] = $series;
-        $result['view'] = 'rh001_7';
+        $result['universities'] = $universities;
+        $result['view'] = 'rh002_8';
 
         // Returns
         return $result;
     }
+    
 
 }

@@ -43,7 +43,79 @@ class IndicatorsController extends AppController {
                 unset($indicators[$index]);
             }
         }
-        //FirePHP::getInstance(true)->log($indicators);
+
+        // Sets the list of indicators
+        $this->set('indicators', $indicators);
+
+        // Renders the list
+        $this->render('indicators_list', 'conare');
+    }
+    
+    public function indicators_insumo() {
+        // Gets the session information
+        $access = $this->Session->read('access');
+        
+        // Gets all the indicators
+        $indicators = $this->Indicator->findAllBytipo('Insumo');
+        FirePHP::getInstance(true)->log($indicators);
+        // Checks the access to view every indicator
+        foreach ($indicators as $index => $indicator) {
+            // Forms the indicator url
+            $url = 'chart/create_chart/' . $indicator['Indicator']['codigo'] . '/' . $indicator['Indicator']['idindicador'];
+
+            // Checks the access
+            if (!$this->URLCheck->analizeAccess($access, $url)) {
+                unset($indicators[$index]);
+            }
+        }
+
+        // Sets the list of indicators
+        $this->set('indicators', $indicators);
+
+        // Renders the list
+        $this->render('indicators_list', 'conare');
+    }
+    public function indicators_proceso() {
+        // Gets the session information
+        $access = $this->Session->read('access');
+        
+        // Gets all the indicators
+        $indicators = $this->Indicator->findAllBytipo('Proceso');
+        FirePHP::getInstance(true)->log($indicators);
+        // Checks the access to view every indicator
+        foreach ($indicators as $index => $indicator) {
+            // Forms the indicator url
+            $url = 'chart/create_chart/' . $indicator['Indicator']['codigo'] . '/' . $indicator['Indicator']['idindicador'];
+
+            // Checks the access
+            if (!$this->URLCheck->analizeAccess($access, $url)) {
+                unset($indicators[$index]);
+            }
+        }
+
+        // Sets the list of indicators
+        $this->set('indicators', $indicators);
+
+        // Renders the list
+        $this->render('indicators_list', 'conare');
+    }
+    public function indicators_producto() {
+        // Gets the session information
+        $access = $this->Session->read('access');
+        
+        // Gets all the indicators
+        $indicators = $this->Indicator->findAllBytipo('Producto');
+        FirePHP::getInstance(true)->log($indicators);
+        // Checks the access to view every indicator
+        foreach ($indicators as $index => $indicator) {
+            // Forms the indicator url
+            $url = 'chart/create_chart/' . $indicator['Indicator']['codigo'] . '/' . $indicator['Indicator']['idindicador'];
+
+            // Checks the access
+            if (!$this->URLCheck->analizeAccess($access, $url)) {
+                unset($indicators[$index]);
+            }
+        }
 
         // Sets the list of indicators
         $this->set('indicators', $indicators);

@@ -55,7 +55,7 @@
     };
     
     var newYear = function() {
-        location.href = '<?php echo $this->Html->url( array("controller" => "data", "action" => "new_year_data")) ?>' 
+        location.href = '<?php echo $this->Html->url( array("controller" => "data", "action" => "new_year_data")) ?>';
     };
 
     /**

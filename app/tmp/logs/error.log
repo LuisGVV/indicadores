@@ -3549,3 +3549,114 @@
 2015-05-06 12:53:37 Error: [MissingControllerException] Controller class ImgController could not be found.
 #0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-05-14 12:39:18 Error: Fatal Error (1): Call to undefined function getInstance() in [C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Controller\IndicatorsController.php, line 46]
+2015-05-14 12:39:18 Error: [FatalErrorException] Call to undefined function getInstance()
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Bitnami\\wamp...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Bitnami\\wamp...', 46, Array)
+#2 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Bitnami\\wamp...', 46, Array)
+#3 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-14 12:39:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 12:39:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 13:31:12 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-09 15:05:32 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\View\Chart\inv001_1.ctp, line 34]
+2015-06-09 15:05:32 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Bitnami\\wamp...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Bitnami\\wamp...', 34, Array)
+#2 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Bitnami\\wamp...', 34, Array)
+#3 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-09 15:05:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-09 15:05:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-10 15:44:05 Error: [Exception] Headers already sent in C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb(Array, NULL, 'LOG', Array)
+#2 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Controller\Component\INV001_1Component.php(80): FirePHP->log(Array)
+#3 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Controller\ChartController.php(48): INV001_1Component->chart(NULL, NULL)
+#4 [internal function]: ChartController->create_chart('inv001', '1')
+#5 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ChartController), Array)
+#6 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ChartController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-06-10 15:44:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-10 15:44:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-11 12:14:42 Error: [Exception] Headers already sent in C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb(Array, NULL, 'LOG', Array)
+#2 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Controller\Component\INV001_1Component.php(80): FirePHP->log(Array)
+#3 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Controller\ChartController.php(48): INV001_1Component->chart(NULL, NULL)
+#4 [internal function]: ChartController->create_chart('inv001', '1')
+#5 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ChartController), Array)
+#6 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ChartController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-06-11 12:14:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-11 12:14:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-11 12:37:17 Error: [Exception] Headers already sent in C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('$indicator: Arr...', NULL, 'LOG', Array)
+#2 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Controller\ChartController.php(53): FirePHP->log('$indicator: Arr...')
+#3 [internal function]: ChartController->create_chart('inv001', '1')
+#4 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ChartController), Array)
+#5 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ChartController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-06-11 12:37:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-11 12:37:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-11 12:37:28 Error: [Exception] Headers already sent in C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb('$indicator: Arr...', NULL, 'LOG', Array)
+#2 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Controller\ChartController.php(53): FirePHP->log('$indicator: Arr...')
+#3 [internal function]: ChartController->create_chart('inv001', '1')
+#4 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ChartController), Array)
+#5 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ChartController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-06-11 12:37:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-11 12:37:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 16:37:45 Error: [Exception] Headers already sent in C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Utility\Debugger.php on line 765. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Vendor\Firephp.php(757): FirePHP->newException('Headers already...')
+#1 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Vendor\Firephp.php(584): FirePHP->fb(Array, NULL, 'LOG', Array)
+#2 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Controller\Component\INV001_1Component.php(80): FirePHP->log(Array)
+#3 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\Controller\ChartController.php(48): INV001_1Component->chart(NULL, NULL)
+#4 [internal function]: ChartController->create_chart('inv001', '1')
+#5 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ChartController), Array)
+#6 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ChartController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-06-17 16:37:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Bitnami\wampstack-5.4.36-0\apache2\htdocs\indicadores\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

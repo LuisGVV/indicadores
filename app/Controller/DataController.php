@@ -65,7 +65,7 @@ class DataController extends AppController {
         // Gets the indicators
         $dataType_array = $this->DataType->find('all');
         //FirePHP::getInstance(true)->log($indicator_array);
-        FirePHP::getInstance(true)->log($dataType_array);
+        //FirePHP::getInstance(true)->log($dataType_array);
         // Gets the names of the indicators
         foreach ($data_array as $index => $data) {
             foreach ($dataType_array as $dataType) { //join raro
@@ -92,7 +92,7 @@ class DataController extends AppController {
 
         $dataType_array = $this->DataType->find('all');
         //FirePHP::getInstance(true)->log($indicator_array);
-        FirePHP::getInstance(true)->log($dataType_array);
+        //FirePHP::getInstance(true)->log($dataType_array);
         // Gets the names of the indicators
         foreach ($data_array as $index => $data) {
             foreach ($dataType_array as $dataType) { //join raro
@@ -191,7 +191,8 @@ class DataController extends AppController {
         } catch (Exception $e) {
             $errors = libxml_get_errors();
             $result = false;
-            $message = 'Ooops error interno del servidor. Por favor intente de nuevo o contacte al administrador del sitio. '.$errors;
+            $message = 'Ooops error interno del servidor. Por favor intente de nuevo o contacte al administrador del sitio. ';
+            //$message1 = $errors;
         }
 
         // Sets the information for the UI
